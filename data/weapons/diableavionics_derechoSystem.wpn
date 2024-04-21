@@ -21,5 +21,5 @@
     "textureType":ROUGH,
     "textureScrollSpeed":1.0,
     "pixelsPerTexel":5.0,
-    "everyFrameEffect":"data.scripts.weapons.Diableavionics_derechoEffect",	
+    "everyFrameEffect":"data.scripts.weapons.Diableavionics_derechoEffect",
 }

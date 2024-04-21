@@ -22,68 +22,53 @@ import org.lwjgl.util.vector.Vector2f;
 
 public class Diableavionics_derechoEffect implements EveryFrameWeaponEffectPlugin {
 
-    private boolean runOnce=false, animIsOn=true;
+    private boolean runOnce = false, animIsOn = true;
     private ShipAPI theShip;
     private ShipSystemAPI theSystem;
     private AnimationAPI theAnim;
-    private float animation=0, fade=0, rim=0, axis=0;
-    private final float ANIM=0.05f, RANGE=2000, RIMTICK=0.5f;
-    private int LENGTH, frame=0;
-    private final IntervalUtil timer = new IntervalUtil(0.1f,0.1f);
-    private final IntervalUtil sparkle = new IntervalUtil(0.05f,0.15f);
-    private List<MissileAPI> locked= new ArrayList<>(), vulnerable= new ArrayList<>();
+    private float animation = 0, fade = 0, rim = 0, axis = 0;
+    private final float ANIM = 0.05f, RIMTICK = 0.5f;
+    private int LENGTH, frame = 0;
+    private final IntervalUtil timer = new IntervalUtil(0.1f, 0.1f);
+//    private final IntervalUtil sparkle = new IntervalUtil(0.05f, 0.15f);
+//    private List<MissileAPI> locked = new ArrayList<>(), vulnerable = new ArrayList<>();
 //    private final float rangeMult=0;
-        
-    private final String zapSprite="zap_0";
-    private final int zapFrames=8;    
-    
-    private final String stripeSprite="areaStripes";
-    
+
+//    private final String zapSprite = "zap_0";
+//    private final int zapFrames = 8;
+
+    private final String stripeSprite = "areaStripes";
+
     @Override
     public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon) {
-    
-        if(!runOnce){
-            runOnce=true;
-            theShip=weapon.getShip();
-            theSystem=theShip.getSystem();
-            LENGTH=weapon.getAnimation().getNumFrames()-1;
-            theAnim=weapon.getAnimation();
-            locked.clear();   
-            vulnerable.clear();
+
+        if (!runOnce) {
+            runOnce = true;
+            theShip = weapon.getShip();
+            theSystem = theShip.getSystem();
+            LENGTH = weapon.getAnimation().getNumFrames() - 1;
+            theAnim = weapon.getAnimation();
         }
-        
-        if(engine.isPaused()){
+
+        if (engine.isPaused()) {
             return;
         }
-        
-        if (theSystem.isOn()){
-            if (!animIsOn){
-                engine.addSmoothParticle(weapon.getLocation(), weapon.getShip().getVelocity(), 3000, 1f, 0.5f, new Color(0.1f,0f,0.15f));
-                animIsOn=true;
+
+        if (theSystem.isOn()) {
+            if (!animIsOn) {
+                engine.addSmoothParticle(weapon.getLocation(), weapon.getShip().getVelocity(), 3000, 1f, 0.5f, new Color(0.1f, 0f, 0.15f));
+                animIsOn = true;
             }
-            
+
             timer.advance(amount);
-            if (timer.intervalElapsed()){
-                List <MissileAPI> missiles=AIUtils.getNearbyEnemyMissiles(theShip, RANGE*theShip.getMutableStats().getSystemRangeBonus().getBonusMult()*theSystem.getEffectLevel());
-                for (MissileAPI m : missiles){
-                    //leave missiles imune to flares alone
-                    if(m.getWeaponSpec()!=null && m.getWeaponSpec().getAIHints().contains("IGNORES_FLARES"))continue;
-                    
-                    if(!locked.contains(m) && !DAModPlugin.DERECHO_IMMUNE.contains(m.getProjectileSpecId())){
-                        locked.add(m);
-                        if(!DAModPlugin.DERECHO_RESIST.contains(m.getProjectileSpecId())){
-                            vulnerable.add(m);
-                        }
-                    }
-                }
-            }
-            
-            lockMissiles(engine,amount);
-            
+
+            // Here used to be the derecho`s missile intercept code
+            // but it had moved into the quantumimpulseStats under shipssystem file,for a better code organization.
+
             //AURA
-            rim+=amount;
-            if(rim>RIMTICK){
-                rim=0;
+            rim += amount;
+            if (rim > RIMTICK) {
+                rim = 0;
                 /*
                     objectspaceRender(
                 SpriteAPI sprite,
@@ -104,106 +89,50 @@ public class Diableavionics_derechoEffect implements EveryFrameWeaponEffectPlugi
                 )
                 */
                 MagicRender.objectspace(
-                                        Global.getSettings().getSprite("fx",stripeSprite),
-                                        theShip,
-                                        new Vector2f(),
-                                        theShip.getVelocity(),
-                                        (Vector2f) new Vector2f(1160,4000).scale(theSystem.getEffectLevel()*theShip.getMutableStats().getSystemRangeBonus().getBonusMult()),
-                                        new Vector2f(116,400),
-                                        axis,
-                                        +10f,
-                                        false,
-                                        new Color(0.5f,0.5f,0.5f),
-                                        true,
-                                        0,0,0,0,0,
-                                        1f,
-                                        0.5f,
-                                        1f,
-                                        false,
-                                        CombatEngineLayers.BELOW_SHIPS_LAYER 
-                                );                
-                axis+=45;
+                        Global.getSettings().getSprite("fx", stripeSprite),
+                        theShip,
+                        new Vector2f(),
+                        theShip.getVelocity(),
+                        (Vector2f) new Vector2f(1160, 4000).scale(theSystem.getEffectLevel() * theShip.getMutableStats().getSystemRangeBonus().getBonusMult()),
+                        new Vector2f(116, 400),
+                        axis,
+                        +10f,
+                        false,
+                        new Color(0.5f, 0.5f, 0.5f),
+                        true,
+                        0, 0, 0, 0, 0,
+                        1f,
+                        0.5f,
+                        1f,
+                        false,
+                        CombatEngineLayers.BELOW_SHIPS_LAYER
+                );
+                axis += 45;
             }
-            
+
         } else {
-            animIsOn=false;
-        }       
-        
-        if (animIsOn || fade>0){            
-            animation+=amount;            
-            if(animation>ANIM){
-                animation-=ANIM;                   
-                
+            animIsOn = false;
+        }
+
+        if (animIsOn || fade > 0) {
+            animation += amount;
+            if (animation > ANIM) {
+                animation -= ANIM;
+
                 frame++;
-                if(frame>LENGTH){
-                    frame=1;
+                if (frame > LENGTH) {
+                    frame = 1;
                 }
                 theAnim.setFrame(frame);
-                
-                if(animIsOn){
-                    fade = Math.min(fade+0.02f,1);
+
+                if (animIsOn) {
+                    fade = Math.min(fade + 0.02f, 1);
                 } else {
-                    fade = Math.max(fade-0.02f,0);
+                    fade = Math.max(fade - 0.02f, 0);
                 }
                 theAnim.setAlphaMult(fade);
             }
         }
-    } 
-    
-    private void lockMissiles(CombatEngineAPI engine, float amount){
-        
-        boolean sparkling = false;
-        sparkle.advance(amount);
-        if (sparkle.intervalElapsed()){
-            sparkling=true;
-        }
-        
-        if(!locked.isEmpty()){
-            for (Iterator<MissileAPI> iter = locked.iterator(); iter.hasNext();) {                
-                MissileAPI m = iter.next();  
-                if(m.isFading() || m.didDamage() || !engine.isEntityInPlay(m)){
-                    iter.remove();
-                    if(vulnerable.contains(m)){
-                        vulnerable.remove(m);
-                    }
-                } else {
-                    m.setAngularVelocity(0);
-                    if(sparkling){
-                        //flameout
-                        if(Math.random()>0.96 && vulnerable.contains(m)){
-                            if (m.getEngineController().isFlamedOut()){
-                                m.setArmingTime(m.getFlightTime()+0.2f);
-                            } else {
-                                m.flameOut();
-                            }
-                        }
-                        
-                        //zaps
-                        if(Math.random()>0.75 && MagicRender.screenCheck(0.1f, m.getLocation())){
-                            int chooser = new Random().nextInt(zapFrames - 1) + 1;
-                            float rand = 0.5f*(float)Math.random()+0.5f;
-                            
-                            MagicRender.objectspace(
-                                    Global.getSettings().getSprite("fx",zapSprite+chooser),
-                                    m,
-                                    new Vector2f(),
-                                    new Vector2f(),
-                                    new Vector2f(48*rand,48*rand),
-                                    new Vector2f((float)Math.random()*20,(float)Math.random()*20),
-                                    (float)Math.random()*360,
-                                    (float)(Math.random()-0.5f)*10,
-                                    false,
-                                    new Color(255,175,255),
-                                    true,
-                                    0,
-                                    0.1f+(float)Math.random()*0.1f,
-                                    0.1f,
-                                    false
-                            );
-                        }
-                    }
-                }
-            }
-        }
     }
 }
+    
