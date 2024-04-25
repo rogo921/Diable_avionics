@@ -91,8 +91,8 @@ public class Diableavionics_quantumimpulseStats extends BaseShipSystemScript {
                         }
                     }
                 }
+                lockMissiles(engine, amount);
             }
-            lockMissiles(engine, amount);
 
         }
 
@@ -107,23 +107,30 @@ public class Diableavionics_quantumimpulseStats extends BaseShipSystemScript {
         }
 
         if (!locked.isEmpty()) {
+            int missileOrder = 0;
             for (Iterator<MissileAPI> iter = locked.iterator(); iter.hasNext(); ) {
                 MissileAPI m = iter.next();
+                missileOrder+=1;
                 if (m.isFading() || m.didDamage() || !engine.isEntityInPlay(m)) {
                     iter.remove();
                     if (vulnerable.contains(m)) {
                         vulnerable.remove(m);
                     }
                 } else {
+                    if(m.isGuided()) //the "torpedo" or "rocket" should be immune from ecm right?
+                    {
+                        m.giveCommand(ShipCommand.ACCELERATE_BACKWARDS);
 
-                    if(Math.random()>0.5)
-                        m.giveCommand(ShipCommand.TURN_RIGHT);
-
+                        if(missileOrder%2==0)
+                            m.giveCommand(ShipCommand.TURN_RIGHT);
+                        else
+                            m.giveCommand(ShipCommand.TURN_LEFT);
+                    }
                     //tart`s original derecho effect ↓
                     //  m.setAngularVelocity(0);
                     if (sparkling) {
                         //flameout
-                        if (Math.random() > 0.96-ecmRate*0.01f && vulnerable.contains(m)) {
+                        if (Math.random() > 0.95-ecmRate*0.01f && vulnerable.contains(m)) {
                             if (m.getEngineController().isFlamedOut()) {
                                 m.setArmingTime(m.getFlightTime() + 0.2f);
                             } else {
