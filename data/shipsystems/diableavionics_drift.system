@@ -1,7 +1,8 @@
 {
 	"id":"diableavionics_drift",
 	"type":"ENGINE_MOD",
-	"aiType":"MANEUVERING_JETS",
+	"aiType":"CUSTOM",
+    "aiScript":"data.shipsystems.scripts.ai.Diableavionics_driftAI",
 	
 	"statsScript":"data.shipsystems.scripts.Diableavionics_driftStats",
 

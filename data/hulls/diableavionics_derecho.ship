@@ -82,6 +82,7 @@
     "eccm"
   ],
   "builtInWeapons": {
+  "WS0000": "diableavionics_derechoSystem"
   },
   "center": [
     66,

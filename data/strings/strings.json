@@ -32,7 +32,8 @@
 				"redirection4":" degrees",
 				"range1":" fighters range",
 				"range2":"% carrier speed",
-				"quantum":"Disrupting missiles guidance",
+				"quantum1":"Disrupting missiles guidance",
+				"quantum2":" Ecm range/disrupting strenth bonus:",
 				"repair":"Module damage taken: ",
 				"shield":"Shield strength increased by ",
 				"transit1":"Top speed increased by ",
@@ -98,6 +99,9 @@
 				"hm_gantry_s02": "B-DECK",
 				"hm_gantry_s02_standby":"ON STANDBY",
 				"hm_gantry_s02_active":"OPERATIONAL",
+
+                "hm_sniperkit_01":"Can only be installed on ships with wings in valid decks!",
+                "hm_sniperkit_02":"Incompatible with Defensive targeting units!",
 
 				"hm_cc_1":"Optimized Navigation Profile",
 

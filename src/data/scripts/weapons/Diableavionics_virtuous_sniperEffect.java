@@ -17,7 +17,6 @@ public class Diableavionics_virtuous_sniperEffect implements EveryFrameWeaponEff
 //    private boolean runOnce=false;
 //    private ShipAPI SHIP;
 //    private ShipEngineControllerAPI ENGINES;
-    
     @Override
     public void advance (float amount, CombatEngineAPI engine, WeaponAPI weapon) {
         //failed acceleration-based variable accuracy 
@@ -82,6 +81,12 @@ public class Diableavionics_virtuous_sniperEffect implements EveryFrameWeaponEff
         //recoil
 //        Vector2f vel = weapon.getShip().getVelocity();
         Vector2f.add(weapon.getShip().getVelocity(), MathUtils.getPoint(new Vector2f(), 75, weapon.getCurrAngle()+180), weapon.getShip().getVelocity());
-        weapon.getShip().setAngularVelocity(weapon.getShip().getAngularVelocity()-50);
+        String test_id = weapon.getId();
+        if(weapon.getId().equals("diableavionics_virtuous_excision_R")){
+            weapon.getShip().setAngularVelocity(weapon.getShip().getAngularVelocity()-50);
+        }else{
+            weapon.getShip().setAngularVelocity(weapon.getShip().getAngularVelocity()+50);
+        }
+
     }
 }

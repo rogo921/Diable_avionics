@@ -5,6 +5,7 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
+import com.fs.starfarer.api.impl.campaign.ids.Stats;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 import com.fs.starfarer.api.plugins.ShipSystemStatsScript;
 import com.fs.starfarer.api.util.IntervalUtil;
@@ -20,27 +21,26 @@ import java.util.List;
 import java.util.Random;
 
 
+import static com.sun.webpane.platform.ConfigManager.log;
 import static data.scripts.util.Diableavionics_stringsManager.txt;
 //import data.scripts.weapons.Diableavionics_derechoEffect;
 
 public class Diableavionics_quantumimpulseStats extends BaseShipSystemScript {
 
     private final float ANIM = 0.05f, RANGE = 2000, RIMTICK = 0.5f;
-    private int numFrames = 9;
     private final IntervalUtil timer = new IntervalUtil(0.1f, 0.1f);
-    private final IntervalUtil sparkle = new IntervalUtil(0.05f, 0.15f);
+    private final IntervalUtil sparkle = new IntervalUtil(0.1f, 0.1f);
     //    private final float rangeMult=0;
     private final String zapSprite = "zap_0";
     private final int zapFrames = 8;
-    private final String stripeSprite = "areaStripes";
-    private final String TXT = txt("quantum");
-    private boolean runOnce = false, animIsOn = true;
+    private final String TXT1 = txt("quantum1");
+    private final String TXT2 = txt("quantum2");
+    private boolean runOnce = false;
     private ShipAPI theShip;
     private ShipSystemAPI theSystem;
-    private AnimationAPI theAnim;
-    private WeaponAPI weapon;
-    private float animation = 0, fade = 0, rim = 0, axis = 0;
-    private int LENGTH, frame = 0;
+    private float distubringRange;
+    private float ecmRate;
+    private float ecmBounsRange;
     private List<MissileAPI> locked = new ArrayList<>(), vulnerable = new ArrayList<>();
 
     @Override
@@ -54,13 +54,6 @@ public class Diableavionics_quantumimpulseStats extends BaseShipSystemScript {
                 theShip = (ShipAPI) stats.getEntity();
             }
             theSystem = theShip.getSystem();
-
-//            for(WeaponAPI w:theShip.getAllWeapons()) {
-//                if(w.getId()=="Diableavionics_derechoEffect")
-//                    weapon=w;
-//            }
-            LENGTH = numFrames - 1;
-//            theAnim = weapon.getAnimation();
             locked.clear();
             vulnerable.clear();
         }
@@ -76,14 +69,15 @@ public class Diableavionics_quantumimpulseStats extends BaseShipSystemScript {
             }
 
             if (theSystem.isOn()) {
-                if (!animIsOn) {
-                    engine.addSmoothParticle(theShip.getLocation(), theShip.getVelocity(), 3000, 1f, 0.5f, new Color(0.1f, 0f, 0.15f));
-                    animIsOn = true;
-                }
-
                 timer.advance(amount);
+                ecmRate=stats.getDynamic().getMod(Stats.ELECTRONIC_WARFARE_FLAT).flatBonus;
+                ecmBounsRange=ecmRate*50.0f;  // every 1% ecm strength gain 50su and 1% disturbing strength
+                if(ecmBounsRange >= 1500)       //max ecmrange bonus 1500su
+                    ecmBounsRange=1500.0F;
+
+                distubringRange=RANGE * theShip.getMutableStats().getSystemRangeBonus().getBonusMult() * theSystem.getEffectLevel()+ecmBounsRange;
                 if (timer.intervalElapsed()) {
-                    List<MissileAPI> missiles = AIUtils.getNearbyEnemyMissiles(theShip, RANGE * theShip.getMutableStats().getSystemRangeBonus().getBonusMult() * theSystem.getEffectLevel());
+                    List<MissileAPI> missiles = AIUtils.getNearbyEnemyMissiles(theShip,distubringRange);
                     for (MissileAPI m : missiles) {
                         //leave missiles imune to flares alone
                         if (m.getWeaponSpec() != null && m.getWeaponSpec().getAIHints().contains("IGNORES_FLARES"))
@@ -97,75 +91,9 @@ public class Diableavionics_quantumimpulseStats extends BaseShipSystemScript {
                         }
                     }
                 }
+                lockMissiles(engine, amount);
             }
 
-            lockMissiles(engine, amount);
-
-            //AURA
-            rim += amount;
-            if (rim > RIMTICK) {
-                rim = 0;
-                /*
-                    objectspaceRender(
-                SpriteAPI sprite,
-                CombatEntityAPI anchor,
-                Vector2f offset,
-                Vector2f vel,
-                Vector2f size,
-                Vector2f growth,
-                float angle,
-                float spin,
-                boolean parent,
-                Color color,
-                boolean additive,
-                float fadein,
-                float full,
-                float fadeout,
-                boolean fadeOnDeath
-                )
-                */
-                MagicRender.objectspace(
-                        Global.getSettings().getSprite("fx", stripeSprite),
-                        theShip,
-                        new Vector2f(),
-                        theShip.getVelocity(),
-                        (Vector2f) new Vector2f(1160, 4000).scale(theSystem.getEffectLevel() * theShip.getMutableStats().getSystemRangeBonus().getBonusMult()),
-                        new Vector2f(116, 400),
-                        axis,
-                        +10f,
-                        false,
-                        new Color(0.5f, 0.5f, 0.5f),
-                        true,
-                        0, 0, 0, 0, 0,
-                        1f,
-                        0.5f,
-                        1f,
-                        false,
-                        CombatEngineLayers.BELOW_SHIPS_LAYER
-                );
-                axis += 45;
-            } else {
-                animIsOn = false;
-            }
-            if (animIsOn || fade > 0) {
-                animation += amount;
-                if (animation > ANIM) {
-                    animation -= ANIM;
-
-                    frame++;
-                    if (frame > LENGTH) {
-                        frame = 1;
-                    }
-                    theAnim.setFrame(frame);
-
-                    if (animIsOn) {
-                        fade = Math.min(fade + 0.02f, 1);
-                    } else {
-                        fade = Math.max(fade - 0.02f, 0);
-                    }
-                    theAnim.setAlphaMult(fade);
-                }
-            }
         }
 
     }
@@ -179,24 +107,30 @@ public class Diableavionics_quantumimpulseStats extends BaseShipSystemScript {
         }
 
         if (!locked.isEmpty()) {
+            int missileOrder = 0;
             for (Iterator<MissileAPI> iter = locked.iterator(); iter.hasNext(); ) {
                 MissileAPI m = iter.next();
+                missileOrder+=1;
                 if (m.isFading() || m.didDamage() || !engine.isEntityInPlay(m)) {
                     iter.remove();
                     if (vulnerable.contains(m)) {
                         vulnerable.remove(m);
                     }
                 } else {
+                    if(m.isGuided()&&!m.isFizzling()) //the "torpedo" or "rocket" should be immune from ecm right?
+                    {
+                        m.giveCommand(ShipCommand.ACCELERATE_BACKWARDS);
 
-                    if(Math.random()>0.5)
-                        m.giveCommand(ShipCommand.TURN_RIGHT);
-
-
+                        if(missileOrder%2==0)
+                            m.giveCommand(ShipCommand.TURN_RIGHT);
+                        else
+                            m.giveCommand(ShipCommand.TURN_LEFT);
+                    }
                     //tart`s original derecho effect ↓
                     //  m.setAngularVelocity(0);
                     if (sparkling) {
                         //flameout
-                        if (Math.random() > 0.96 && vulnerable.contains(m)) {
+                        if (Math.random() > 0.95-ecmRate*0.01f && vulnerable.contains(m)) {
                             if (m.getEngineController().isFlamedOut()) {
                                 m.setArmingTime(m.getFlightTime() + 0.2f);
                             } else {
@@ -240,7 +174,7 @@ public class Diableavionics_quantumimpulseStats extends BaseShipSystemScript {
     @Override
     public ShipSystemStatsScript.StatusData getStatusData(int index, ShipSystemStatsScript.State state, float effectLevel) {
         if (index == 0) {
-            return new ShipSystemStatsScript.StatusData(TXT, false);
+            return new ShipSystemStatsScript.StatusData(TXT1+TXT2+(int)ecmBounsRange+"/"+(int)ecmRate+"%" , false);
         }
         return null;
     }

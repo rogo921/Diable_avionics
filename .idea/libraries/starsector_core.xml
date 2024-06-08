@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="starsector-core">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../starsector-core" />
+    </SOURCES>
+  </library>
+</component>
