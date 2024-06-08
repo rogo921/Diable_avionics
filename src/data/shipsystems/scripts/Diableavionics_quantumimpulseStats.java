@@ -29,7 +29,7 @@ public class Diableavionics_quantumimpulseStats extends BaseShipSystemScript {
 
     private final float ANIM = 0.05f, RANGE = 2000, RIMTICK = 0.5f;
     private final IntervalUtil timer = new IntervalUtil(0.1f, 0.1f);
-    private final IntervalUtil sparkle = new IntervalUtil(0.05f, 0.15f);
+    private final IntervalUtil sparkle = new IntervalUtil(0.1f, 0.1f);
     //    private final float rangeMult=0;
     private final String zapSprite = "zap_0";
     private final int zapFrames = 8;
@@ -117,7 +117,7 @@ public class Diableavionics_quantumimpulseStats extends BaseShipSystemScript {
                         vulnerable.remove(m);
                     }
                 } else {
-                    if(m.isGuided()) //the "torpedo" or "rocket" should be immune from ecm right?
+                    if(m.isGuided()&&!m.isFizzling()) //the "torpedo" or "rocket" should be immune from ecm right?
                     {
                         m.giveCommand(ShipCommand.ACCELERATE_BACKWARDS);
 
