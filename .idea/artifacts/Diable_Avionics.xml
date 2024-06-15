@@ -2,7 +2,7 @@
   <artifact type="jar" build-on-make="true" name="Diable_Avionics">
     <output-path>$PROJECT_DIR$/jars</output-path>
     <root id="archive" name="Diable_Avionics.jar">
-      <element id="module-output" name="Diable-Avionics" />
+      <element id="module-output" name="Diable-Avionics_rogo" />
     </root>
   </artifact>
 </component>
