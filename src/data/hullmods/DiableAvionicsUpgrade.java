@@ -65,13 +65,13 @@ public class DiableAvionicsUpgrade extends BaseHullMod {
             return "25";
         }
         if (index == 1) {
-            return "15";
+            return "20";
         }
         if (index == 2) {
-            return "10";
+            return "15";
         }
         if (index == 3) {
-            return "5";
+            return "10";
         }
         if (index == 4) {
             return "7%";
