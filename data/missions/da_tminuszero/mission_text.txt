@@ -1,5 +1,6 @@
-Location: At the edge of Hegemony space, near the Millan nebula.
-Date: 201.4.6
+地点:{霸主领地边缘,}接近{Millan}星云附近.
+日期:}201.4.6
 
-Preliminary reports indicate that factions have merged together in light of the gates being cut off. Some have yet to acquire political allegiances and are ripe for targeting. However the main local authority seems to have taken notice of our recent activity, and while probably unaware of our strength, has sent a strong force to patrol this area.
-All captains of the 2nd Spear-Head Group are now under your command, disable all targets of value. Godspeed.
+初步报告显示，因星门的沉寂而导致各大势力被合并在了一起。而其中则有一些人并未获得政治上的效忠，并且时机已经成熟。尽管本地当局似乎察觉了我们最近的秘密行动，但却没有真正了解我们具备的实力，而仅派遣了他们自认为坚不可摧的大型舰队在这一地区进行巡逻。
+
+上尉，第二矛头集团军现在将归于您的指挥之下，摧毁目标舰队，一路平安。

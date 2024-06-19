@@ -1,94 +1,104 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
 ,,,,,,,,,,,,,,,,,,,
-Advanced Avionics,diableavionics_avionics,4,0.33,Diable Avionics,"no_build_in, req_spaceport","Weapons, Engines, Requires Dock",30000,,,,10,20,30,50,data.hullmods.DiableAvionicsUpgrade,"A comprehensive overhaul to internal systems available exclusively to ships from the Diable Avionics corporation. Advanced engine and power systems finely tune the reactor output while keeping the balance of flux generating, increasing ship's max speed by %s/%s/%s/%s by size,while a complicated network of redesigned flux conduits and regulators allows the zero flux boost to be active while the ship is generating less than %s of its flux capacity per second.",Increase ship`s max speed by size. Allows Zero Flux Boost to be active with more flux.,,graphics/da/hullmods/diableavionics_avionics.png
+先进航电设备,diableavionics_avionics,4,0.33,Diable Avionics,"no_build_in, req_spaceport","Weapons, Engines, Requires Dock",30000,,,,10,20,30,50,data.hullmods.DiableAvionicsUpgrade,"一套专为恶魔航电公司舰船提供的内部系统全面升级，先进的发动机和动力系统可精细调整反应堆输出，同时保持辐能生成平衡，飞船的最大速度按尺寸增加{%s}/{%s}/{%s}/{%s}。
+此外重新设计后的复杂辐能通道和调节器组成的网络允许飞船只要每秒产生的辐能不大于最大辐能容量的{%s}，就可以激活零辐能加速。
+","根据船体等级增加舰船的最大速度，允许产生辐能的情况下也享受零辐能加速。
+",,graphics/da/hullmods/diableavionics_avionics.png
 ,,,,,,,,,,,,,,,,,,,
-Resilient Frame,diableavionics_wanzer,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsWanzer,"Wanzers are exceptionally durable small crafts, with reinforced internals and tripe redundant systems. They get %s resitance to EMP, plus their weapons and engines are %s less likely to fail.",Gives Wanzers a %s resitance to EMP and reduce the damage taken to their weapons and engines by %s .,,graphics/da/hullmods/diableavionics_quantumsensor.png
-Sniper kit,diableavionics_sniperkit,2,,Diable Avionics,"special, merc, standard",Fighters,3000,,,,2,4,6,10,data.hullmods.DiableAvionicsSniperkit,"A special upgrade kit to maximum the support ability of warlust,contains special ammo and next generation of laser aim-sight on DMR.
-Similar with Defensive targeting array, but wanzer`s stronger fire-control hardware allow them enjoy same range bonus with mothership.
-All the Warlust of this ship get same range bonus with it`s ship(%s/%s/%s/%s,by hullsize), while makes Warlust's engaging range reduced by %s.","Turn warlust into ""Supporter wings"" role,and gain extra range.
- ",Only reduced %s Warlust`s engaging range instead of %s.,graphics/da/hullmods/dibaleavionics_sniperkit.png
+弹性框架,diableavionics_wanzer,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsWanzer,万泽是精巧耐用的小型军用机甲，具备强化后的内部隔层与冗余系统。增加{%s}EMP}抗性，并且它们的武器与引擎耐久度提高{%s。,给予万泽{%s}的EMP}抗性，提升它们的武器与引擎耐久度{%s。,,graphics/da/hullmods/diableavionics_quantumsensor.png
+狙击手套件,diableavionics_sniperkit,2,,Diable Avionics,"special, merc, standard",Fighters,3000,,,,2,4,6,10,data.hullmods.DiableAvionicsSniperkit,"一套专用的升级组件用于最大化战意级万泽的支援能力，包含了专用特殊弹药和集成在精确射手武器上的下一代激光瞄准系统。与护航阵列类似，但是万泽更加强大的火控硬件允许他们享受和母舰相同的定位效果。
+所有本舰的战意万泽获得和母舰同级({%s}/{%s}/{%s}/{%s},取决于船体等级)的射程增益，同时使得战意的交战距离减少{%s}。",将战意万泽转变为“支援机”定位，并且获得额外的射程。,只减少{%s}的战意交战距离，而非{%s}。,graphics/da/hullmods/dibaleavionics_sniperkit.png
 ,,,,,,,,,,,,,,,,,,,
-Cramped Hull,diableavionics_cramped,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsCramped,"This hull is abnormally small and can't accomodate any modification requiring much space such as %s, %s, or %s. Missile based weapons fire-rate reduced by %s.","Prevents the installation of large hullmods, reduce missiles fire-rate by %s.",,graphics/da/hullmods/diableavionics_cramped.png
+狭窄船体,diableavionics_cramped,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsCramped,"由于船体异常狭窄，因此无法适应需要大量空间的修改，如：
+%s,{%s,{%s。并降低{%s}导弹装填速度。",无法安装大型船插，导弹射速降低{%s}。,,graphics/da/hullmods/diableavionics_cramped.png
 ,,,,,,,,,,,,,,,,,,,
-Oversized Hull,diableavionics_oversized,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsOversized,This ship is abnormally large which creates a logistical nightmare when it needs to be readied for combat. Increases CR recovery cost by %s.,Increases CR recovery cost by %s.,,graphics/da/hullmods/diableavionics_oversized.png
+巨型船体,diableavionics_oversized,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsOversized,其巨大的舰体将在作战时成为所有后勤官的噩梦。增加{%s}战斗部署时所消耗的补给。,完全恢复所需补给提高{%s}。,,graphics/da/hullmods/diableavionics_oversized.png
 ,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
-Dampened Mounts,diableavionics_mountBI,4,,Diable Avionics,,,,TRUE,,,0,0,0,0,data.hullmods.DiableAvionicsMountBI,"The ship's weapon emplacements are designed around strengthened recoil dampeners, enabling projectile weapons to fire at a marginally increased range of %s with a %s reduction in recoil. Projectile weapons in large slots enjoy an extended range of %s range instead.",,"The ship's weapon emplacements are redesigned around installing Diable Avionics weaponry, reducing the OP cost by %s/%s/%s according to size for ballistic and energy weapons from the corporation.
-However, such a complex modification raises the deployment point cost of the ship by %s/%s/%s/%s according to the ship's size.",graphics/da/hullmods/diableavionics_mount.png
-Dampened Mounts Package,diableavionics_mount,3,0.33,Diable Avionics,"offensive, req_spaceport","Weapons, Requires Dock",15000,,,,8,12,20,30,data.hullmods.DampenedMounts,"The ship's weapon emplacements are fitted with additional recoil dampeners, enabling projectile weapons to fire at a marginally increased range of %s with a %s reduction in recoil, but only at %s of their maximum firerate. The extra recoil dampeners introduce more points of failure, causing weapon mounts to take %s more damage.",,"The ship's weapon emplacements become fully integrated with the additional recoil dampeners, removing the fire rate penalty. Diable Avionics weaponry is notably simpler to install on the new emplacements, reducing the OP cost by %s/%s/%s according to size for ballistic and energy weapons from the corporation.
-However, such a complex modification raises the deployment point cost of the ship by %s/%s/%s/%s according to the ship's size.",graphics/da/hullmods/diableavionics_mount.png
+冲击抑制器,diableavionics_mountBI,4,,Diable Avionics,,,,TRUE,,,0,0,0,0,data.hullmods.DiableAvionicsMountBI,舰船的武器基座在设计时将冲击抑制器融入了其中，射弹武器的射程提高{%s}，并且减少{%s}的后坐力。安装在大槽中的射弹武器则提高{%s}射程。,,"该舰的武器槽位已经围绕着安装恶魔航电武装重新设计。根据武器尺寸，安装恶魔航电射弹和能量武器时所花费的OP减少{%s}/{%s}/{%s}点。
+然而，如此复杂的改造增加了舰船的维护和部署成本，根据船体等级，增加舰船DP{%s}/{%s}/{%s}/{%s}点。",graphics/da/hullmods/diableavionics_mount.png
+冲击抑制器,diableavionics_mount,3,0.33,Diable Avionics,"offensive, req_spaceport","Weapons, Requires Dock",15000,,,,8,12,20,30,data.hullmods.DampenedMounts,舰船的武器基座增加了额外的冲击抑制器，这使得射弹武器的射程提高{%s}，并且减少{%s}的后坐力，然而只能以其最大射速的{%s}开火。额外的冲击抑制器带来了更多结构上的弱点，导致武器额外受到{%s}伤害。,,"额外的冲击抑制器已经彻底融入了该舰的武器槽位，移出开火速度的惩罚，并使得恶魔航电的武器更加容易安装在改装后的槽位上，根据武器尺寸，安装恶魔航电射弹和能量武器时所花费的OP减少{%s}/{%s}/{%s}点。
+然而，如此复杂的改造增加了舰船的维护和部署成本，根据船体等级，增加舰船DP{%s}/{%s}/{%s}/{%s}点。",graphics/da/hullmods/diableavionics_mount.png
 ,,,,,,,,,,,,,,,,,,,
 # WANZER GANTRY,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
-Wanzer Servicing Gantry,diableavionics_universaldecksExtra,,,Diable Avionics,,,,TRUE,,,10,15,25,40,data.hullmods.WanzerGantry,"Enlarged launch bays that ease servicing oversized space vehicles such as Wanzers. Optimized tooling and space usage allow the deck crew to manage %s for each installed Wanzer wing.
+万泽维修龙门架,diableavionics_universaldecksExtra,,,Diable Avionics,,,,TRUE,,,10,15,25,40,data.hullmods.WanzerGantry,"扩大的飞行甲板，便于维修像万泽这样体型巨大的太空载具。特别优化过的整备工具和空间安排允许甲板工作人员在每个万泽机组中整备{%s}。
 
-These specialized facilities do not offer any tangible benefit, nor drawback, when operating regular fighters wings.",,"Once per combat, when the fighter replacement rate reaches %s, the fighter launch bays are switched to operate from a ""B-deck"". Standby fighters are launched to rapidly bring wings back to full strength, and the fighter replacement rate is set to %s.",graphics/da/hullmods/diableavionics_decks.png
-Wanzer Disruption,diableavionics_subsystem_wanzerdisruption,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.WanzerBurstHullmod,"Gust-class ships are armed with a tactical disruption provider, which allows an EMP burst to be targeted through its Wanzers at their targets, disabling them for an extended period of time. This allows Wanzers to survive longer, for missiles to hit their targets, and for the ship itself to move in for a killing blow.",,,graphics/da/hullmods/diableavionics_quantumsensor.png
+当舰船搭载的机组为常规战机时，这些特化设施不会提供增益，也不会造成性能减损。",,每场战斗限一次，当战机整备速率低于{%s}时，战机整备湾切换至“B-deck”运作，待命战机立刻起飞迅速将联队补充满员，并将战机整备速度设置为{%s}。,graphics/da/hullmods/diableavionics_decks.png
+万泽中介电弧投射器,diableavionics_subsystem_wanzerdisruption,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.WanzerBurstHullmod,疾风级巡洋舰配备了一种战术性干扰器，允许emp电弧经由万泽击中它们的目标，瘫痪其一段时间。这对万泽而言可为其争取额外的生存时间，或者使得导弹能够击中目标，而对于得舰船则使其有机会参与到击杀当中。,,,graphics/da/hullmods/diableavionics_quantumsensor.png
 ,,,,,,,,,,,,,,,,,,,
 # COMMISSIONED CREW,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
 #Optimized Operations,diableavionics_cc,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsCC,"The crew of this ship has been trained to follow the extremely strict protocols of the Diable Avionics Corporation, leading to a somewhat more economical maintenance of %s or %s supplies per month (whichever comes first). The reduced amount of immediately available spare parts means that recovering from combat deployment takes about %s more time.",Reduce the monthly maintenance but also reduces the CR recovery.,,graphics/da/hullmods/diableavionics_cc.png
-Hyperspace Navigation Protocols,diableavionics_cc,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsCC,"The crew of this ship has been trained to spot and weather deep hyperspace storms, ships will take %s less damage from strikes.",Reduce the impact of hyperspace storms on the fleet.,,graphics/da/hullmods/diableavionics_cc.png
+超空间导航协议,diableavionics_cc,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsCC,由于船员受到过相关方面的训练，该舰在遭遇超空间风暴时，舰船受到的伤害减少{%s}。,减少超空间风暴对战舰的影响。,,graphics/da/hullmods/diableavionics_cc.png
 ,,,,,,,,,,,,,,,,,,,
 # STATION REVERSE ROTAION,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
-Axial Rotation,diableAvionics_axialrotation,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsAxialRotation,This structure constantly rotates around its axis.,,,graphics/hullmods/axial_rotation.png
+绕轴旋转,diableAvionics_axialrotation,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsAxialRotation,这个建筑物一直绕着它的中心轴旋转。,,,graphics/hullmods/axial_rotation.png
 ,,,,,,,,,,,,,,,,,,,
 # VERSANT WEAPON SELECTOR,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
-Versant Frame,diableavionics_tuning,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsTuning,"The Versant frame offers limited customization options in the form of various firing profile for its built-in MP66-6 Harvest guns.
+斜坡-级框架,diableavionics_tuning,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsTuning,"斜坡-级框架为其内置的MP66-6{'收割者'}机炮提供了更换射击模式的可能。
 
-%s: This ship is a masterfully fine-tuned machine of war that already operates with reduced margins and does not like getting tinkered with.
+%s: 这艘船是一架经过精心调整的战争机器，在这种框架下它的性能已经被提至了极限，在它身上耍小聪明可能会造成反效果。
 
-Therefore it is impossible to install Hull-mods that increase components stress, such as %s.",,,graphics/da/hullmods/diableavionics_tuning.png
-Fire selector: AUTOMATIC,diableavionics_selector_auto,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsAuto,"The fire profile of the built-in Harvests guns can be changed to better suit the captain's preferences.
+因此，再为它加装会对船身造成负担的船体插件成为了不可能，比如{%s}。",,,graphics/da/hullmods/diableavionics_tuning.png
+射击模式: 全自动,diableavionics_selector_auto,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsAuto,"内置{'收割者'}的射击模式可根据舰长的喜好进行变更。
 
-%s has better sustained firepower, but worse accuracy and range.
+%s}拥有更好的持续火力，但精确度与射程较差。
 
 %s",,,graphics/da/hullmods/diableavionics_selector_auto.png
-Fire selector: BURST,diableavionics_selector_burst,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsBurst,"The fire profile of the built-in Harvests guns can be changed to better suit the captain's preferences.
+射击模式: 突击,diableavionics_selector_burst,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsBurst,"内置{'收割者'}的射击模式可根据舰长的喜好进行变更。
 
-%s has better accuracy and flux efficiency, but worse sustained firepower.
+%s}拥有更好的精度与幅效，但持续火力较差。
 
 %s",,,graphics/da/hullmods/diableavionics_selector_burst.png
-Fire selector: SEMI-AUTO,diableavionics_selector_semi,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsSemi,"The fire profile of the built-in Harvests guns can be changed to better suit the captain's preferences.
+射击模式: 半自动,diableavionics_selector_semi,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsSemi,"内置{'收割者'}的射击模式可根据舰长的喜好进行变更。
 
-%s has much better damage per shot and range, but worse sustained firepower and flux efficiency.
+%s}拥有更好的伤害与射程，但持续火力与幅效较差。
 
 %s",,,graphics/da/hullmods/diableavionics_selector_semi.png
 ,,,,,,,,,,,,,,,,,,,
 # VIRTUOUS LOADOUT SELECTOR,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
-Virtuous frame,diableavionics_virtuousMasterHullmod,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsVirtuous_system,"The Virtuous frame offers extensive customization options. These non-standard equipements can alter in profound ways the flight profile of this ship.
+"""贤者""舰身框架",diableavionics_virtuousMasterHullmod,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsVirtuous_system,"""贤者""框架提供了大量的可定制组件。这些非标准设备可以大幅度地改变这艘战舰的作战方式。
 
-%s: This ship is a masterfully fine-tuned machine of war that already operates with reduced margins and does not like getting tinkered with.
+%s: 这艘船是一架经过精心调整的战争机器，在这种框架下它的性能已经被提至了极限，在它身上耍小聪明可能会造成反效果。
 
-Therefore it is impossible to install Hull-mods that increase components stress,"" such as %s.,""",,,graphics/da/hullmods/diableavionics_virtuousHM.png
+因此，再为它加装会对船身造成负担的船体插件成为了不可能，比如{%s}。",,,graphics/da/hullmods/diableavionics_virtuousHM.png
 ,,,,,,,,,,,,,,,,,,,
-Broken Frame,diableavionics_virtuousBroken,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsVirtuous_broken,"%s, this hull is broken and cannot be used in combat until it is restored.",,,graphics/icons/intel/investigation.png
+破损舰身框架,diableavionics_virtuousBroken,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsVirtuous_broken,"%s, 该舰舰身严重破损，直到修复前都无法在战斗中使用。",,,graphics/icons/intel/investigation.png
 ,,,,,,,,,,,,,,,,,,,
-Hull Config: Skirmisher,diableavionics_virtuous_skirmisher,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsVirtuous_teleport,This hull configuration is designed to maximize the Virtuous' ability to reach and exploit openings anywhere on the battelfield.,,,graphics/da/hullmods/diableavionics_virtuousHM_hullA.png
-Hull Config: Brawler,diableavionics_virtuous_brawler,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsVirtuous_temporalShell,"This hull configuration is designed to maximize the damage output of the Virtuous when engaging an enemy, or allow swift escapes from unfavorable situations.",,,graphics/da/hullmods/diableavionics_virtuousHM_hullB.png
-Hull Config: Defender,diableavionics_virtuous_defender,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsVirtuous_citadel,"This hull configuration is designed to optimize flux use by increasing the passive defenses of the Virtuous frame, and maximize its survivability when faced with superior forces.",,,graphics/da/hullmods/diableavionics_virtuousHM_hullC.png
-Hull Config: Recon,diableavionics_virtuous_scout,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsVirtuous_itanoCircus,This hull configuration is designed to improve the logistical profile of the Virtuous frame and maximize both its strategic and tactical mobility.,,,graphics/da/hullmods/diableavionics_virtuousHM_hullD.png
+船身配置: 游击,diableavionics_virtuous_skirmisher,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsVirtuous_teleport,这种舰体架构设计最大化了{贤者-级}快速抵达或者就地撕开进攻突破口的能力。,,,graphics/da/hullmods/diableavionics_virtuousHM_hullA.png
+船身配置: 突击,diableavionics_virtuous_brawler,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsVirtuous_temporalShell,这种舰体架构设计最大化了{贤者-级}进行伤害倾泻以及摆脱不利状况的能力。,,,graphics/da/hullmods/diableavionics_virtuousHM_hullB.png
+船身配置: 防御,diableavionics_virtuous_defender,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsVirtuous_citadel,这种舰体架构设计提升了{贤者-级}的被动防御能力并优化了幅能使用效率，在舰队处于劣势时最大化了生存能力。,,,graphics/da/hullmods/diableavionics_virtuousHM_hullC.png
+船身配置: 侦查,diableavionics_virtuous_scout,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsVirtuous_itanoCircus,这种舰体架构设计改善了{贤者-级}的后勤状况，最大化了它的战略和战术转移能力。,,,graphics/da/hullmods/diableavionics_virtuousHM_hullD.png
 ,,,,,,,,,,,,,,,,,,,
-Right Kit: Scicle,diableavionics_virtuous_scicle_R,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,The Scicle blaster is designed to take out small to medium targets extremely rapidly at short range.,,,graphics/da/hullmods/diableavionics_virtuousHM_kitA.png
-Right Kit: Snowblast,diableavionics_virtuous_snowblast_R,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,The Snowblast shotgun is designed to be a violent problem for any ship close enough for its kinetic double-tap.,,,graphics/da/hullmods/diableavionics_virtuousHM_kitB.png
-Right Kit: Excision,diableavionics_virtuous_excision_R,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,The Excision rifle is designed to support allied ships with long range high explosive precision shots.,,,graphics/da/hullmods/diableavionics_virtuousHM_kitC.png
-Right Kit: Glaux,diableavionics_virtuous_glaux_R,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,The Glaux repeater is designed to break down enemy armor and hull with high damage bursts and respectable damage over time.,,,graphics/da/hullmods/diableavionics_virtuousHM_kitD.png
-Right Kit: Grasshopper,diableavionics_virtuous_grasshopper_R,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,"The Grasshopper grenade launcher is designed to counter enemy carriers, firing a huge salvo of grenades that deal serious damage to anything nearby.",,,graphics/da/hullmods/diableavionics_virtuousHM_kitD.png
-Right Kit: Beast,diableavionics_virtuous_beast_R,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,"The Beast cannon is a proven weapon against all armor. A modified Mostro, this weapon will break all kinds of armor in no time at all.",,,graphics/da/hullmods/diableavionics_virtuousHM_kitD.png
-Right Kit: Roar,diableavionics_virtuous_roar_R,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,"The Roar minigun is ideal to pressure shields at a distance, raising an enemy's flux high quickly so that other weapons can destroy it.",,,graphics/da/hullmods/diableavionics_virtuousHM_kitD.png
+右臂配置: 镰式爆能束,diableavionics_virtuous_scicle_R,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,镰式爆能束被设计用于在近距离迅速毁灭中小目标。,,,graphics/da/hullmods/diableavionics_virtuousHM_kitA.png
+右臂配置: 暴风雪霰弹枪,diableavionics_virtuous_snowblast_R,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,"暴风雪霰弹枪旨在用它凶悍的动能爆发成为任何近身舰船的重大威胁。
+",,,graphics/da/hullmods/diableavionics_virtuousHM_kitB.png
+右臂配置: 切除者狙击枪,diableavionics_virtuous_excision_R,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,"切割者狙击炮被设计用它精准的长程高爆狙击来支援友军战舰。
+",,,graphics/da/hullmods/diableavionics_virtuousHM_kitC.png
+右臂配置: 重型格洛,diableavionics_virtuous_glaux_R,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,"格洛振荡器被设计以优秀的高爆发和可观的持续伤害来轻松撕开敌舰的装甲和结构。
+",,,graphics/da/hullmods/diableavionics_virtuousHM_kitD.png
+右臂配置: 蟋蟀榴弹炮,diableavionics_virtuous_grasshopper_R,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,蟋蟀榴弹炮被设计用来对抗敌方航母，可以迅速倾斜整个弹巢的榴弹蒸发沿途的目标。,,,graphics/da/hullmods/diableavionics_virtuousHM_kitD.png
+右臂配置: 凶兽加农阵列,diableavionics_virtuous_beast_R,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,"凶兽加农阵列被证明是对抗所有装甲的可靠武器，作为莫斯特罗加农炮的定制版本，这种武器眨眼间就能撕碎任何装甲。
+",,,graphics/da/hullmods/diableavionics_virtuousHM_kitD.png
+右臂配置: 咆哮者转轮机炮,diableavionics_virtuous_roar_R,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,咆哮者转轮机炮是从远距离对护盾进行饱和压制的理想装备，能够迅速抬升敌人的辐能水平从而为其他武器创造机会。,,,graphics/da/hullmods/diableavionics_virtuousHM_kitD.png
 ,,,,,,,,,,,,,,,,,,,
-Left Kit: Scicle,diableavionics_virtuous_scicle_L,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,The Scicle blaster is designed to take out small to medium targets extremely rapidly at short range.,,,graphics/da/hullmods/diableavionics_virtuousHM_kitA.png
-Left Kit: Snowblast,diableavionics_virtuous_snowblast_L,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,The Snowblast shotgun is designed to be a violent problem for any ship close enough for its kinetic double-tap.,,,graphics/da/hullmods/diableavionics_virtuousHM_kitB.png
-Left Kit: Excision,diableavionics_virtuous_excision_L,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,The Excision rifle is designed to support allied ships with long range high explosive precision shots.,,,graphics/da/hullmods/diableavionics_virtuousHM_kitC.png
-Left Kit: Glaux,diableavionics_virtuous_glaux_L,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,The Glaux repeater is designed to break down enemy armor and hull with high damage bursts and respectable damage over time.,,,graphics/da/hullmods/diableavionics_virtuousHM_kitD.png
-Left Kit: Grasshopper,diableavionics_virtuous_grasshopper_L,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,"The Grasshopper grenade launcher is designed to counter enemy carriers, firing a huge salvo of grenades that deal serious damage to anything nearby.",,,graphics/da/hullmods/diableavionics_virtuousHM_kitD.png
-Left Kit: Beast,diableavionics_virtuous_beast_L,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,"The Beast cannon is a proven weapon against all armor. A modified Mostro, this weapon will break all kinds of armor in no time at all.",,,graphics/da/hullmods/diableavionics_virtuousHM_kitD.png
-Left Kit: Roar,diableavionics_virtuous_roar_L,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,"The Roar minigun is ideal to pressure shields at a distance, raising an enemy's flux high quickly so that other weapons can destroy it.",,,graphics/da/hullmods/diableavionics_virtuousHM_kitD.png
+左臂配置: 镰式爆能束,diableavionics_virtuous_scicle_L,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,镰式爆能束被设计用于在近距离迅速毁灭中小目标。,,,graphics/da/hullmods/diableavionics_virtuousHM_kitA.png
+左臂配置: 暴风雪霰弹枪,diableavionics_virtuous_snowblast_L,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,"暴风雪霰弹枪旨在用它凶悍的动能爆发成为任何近身舰船的重大威胁。
+",,,graphics/da/hullmods/diableavionics_virtuousHM_kitB.png
+左臂配置: 切除者狙击枪,diableavionics_virtuous_excision_L,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,"切割者狙击炮被设计用它精准的长程高爆狙击来支援友军战舰。
+",,,graphics/da/hullmods/diableavionics_virtuousHM_kitC.png
+左臂配置: 重型格洛,diableavionics_virtuous_glaux_L,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,"格洛振荡器被设计以优秀的高爆发和可观的持续伤害来轻松撕开敌舰的装甲和结构。
+",,,graphics/da/hullmods/diableavionics_virtuousHM_kitD.png
+左臂配置: 蟋蟀榴弹炮,diableavionics_virtuous_grasshopper_L,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,蟋蟀榴弹炮被设计用来对抗敌方航母，可以迅速倾斜整个弹巢的榴弹蒸发沿途的目标。,,,graphics/da/hullmods/diableavionics_virtuousHM_kitD.png
+左臂配置: 凶兽加农阵列,diableavionics_virtuous_beast_L,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,"凶兽加农阵列被证明是对抗所有装甲的可靠武器，作为莫斯特罗加农炮的定制版本，这种武器眨眼间就能撕碎任何装甲。
+",,,graphics/da/hullmods/diableavionics_virtuousHM_kitD.png
+左臂配置: 咆哮者转轮机炮,diableavionics_virtuous_roar_L,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor1,咆哮者转轮机炮是从远距离对护盾进行饱和压制的理想装备，能够迅速抬升敌人的辐能水平从而为其他武器创造机会。,,,graphics/da/hullmods/diableavionics_virtuousHM_kitD.png
 ,,,,,,,,,,,,,,,,,,,
-Head Weapon: Burchel,diableavionics_virtuous_headA,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor2,This head type is equiped with a Burchel burst PD beam.,,,graphics/da/hullmods/diableavionics_virtuousHM_headA.png
-Head Weapon: Winee,diableavionics_virtuous_headB,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor2,This head type is equiped with a Winee EMP emitter.,,,graphics/da/hullmods/diableavionics_virtuousHM_headB.png
-Head Weapon: Grave,diableavionics_virtuous_headC,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor2,This head type is equiped with Grave light assault gun.,,,graphics/da/hullmods/diableavionics_virtuousHM_headC.png
-Head Weapon: Magicbox,diableavionics_virtuous_headD,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor2,This head type is equiped with a Magicbox missile defense launcher.,,,graphics/da/hullmods/diableavionics_virtuousHM_headD.png
+头部武装: 布舍尔,diableavionics_virtuous_headA,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor2,这种头部配置装载了一门布舍尔{PD}激光炮。,,,graphics/da/hullmods/diableavionics_virtuousHM_headA.png
+头部武装: 威尼,diableavionics_virtuous_headB,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor2,这种头部配置装载了一门威尼{EMP}发射器。,,,graphics/da/hullmods/diableavionics_virtuousHM_headB.png
+头部武装: 掘墓者,diableavionics_virtuous_headC,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor2,这种头部配置装载了一门掘墓者轻型突击炮。,,,graphics/da/hullmods/diableavionics_virtuousHM_headC.png
+头部武装: 魔术盒,diableavionics_virtuous_headD,,,,"req_spaceport, no_build_in",,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsFlavor2,这种头部配置装载了一架魔术盒{PD}导弹发射舱。,,,graphics/da/hullmods/diableavionics_virtuousHM_headD.png

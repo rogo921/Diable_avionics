@@ -20,51 +20,52 @@ id,type,text1,text2,text3,notes
 # SHEAR,,,,,
 ,,,,,
 ,,,,,
-diableavionics_shear,SHIP,"A modified tug flying Diable Avionics' colors that sports a small turret for self-defense. Additionally, that ship being somewhat armored can help with debris clearing during salvage operations, increasing the potential loot obtained.
+diableavionics_shear,SHIP,"经过修改并被涂装成标志性红色的公牛-级拖船，且额外搭载的小型炮塔也提供了一定的自卫能力。此外，加厚的装甲也在一定程度上提高了在帮助清理残骸或打捞作业中，发现额外战利品的效率。
 
-Being a piece of construction equipment with a bit of flair, most crews that operate Shear tugs are merely conscripted workers and are rarely taught how to operate the ship's sole turret. Instead the weapon controls have been relegated to basic fire control A.I. to the chagrin of those aboard. The crew of these tugs often call themselves Ricers from an age-old tradition of receiving an extra stipend of rice rations before sorties, this has led to many tug crews calling their rides Rice Rockets.",,,
+唯一的闪光点大概是，所有操控剥夺-级拖船的船员大多都是被临时征召来的工人，所以他们很少被教导如何去操控该舰的小炮塔。相反，被降级到仅拥有基本火力控制的AI系统，或多或少的让船员们感到有些懊恼。此外，作为增加推力的一种手段，它通常都使用了相对不稳定的混合燃料，以增强对巡洋舰这种大小船只的牵引效率，但如果运用到较小舰船时，往往会因超过动力极限而发生事故。有趣的是，这些拖船的船员们经常称自己为""碾米机""，因为它们在执行任务前都会获得额外的大米配给，而这也导致许多船员们称他们乘坐的是""大米火箭""。",,,
 ,,,,,
 ,,,,,
 # LAMINAR,,,,,
 ,,,,,
 ,,,,,
-diableavionics_laminar,SHIP,"Built upon the same chassis as the Shear, the Laminar-class mining frigate can operate in the harshest environments, breaking apart large ore asteroids then tugging the richest chunks to the nearest smelting station.",,,
+diableavionics_laminar,SHIP,"与剥夺-级共享相同的船体框架，层流-级采矿护卫舰不仅能在最严酷的环境下正常运作，还能将大块小行星分离开来，并将有价值的矿石拖到附近的冶炼站。
+",,,
 ,,,,,
 ,,,,,
 # DRAFT,,,,,
 ,,,,,
 ,,,,,
-diableavionics_draft,SHIP,"A frigate with a solid frontal profile, capable of absorbing a large amount of damage for its class. The broadside-facing missile mounts slightly limit its load-out options.
+diableavionics_draft,SHIP,"拥有坚实正面装甲的护卫舰，尽管能承受大量火力，但侧舷导弹挂载点的设计限制了该舰的打击潜力。
 
-The Draft-class frigate is often used as a trainer for green officers that failed their aggressiveness evaluation. While not exactly intended for straight-forward assault roles, it is capable of using its Arcus ablative armor mounted on the prow to absorb tremendous punishment while carrying out its attack run. Through rigorously training them to the art of positioning and orienting their ship to maximize the damage dealt to a target while limiting the impacts received to the hull itself, many commanders hope that their fledgling officers will learn to embrace a proper offensive combat doctrine.",,,
+经常被用作低阶军官的训练舰，以让他们在失败中获得经验教训。值得注意的是，驾驶浸没-级的目的并不是扮演一名突击型角色，而是让这些军官利用舰首处的弧状云装甲来承受正面火力而不至于被迅速击败。只有通过这种严格的训练后，才最终让他们去面对真正的敌人，因为许多指挥官都希望运用这种严酷的教学形式，来让那些羽翼未丰的军官们尽早适应当前的军事准则。",,,
 ,,,,,
 ,,,,,
 # VAPOR,,,,,
 ,,,,,
 ,,,,,
-diableavionics_vapor,SHIP,"A nimble ultralight frigate chassis with a heavy frontal armament. Capable of disrupting fleet operations easily despite its sub-par point defense weapon mounts. 
+diableavionics_vapor,SHIP,"仅配有少量防御武器的一种灵活的超轻型护卫舰，依靠充足的正面火力，来轻易扰乱敌方舰队的行动。
 
-A relatively recent design dating mere decades before the Great Collapse, this model is shoehorned with advanced technology on a thoroughly stripped-down Neo-titanium chassis. With its 16 pressurized plasma nozzles strewn across the hull for high acceleration evasive maneuvers, the ultralight frame can barely hold together under the stress of combat and needs close inspection after every sortie.
+出生于{""大崩塌""}前几十年的近现代设计，采用高度模块化的钛金属地盘，保证质量足够轻的同时，拥有可搭载散布于船体框架中的{16}个密封高速等离子体缓存的结构强度，来为先进的规避驱动系统提供动力。作为{恶魔航电}所设计的第一艘轻型护卫舰，除了仅达到标准线的船体强度，使每次战斗结束后都需要重新整修。
 
-As this is a first response interceptor, one can find little fault in the design choices, barring the lack of any real point defense mounts. Despite this caveat, it remains one of the more capable frigate designs in locking down fugitives and enemies alike while reinforcements catch up steadily.",,,
+由于缺乏点防御武器，因此在面对来袭的战机或导弹时，将只能寄希望于规避驱动来躲避这些致命威胁。尽管如此，这艘灵活且能力出众的护卫舰，总能牢牢咬住那些无心缠斗的逃犯或敌军，来为后方的增援部队创造拦截机会。",,,
 ,,,,,
 ,,,,,
 # SLEET,,,,,
 ,,,,,
 ,,,,,
-diableavionics_sleet,SHIP,"A solidly built frigate formerly used to carry trans-atmospheric missions. Its relatively large bay could just as well be configured to hold troops with some light vehicles, bombs or aid and supplies. Since the Collapse it has been used more as a long-range reconnaissance craft with some support capabilities, a role that suits the Sleet-class well given their survivability.
+diableavionics_sleet,SHIP,"善于执行跨大气层任务的一种坚固耐用的护卫舰。其较大的货仓足以用来运载一些轻型车辆、炸弹、援助与补给品。自'大崩塌'后，它更多地被当作一种具备一定支援能力的远程侦察舰，而鉴于其不错的生存能力，使这一角色非常适合冻雨-级。
 
-The Sleet-class used to be a best-seller item from the Diable Avionics catalog due to its versatility and reasonable logistical overhead. But even if the Diable Avionics Corporation had not been driven into exile, it would not be the case anymore after the Collapse: in the current vastly more dangerous environment every edge count, and Sleets have fallen from ""Jack of all trades"" into ""Master of none"". Designed to fit low-intensity combat environments and asymmetrical warfare, their bigger redeeming qualities in the modern battlespace are their survivability and somewhat reasonable cargo space that makes them attractive as a first ship purchase for the prospecting starfarer.",,,
+由于功能全面且成本低廉，使该舰一度成为{恶魔航电}的畅销品，这并不难理解，因为在时下这个充满危险与机遇的环境中，这种被设计用以适应低强度的战斗环境或不对称战争的冻雨-级，因其出色的生存力与合理的货仓空间，而使它们成为了星际探索者们的首选。",,,
 ,,,,,
 ,,,,,
 # VERSANT,,,,,
 ,,,,,
 ,,,,,
-diableavionics_versant,SHIP,"One of the very last pre-Collapse designs the local branch of the Diable Avionics Corporation got its hands on before being abruptly cut-off. It features a mobile frame that can manipulate its shape to increase raw speed, or maneuverability. Advanced integrated weaponry and the latest version of the Diable Avionics's Quantum Targeting Prediction software(TM) come pre-installed.
+diableavionics_versant,SHIP,"在{""大崩塌""}前不久，{恶魔航电}幸运的在即将倒闭的当地分支机构中获得了斜坡-级的原始蓝图。它的移动框架不仅可自由操纵形态来增加火力，或增加推力，还集成了最先进的{恶魔航电}量子目标预测软件{(TM)。
 
-Developed in parallel with the Valiant wanzer and the Virtuous Destroyer as part of the Einstein Initiative, the Versant-class shares many similar components albeit scaled to dimensions more fitting of a frigate. The basis for the radical departure in design philosophy was linked to the lack of light, highly mobile Wanzers wherein only high-speed frigates were capable to catch up pursued forces. This glaring gap in Diable's tactical capabilities was unable to be filled solely by Vapor interdiction frigates. This design is provided with an over-sized power-train that can only be operated at full capacity when the main weapon systems are disconnected, hence the need for the adaptable flux network that physically moves to connect to the engines.
+因与勇士-级万泽联队并行开发过很长一段时间，使尺寸归纳于护卫舰的斜坡-级与前者共用着许多相似组件。因{恶魔航电}的军事准则中存在战术缺口，且无法完全由蒸汽-级轻型护卫舰来填补，所以导致最终成品完全背离了设计之初的轻量化的思路，但这种高机动的""万泽""，依旧只有少数高速护卫舰才能与之相提并论。此外，超大尺寸的引擎因需要主武器系统断开连接才能满负荷运行，因此才采用了物理移动的方式来使主引擎适应可变的幅能网络。
 
-A design quirk that is often overlooked is the installation of an ultra-dense gyroscope at the center of mass of the Versant. This gyroscope is approximately eight times as dense compared to the standard for a ship this size, freeing up room for the experimental wide coverage shield emitter. When spun up to operating speeds, the gyroscope allows the rapid bearing changes that other Diable ships are incapable of. Maintenance crews often complain about the high pitched shrieking which lasts for hours as the gyroscopes spin down.",,,
+而一种经常被忽视的设计怪癖，则存在于斜坡-级质量中心所安装的超密度陀螺仪，除了密度比通常陀螺仪高出{8}倍，还能大幅度提高实验性全盾的展开速度。有趣的是，由于陀螺仪经常被用来帮助该舰快速旋转，导致维修人员经常抱怨该陀螺仪在运作时所产生的尖叫，随着旋转的继续，这种尖叫将持续好几个小时。",,,
 ,,,,,
 ,,,,,
 # DESTROYERS,,,,,
@@ -75,97 +76,97 @@ A design quirk that is often overlooked is the installation of an ultra-dense gy
 # STRATUS,,,,,
 ,,,,,
 ,,,,,
-diableavionics_stratus,SHIP,"A sturdy military freighter with just enough weapon mounts to deter small time opportunistic pirates. Somewhat limited in cargo capacity, but fast and discreet.
+diableavionics_stratus,SHIP,"配备有军用级模块化炮台的武装商舰，虽然货舱被略微精简，但足以威慑那些抱有敌意的海盗们。
 
-Freight transport is almost always a dreary task, except when it is not! So as to make it a bit less exciting for those who are deployed in frontier logistics the Stratus is your friend. This ship compromises its hauling capacity for the reduced signature of military drives and heightened survivability compared to same class competitors.",,,
+货物运输总是个沉闷而危险的任务，为了让那些蛰伏于偏远地带的强盗们不会感到兴奋，作为你最可靠的伙伴，与其它同类竞争对手相比，层云-级仅牺牲了少量的载货量却获得了更快的航速，且生存力更强。",,,
 ,,,,,
 ,,,,,
 # STRATUS PIRATE,,,,,
 ,,,,,
 ,,,,,
-diableavionics_stratus_p,SHIP,"While degraded by many cycles of bad maintenance and combat repairs, it is obvious to the keen observer that this non-standard hull was not modified after the production, but is actually a completely distinct model. For a short while the Diable Corporation secretly armed pirates with these altered ships. A plan that quickly and unsurprisingly backfired when those same ships changed hands to people without any interest in sparing Diable Avionics Corp freight. As such, those pirate-themed hulls have become somewhat of a rare sight.
+diableavionics_stratus_p,SHIP,"虽然因长期不规范的后勤维护，导致该舰的某些性能出现了明显退化，但一些敏锐的观察者却从中发现了端疑，这些非标准的船体在出厂后并未有被修改过的痕迹，而更像是一种截然不同的变种版本。事实上，在过去很长一段时间，{恶魔航电}的军方一直秘密地用这些改装后的船只去武装海盗，但由于这类船只很快被转手给那些对{恶魔航电}的货物同样抱有兴趣的人们手中，使这一计划很快就产生了事与愿违的结果，而导致这种海盗版的航电船体在如今已经比较罕见。
 
-The Pirate variant of the Stratus keeps the military-grade hull and engines of the original, and further reduces the cargo hold to provide space for a medium-sized weapon emplacement as well as a few additional turrets and micro-missile launchers. This combination of traits makes them suitable for logistically efficient commerce raiding parties: a mix of frontal assault frigates supported by a long-range artillery barrage from armed merchants is a deadly fleet composition that can immediately switch to salvaging duties as soon as the last shot is fired.",,,
+这种海盗变种版不仅保留了军用级的船体与发动机，并通过牺牲货仓空间来为中型武器库以及一些额外炮塔与微型导弹发射器提供足够的空间。而这些改进措施使其非常适合用于后勤负担较低的商业突击队：由负责正面突击的护卫舰以及负责远程火炮支援的武装商舰所组成。这种舰队的优势在于，交战一旦结束，即可立即开始打捞回收任务。",,,
 ,,,,,
 ,,,,,
 # CIRRUS,,,,,
 ,,,,,
 ,,,,,
-diableavionics_cirrus,SHIP,"A variant of the Stratus optimized for transporting ground troops. The extra space taken by the enlarged shuttle bay forced the removal of the main hard-point of its freighter cousin, but given that the facilities can service a wing of strike-crafts, the ship effectively gained some bite.
+diableavionics_cirrus,SHIP,"用于运输地面部队的层云-级变种，其搭载的飞行甲板尽管迫使原主炮塔遭到移除，但也使该舰获得了整备万泽联队的能力，也让改造完成后的卷云-级几乎没有蒙受任何损失。
 
-Affectionately called the ""Devil's Crock-pot"" for the meager troop comforts provided to those in the passenger compartment. As a matter of fact, its interior layout remains the same regardless of whether or not it is transporting marines for routine inspections or ferrying slaves for re-allocation. Some would even say it is hardly that dissimilar from its cargo-carrying cousin.",,,
+舒适的客舱以及为乘客着想的优质服务，让人们将卷云-级亲切地称之为""恶魔的电锅""。事实上，不管是在运送海军陆战队或是卑微的奴隶，它的内部布局总是一成不变的，而在现实中，它与那艘货运表兄的地位也几乎是一致的。",,,
 ,,,,,
 ,,,,,
 # CHINOOK,,,,,
 ,,,,,
 ,,,,,
-diableavionics_chinook,SHIP,"A solidly built antimatter hauler used to fuel extended operations deep inside the Sector.
+diableavionics_chinook,SHIP,"坚固的反物质燃料输送舰，经常往返于偏远星域用以提供燃料后勤补给。
 
-A war machine is only as useful as its logistic train running in the back-lines, and any Diable Avionics operation outside of friendly territory can count on the long-reaching support of the Chinook tanker. Due to the dangerous nature of transporting antimatter fuel, the design specifications required that it would be stored outside of the ship hull, in detachable magnetically secured containers. 
+任何战争机器都只能在出色的后勤运作中得以发挥出全部实力，而能在友好区域外长期执行运输任务的焚风-级，毫无疑问的成为了{恶魔航电}后勤补给线中的重要成员。
 
-This was certainly a nice intention on the part of the board that established the requirements, but it also ignored the reality of the energy levels involved in such catastrophic scenarios. The chances of survival so close to an antimatter fuel explosion are so vanishingly small that the system has since been entirely disabled during flight, and is only used at a dock for ease of loading and unloading.",,,
+因运输这些反物质燃料存在一定的危险性，所以用于储存燃料的罐体采用了可分离式的磁性安全容器，并获得了军用级的装甲保护，即使这些罐体处于不可控的爆炸边缘，舰长也可通过简单的命令将其分离，以避免波及到舰体的本身安全。",,,
 ,,,,,
 ,,,,,
 # FRACTUS,,,,,
 ,,,,,
 ,,,,,
-diableavionics_fractus,SHIP,"Taking after the ubiquitous Condor, this ship is a conversion of the Chinook tanker hull, modified to house a double flight deck. The central fuel tank has been traded for a medium-sized hard-point, useful for supporting the ship's strike-craft complement with stand-off artillery fire.
+diableavionics_fractus,SHIP,"根据焚风-级燃料输送舰改装的武装航母，通过移除两处燃料罐，以腾出空间来搭载中型通用武器挂载点以及飞行甲板，以此来使该舰拥有一定防御火力的同时具备整备万泽联队的能力。
 
-The Fractuses were designed as a palliative to reduce the need for large and expensive cruiser-sized carriers and to provide tactical level strikecraft support in small patrol fleets. Due to the converted nature of the design and the limited level of optimization that ensue, several facilities are less than optimally sized for a ship of this role. As such, the flight decks are somewhat cramped, but the crew quarters are equipped with uncommon luxuries such as a manned combat hospital or even a full-sized VR training simulator that can play cult classics like Elite Citizen.",,,
+为了帮助减少对大型或昂贵的主力航母的需求，碎云-级不仅解决了前者的问题，还能以其飞行甲板提供战术层面的援助。尽管{30%}的碎云-级都完全致力于维修万泽联队，但依旧有大量的变种版本充斥着星域，其中就不乏那些配备有诸多奢侈品的豪华版，例如内置私人医院，甚至还有可运行另类经典游戏{[精英公民]}这样的{VR}训练模拟器。",,,
 ,,,,,
 ,,,,,
 # COANDA,,,,,
 ,,,,,
 ,,,,,
-diableavionics_coanda,SHIP,"A frontline destroyer able to take a punch and retaliate in kind. This older design has been modernized constantly and is still appreciated by DA's captains and crews for its spacious design and understated brutality on the battlefield.
+diableavionics_coanda,SHIP,"一艘能够在承担防御职责的同时以牙还牙的前线作战驱逐舰。这种老式设计不断被现代化，至今仍因宽敞的设计和战场上内敛的残暴受到恶魔航电舰长和船员的青睐。
 
-The hull is a throwback to the early days of the corporation: A time when it was mainly producing ships for the Domain's contracts rather than designing its own and selling them to the highest bidders. Despite having since been adapted to the Diable Avionic's military doctrine, concessions to its original purpose are still noticeable. For example the much higher emphasis on raw physical resilience rather than protecting shields and maneuverability, or the decently sized cargo hold for long travels. 
+该舰是恶魔航电早期理念的回归：当时恶魔航电主要生产符合人之领合同的舰船，而非自己设计并出售给最高的投标人。尽管如今该舰已经适应了恶魔航电的军事理论，在性能上为最初设计目的而做出的让步仍然显而易见。例如十分原始的物理防护手段，而非护盾和高机动性，以及为长途旅行准备的像样货舱。
 
-One of these modernization changes was to modify the original Damper Field system to what has been named a Damper Wave emitter: instead of a static aura protecting the hull, this system generates a wave that pulls the entire ship in its wake allowing for seemingly impossible dodges.",,,
+其中一项现代化改进是针对原本的阻尼力场进行的，改装过的战术装置被称为阻尼波发生器：相较于原本生成保护船体的静态场，这个装置能产生特殊的波，使舰船展现出与它的模样完全不匹配的规避能力。",,,
 ,,,,,
 ,,,,,
 # CALM,,,,,
 ,,,,,
 ,,,,,
-diableavionics_calm,SHIP,"Meant for general support of fleet operations, the Calm-class boasts high-speed Pulse Engines and a front-loaded weapon layout making it suitable for many offensive roles. 
+diableavionics_calm,SHIP,"{平静-级}可以为舰队作战提供全面支持，高速脉冲发动机和前置武器布局使其适合在战场上扮演各式具备进攻性的角色。
 
-The design's most singular feature is its ship-wide cooperation protocol system. This allows Calms to enhance some of their systems in conjunction with their drones' selected behavior. 
+该设计的独特之处在于其舰际合作协议系统，这使{平静-级}可以在选择无人机行为的同时增强它们的部分性能。
 
-The Calm series is built upon a monolithic frame of Neo-steel upon which the reactive armor composite plates are attached to the outside while the internals are assembled through the honeycomb structure. This slightly inefficient process is leveraged to provide adequate structural strength while allowing a larger mass budget to be dedicated toward armor, missile emplacements and the relatively overpowered X-pulse fusion engines.",,,
+{平静}系列以新型钢结构框架为基础，外附反应装甲复合板，内部则通过蜂窝结构组装。这种效率稍低的工艺可以提供足够的结构强度，以便其搭载更重的装甲，导弹发射井和功率相对过大的{X}脉冲聚变发动机。",,,
 ,,,,,
 ,,,,,
 # HAYLE,,,,,
 ,,,,,
 ,,,,,
-diableavionics_hayle,SHIP,"A destroyer stripped down to the bare minimum which allows it to include as many weapon mounts onto the lightweight frame as possible. Devastating when attacking upfront but needs cover for its vulnerable rear.
+diableavionics_hayle,SHIP,"尽管内部结构被精简到最低限度，这些精致的框架上依旧被尽可能的搭载了众多武器。虽然脆弱的后侧需时刻注意掩护，但凭借无与伦比的正面火力，这艘驱逐舰足以在与敌舰正面交锋时立于不败之地。
 
-The Hayle is more a weapon platform than it is a proper warship: by abandoning the usual all-around armor layout to instead apply reinforced reactive armor slabs in critical areas, much mass was freed for weapon emplacements and an advanced Class-2 flicker core. Given the massive power requirement for all the ship systems, this vessel must make do with anachronistic externally mounted radiators. Often told in cantinas are the tales of desperate crews using the ""pointy end"" of their ship as a last-ditch weapon to impale their target when the ship's reactor unexpectedly failed, but few captains seem to be able to give first-hand opinion on the efficacy of this tactic.",,,
+作为一艘军事用舰，这种放弃大部分常规装甲覆盖，转而仅在关键区域应用增强后的反应装甲，来搭载大量武器以及先进的二级闪烁系统的设计理念，使{海勒-级}更像是一种全副武装的火力平台。此外，考虑到内置的战术系统所导致功率需求的增加，使该舰除了使用激光散热器之外，还采用了一种过时的、安装于船体外部的散热装置来作为最终解决方案。根据一名在食堂夸夸其谈的上尉所描述的故事，当他驾驶的{海勒-级}的反应堆因不明原因突然失效，而陷入绝望的他却利用该舰的""尖端""以突刺的方式摧毁敌舰，但至今尚未有实战记录表明这种战术的有效性。",,,
 ,,,,,
 ,,,,,
 # DERECHO,,,,,
 ,,,,,
 ,,,,,
-diableavionics_derecho,SHIP,"An advanced destroyer with much of its mass dedicated to sophisticated electronic warfare and countermeasures equipment, leaving little space for logistic facilities. 
+diableavionics_derecho,SHIP,"大部分的质量被用于搭载复杂的{ECM}设备的设计，使其几乎没有足够空间用于搭载后勤设备。
 
-The Derecho is a support destroyer housing a cutting edge Quantum ECM system, the complexity of which prevents true mass production. This system locally redirects a selected band of electromagnetic emissions into phase space therefore rendering the tracking ability of incoming ordinance null. For redacted reasons this system gives off a purple pulsating glow while active, and crewmembers often report of temporary blindness and numbness of their left limbs. Due to these rumors, crews tend to rotate in and out of Derechos in the span of four weeks. Officially the system has no long term effect on former crews, although the study if it exists has never been made public.",,,
+作为少见的{ECM}特化驱逐舰，因它的外壳容纳了一种鲜为人知的量子{ECM}系统，而该设备的复杂性也使雷暴-级无法进行大规模生产。此外，由于该系统似乎会将特定波段的电磁辐射从本地重定向到相位空间，从而导致附近所有制导系统失效。而另一个无法解释的现象，则是系统激活时，它所射出的紫色脉冲光，经常导致船员们报告他们会出现暂时失明或左肢麻木，而正因这些谣言，导致仅隔四个星期就需重新替换所有机组人员。尽管官方坚持否认该系统对船员有任何长期影响，但至今仍未公布这项结论的研究报告。",,,
 ,,,,,
 ,,,,,
 # POCKET GUST,,,,,
 ,,,,,
 ,,,,,
-diableavionics_miniGust,SHIP,"While ostensibly related to the regular Gust-class hull design, it is unclear whether this model was a small scale prototype that turned out too performant to be put aside or rather was a successful miniaturization attempt. In any case the Pocket-Gust translates what made its bigger brother good as a light cruiser into an even nimbler Destroyer frame. 
+diableavionics_miniGust,SHIP,"虽然明显与疾风-级船体设计存在某种联系，但如今尚未清楚它就是前者小型化后的产物，不管怎样，'口袋疾风'这种结合了其大哥诸多优点而诞生的灵活驱逐舰，因结果出人意料的成功而被正式投产。
 
-Somewhat lightly armed despite weighting fairly high for its class, the Pocket-Gust makes up for it with the signature ""Overlord"" system. Recognized as a terrific asset for small skirmish forces, the sometimes nicknamed ""Breeze"" sadly falls short compared to the full-sized Gust in larger engagements. The main reason being the few weapon emplacements not leaving any room to mount both offensive and defensive weapons, coupled with a narrow shield coverage.",,,
+阵风-级不仅配备了优于同类型舰种的轻型武装，且搭载了独特的""远程遥控""战术系统，而这对于一支小型突击舰队来说，它所发挥的作用不言而喻。但与疾风-级相比，尤其是在大规模会战中，极为有限的点防系统与较小的护盾覆盖范围，使其有效性大打折扣。",,,
 ,,,,,
 ,,,,,
 VIRTUOUS,,,,,
 ,,,,,
 ,,,,,
-diableavionics_virtuous_skirmisher,SHIP,"Never intended for any form of mass production, the Virtuous-class hybrid Wanzer is not concerned by trivialities such as cost-effectiveness or fitting a strategic doctrine. What it is concerned with though is being a technological marvel to embody Diable Avionics' most advanced research and engineering knowledge. Almost exclusively fitted with handcrafted, finely tailored custom weapons and systems, this ship displays impressive performances for its size and an array of outfits dramatically changing how it operates.
+diableavionics_virtuous_skirmisher,SHIP,"贤者-级}混合万泽的设计制造从未考虑过诸如成本效益或符合战略原则的琐事，因为从没有人打算对其进行任何形式的大规模投产。它被设计出来的目标是成为一个技术奇迹，以展现{恶魔航电}最先进的科学技术和工程知识。这艘战舰几乎完全配备了由手工制作的精细定制的武器和系统，拥有在同级别舰船中令人印象深刻的性能，一系列可变更的装备则可以极大程度上改变它的战斗方式。
 
-The Virtuous is not a ship, it is a multi-billion credits vanity project decades in the making meant to leap forward the Diable-Avionics' technological expertise. A project so ludicrous in its scope and requirements that DA's competitors never even attempted to send their spies for fear of looking ridiculous for taking such obvious bait. A project stepping on so many red lines concerning AI development, cybernetic enhancements, and bio-computers that it would be put on indefinite hold by fear of retaliation from the Domain central authorities. While never completed before the Collapse, many of DA's last advancements then stemmed from the Virtuous project: From the rapid evolution in Wanzer performances to their advanced remote control interfaces or their Flicker Core technology.
+比起一艘战舰，贤者-级}更像一项耗资数十亿星币的浮夸工程，这个计划被酝酿了数十年，旨在推动{恶魔航电}的技术向前发展。这个项目荒谬到{恶魔航电}的竞争对手甚至都没有派出他们的间谍来刺探情报，因为他们担心这样明显的诱饵会让自己看起来很可笑。这个项目在人工智能、神经机械学和生物计算机方面屡屡触及底线，以至于因为担心来自人之领中央机构的打击，直到大崩塌前它都被无限期地搁置着。即便如此，贤者}项目依然为大崩塌前的{恶魔航电}带来了许多的技术进步: 从万泽性能的快速发展到先进远程控制接口以及相位漂移。
 
-All concerns about the Domain Authority's wrath (or the loss of their lucrative contracts) became caducous once the gates shut, and today's Diable Avionics Research Institute is far less concerned about enslaved AIs or human research ethics when it can potentially unlock a prodigious new technology. The incomplete industrial base present in the Sector only allowed them to produce a single craft, which was very publicly launched in c.178. Its performances were widely advertized, the Diable Avionics Corp never misses a good propaganda opportunity, but how to achieve those was carefully kept secret. Sometimes, from their engineers themselves: for example, the main computer is a one-meter-wide molecularly sealed sphere of tungsten alloy, that operates entirely wirelessly, including for power, without any way to reprogram it or even see its components. To the dismay of many of the most aggressive members of the Diable Avionic's hierarchy, this irreplaceable craft was never sent on the offensive but kept patrolling the home system. Both out of concerns over its potential loss in battle, but also by fear of its subsequent salvage by any other party.",,,
+当星门关闭后，所有对人之领的愤怒 (或失去与人之领间大量商贸订单) 的担忧都变得毫无意义，如今的{恶魔航电}研究所对被奴役{AI}以及伦理的担忧要少了许多，因为他们有机会打开一项奇妙新技术的大门。英仙座地区}残缺的工业基础让他们只有能力生产一艘战舰，这艘战舰在{星历178年}公开进行了试航。它的表现被广泛宣传——恶魔航电}从不错过绝佳的宣传机会，但实现这些技术的方法被严格保密，哪怕是对一些工程师来说也是如此。例如: 主计算机是一个直径一米的钨合金分子密封球体，只有两个金属接点提供能量，完全离线运行，没有任何方法重新编程，甚至无法看到它的组件。让许多最激进的{恶魔航电}成员感到沮丧的是，这架不可替代的舰船从来没有被派去执行过进攻任务，而是一直在{恶魔航电}的主星系中巡逻。恶魔航电}既害怕在战争中失去它，也不愿看到它被任何其他势力回收。",,,
 ,,,,,
 ,,,,,
 # CRUISERS,,,,,
@@ -176,61 +177,61 @@ All concerns about the Domain Authority's wrath (or the loss of their lucrative 
 # GUST,,,,,
 ,,,,,
 ,,,,,
-diableavionics_gust,SHIP,"A mainstay of Diable Avionics, these light cruisers are fast and excel in providing field support to the Wanzer element they carry. Their primary battery consists of a front-facing heavy weapon emplacement which gives them an unexpected punch but the relative lack of secondary weapons limits their effectiveness against multiple threats.
+diableavionics_gust,SHIP,"作为{恶魔航电}的主力军，疾风-级不仅速度卓越，还能为其搭载的万泽联队提供战术支持。内置的大型混合炮台尽管能在意想不到的时机予以重击，但因缺乏次级武器，而限制了在抵御多重威胁时的效力。
 
-The Gust cruiser design dates back almost 150 years before the collapse, during the peak of Diable Avionics's growth when their military contracts abounded and they could afford the R&D cost for less conventional designs. Historical notes and logs from the oldest ships of this class occasionally describe the difficulty of incorporating the proprietary ""Overlord"" system, and all the interferences to the local electromagnetic environment it causes, in a relatively small hull with its sensitive comm/data sphere. 
+疾风-级悠久的历史甚至可以追溯到{c.250}星历年的{""大崩塌""}时期，尽管当时{恶魔航电}的军事理论才刚刚成型，但军工业的发展却已然达到顶峰。依据最古老的疾风-级的历史笔记和备份日志，有相当多的内容都是在描述将{""霸王""}战术系统内置于船体框架所存在的诸多难点。
 
-This device allows elite pilots well protected within the confine of the cruiser hull to remotely take over the controls of any fighter hosted by the Gust. The need for an open interface controls, the cost of the Tachyon comm-links and the limited time such connection can be upheld still prevent the massive use of remote-controlled Wanzers. 
+因这种装置能让优秀的飞行员在安全的巡洋舰中直接获得外部任何舰载机的控制权，为此不仅需要一种开放式的传输端口，且受限于{速子科技}系统终端的链接成本与持续时间，因此必须在保证信号传输并维持的同时，阻止敌对势力利用这种通用系统终端的漏洞而大规模远程控制万泽联队的情况。
 
-Nonetheless, that system provides a potent tool that can be used in a pinch to deliver a decisive blow. While initially welcomed by regular pilots that saw their odds of surviving increase as well as being able to learn directly from the bests, these systems have since taken a grim reputation as they can also be used to ensure a mission get carried out at any cost.",,,
+尽管如此，该系统所发挥的作用仍然十分出色，不仅可在紧要关头实施决定性的打击，还能帮助常规飞行员在实战中以身临其境的方式学习如何提高生存率与打击效率，当然，为了不惜一切代价而确保执行任务的成功，这种战术系统臭名昭著。",,,
 ,,,,,
 ,,,,,
 # RIME,,,,,
 ,,,,,
 ,,,,,
-diableavionics_rime_m,SHIP,"A light cruiser getting progressively phased out due to midling combat performance. While still adequate as a back-lines support ship, the fragility of the hull as well as its lack of dedicated Wanzer facilities has lead the Admiralty to decide to convert existing Rime-class into armed merchants instead.
+diableavionics_rime_m,SHIP,"这种轻型巡洋舰因并不出色的战斗性能而正被逐渐淘汰，但仍能扮演一种为舰队后方提供支援的角色，由于其船体脆弱且没有安装可以整备万泽联队的精密设备，海军部决定将所有现役雾松-级改装成武装商舰。
 
-The Rime-class has a long and varied service in the Diable Avionics armada, especially during the pre-Collapse era. It is quick on its feet, packs a decent punch for its size and can be equipped with a large variety of loadouts making it one of the more flexible hull available for decades. Sadly, the advent of larger generations of Wanzers that could not fit its hangar as well as newer and better designs such as the Storm-class have pushed the Rime out of the spotlight.",,,
+雾松-级悠久的服役历史甚至可追溯到'大崩塌'之前，凭借优秀的速度、宽敞舱体带来的两处飞行甲板，使其综合作战方面表现优秀，并成为那几十年内最为活跃的舰体之一。不幸的是，随着一代又一代的万泽登场，这些大块头的作战兵器使雾松-级的小机库越发捉襟见肘，直至像暴风-级这类更出色的新式设计的出现，最终将雾松-级推下了历史的聚光灯下。",,,
 ,,,,,
 ,,,,,
 # RIME F,,,,,
 ,,,,,
 ,,,,,
-diableavionics_rime,SHIP,"As a demilitarized hull, the ship itself is only modestly armed for its size but is equipped with a plasma capacitor system enabling its shield to absorb a tremendous amount of damage for a brief moment. The ship benefits from its origins as a combat vessel with its high-power low-signature drive train.
+diableavionics_rime,SHIP,"作为一艘非军事化的船体，尽管其本身仅搭载有适当的武装，但内置的等离子爆裂驱动器，足以保证其轻松摆脱敌方的阻截。因得益于其战舰血统，所配备的高效且安静的驱动系统也让该舰受益匪浅。
 
-Although they kept the sleek look, the freighter conversion of the Rime-class ships are incapable of true atmospheric entry due to the externally mounted fuel tanks, however this does not prevent them from carrying out orbital drops with light aerobraking maneuvers. The mixed cargo hold approach was taken to ensure the lightest possible logistical impact, with a single hull type able to provide for all needs of an expedition force.",,,
+尽管外形合理，但由于采用了外置燃料罐的设计，而导致该货舰被严令禁止驶入大气之中，不过，轻盈的空气制动系统，使其不影响它与轨道空间站的物流设施进行对接。此外，因采取了混合货仓的设计，使其仅凭一己之力就足以满足一支标准远程队的所有后勤需求。",,,
 ,,,,,
 ,,,,,
 # RIME PIRATE,,,,,
 ,,,,,
 ,,,,,
-diableavionics_rime_p,SHIP,"While degraded by many cycles of bad maintenance and combat repairs, it is obvious to the keen observer that this non-standard hull was not modified after the production, but is actually a completely distinct model. For a short while the Diable Corporation secretly armed pirates with these altered ships. A plan that quickly and unsurprisingly backfired when those same ships changed hands to people without any interest in sparing Diable Avionics Corp freight. As such, those pirate-themed hulls have become somewhat of a rare sight.
+diableavionics_rime_p,SHIP,"虽然因长期不规范的后勤维护，导致该舰的某些性能出现了明显退化，但一些敏锐的观察者却从中发现了端疑，这些非标准的船体在出厂后并未有被修改过的痕迹，而更像是一种截然不同的变种版本。事实上，在过去很长一段时间，{恶魔航电}的军方一直秘密地用这些改装后的船只去武装海盗，但由于这类船只很快被转手给那些对{恶魔航电}的货物同样抱有兴趣的人们手中，使这一计划很快就产生了事与愿违的结果，而导致这种海盗版的航电船体在如今已经比较罕见。
 
-The Pirate variant of the Rime-class extensively reused the available mounts of its parent design, picking a few clues from the freighter conversion such as the extra point defense emplacement. However in an attempt to limit the amount of proprietary military hardware that could find its way into the hands of enemies of the Diable Avionics, the fighter bay has been entirely removed, and the space converted into a decent cargo hold.",,,
+该海盗变种版不仅保留了大部分原始设计中的可用炮塔，并从货舰改装中所找到的灵感，比如额外的点防武器阵列。然而，为了防止{恶魔航电}的机密军事硬件落入敌人之手，而彻底拆除了原本的战机甲板，并在这处空间保留了一个像样的货仓。",,,
 ,,,,,
 ,,,,,
 # HAZE,,,,,
 ,,,,,
 ,,,,,
-diableavionics_haze,SHIP,"A fast cruiser combining respectable firepower for its size with superior maneuverability. Infamous for the hit-and-run attacks its ship system allows. 
+diableavionics_haze,SHIP,"具备可观火力与卓越机动于一体的高速巡洋舰，且依靠战术系统产生的短期破坏力，而使该舰臭名昭著。
 
-A monstrous assortment of weaponry litters every free centimeter of space to the front of this hull. Intended to act as the primary element of an assault force, the robust super-structure was designed to accommodate an unreasonably high number of General Atomic Fusion reactors to power the numerous weapon systems. Unfortunately, the heat output of these additional reactors far exceeds the dissipation ability available and all systems cannot be run at full power at the same time for long.",,,
+作为突击舰队的重要组成部分，除了遍布于船体每一寸空间的武器系统，相对坚固的框架结构也被尽可能的扩展，以容纳额外的通用原子融合反应堆，以帮助这些武器可在短期过载运转。不幸的是，这些额外反应堆所产生的高温，远远超出可用散热器的耗散能力，导致所有系统无法长期同时满负荷运转。",,,
 ,,,,,
 ,,,,,
 # DAZE,,,,,
 ,,,,,
 ,,,,,
-diableavionics_daze,SHIP,"A lumbering cruiser that traded its offensive capabilities for an enhanced dissipation grid and a thicker armor belt. While the amount of weapon emplacements would seem underwhelming, they can be fitted with the best hardware available, and used relentlessly with the help of the Flux Redirection ship system.
+diableavionics_daze,SHIP,"一种为提供压制性火力而增强耗散与装甲的笨重巡洋舰。虽然武器阵列的数量稍显不足，但混乱-级依旧可通过所配备的最佳武器，并在幅能重定向战术系统的帮助下，肆无忌惮的倾泄火力。
 
-Quite literally a blunt hammer where its Haze-class counterpart is more comparable to a sharp rapier, the Daze is built to outlast its opponents. Whether it is because the triple flux dissipator banks can keep the weapons firing for longer, or the double thickness ceramic armor can absorb all incoming fire, the Daze only knows one tactic: march forward and keep hitting the enemy. This lack of flexibility has often been criticized at the Navy's Doctrine Conferences, but the results are undeniable and this ship class will continue to be produced for the foreseeable future.",,,
+毫不夸张地说，混乱-级就是为了超越如同手术刀般的表姐：阴霾-级而出生的。无论是为确保持久火力的三重幅能耗散阵列，还是能抵消来袭火力的双层陶瓷装甲，都无时无刻的向人们传达着它唯一的战术方针：向前推进。尽管缺乏灵活性的混乱-级经常受到各方面的批评，但真实存在的出色表现，使得这类舰船将在可预见的未来里继续生产下去。",,,
 ,,,,,
 ,,,,,
 # STORM,,,,,
 ,,,,,
 ,,,,,
-diableavionics_storm,SHIP,"Tough and versatile, this carrier gives its justifiably feared Wanzer squadrons the support and mobility they need. While slightly lacking in heavy weaponry, its ability to deploy enlarged squadrons of strike-craft makes it a reliable and versatile force projection platform.
+diableavionics_storm,SHIP,"坚固耐用且应用广泛，尽管缺乏重型武器，暴风-级具备的扩充万泽联队的能力，让它成为了一种可靠的武装力量投射平台。
 
-The Storm-class heavy carrier was designed with ease of mass production in mind while remaining powerful enough to give pause to more specialized Domain designs. Of note is the wide variety of weapons this carrier is capable of equipping. A magazine-fed Micro-Missile system is integrated into the starboard side to complement its 4 medium-sized weapon slots.",,,
+暴风-级武装航母在设计之初就考虑到在保证可大规模生产的同时，兼并足够的强度，而使其足以抗衡那些更专业化的{人之领}航母设计。值得注意的是，尽管该航母可配备的武器种类繁多，但因四处中型炮塔的射界较为分散，而在右舷处内置了一个弹匣式的微型导弹系统，来弥补火力网中的盲点。",,,
 ,,,,,
 ,,,,,
 # CAPITAL,,,,,
@@ -241,25 +242,25 @@ The Storm-class heavy carrier was designed with ease of mass production in mind 
 # MAELSTROM,,,,,
 ,,,,,
 ,,,,,
-diableavionics_maelstrom,SHIP,"A slender and nimble battle-cruiser that is built around a Micro-Missile Array and a Displacement ship system. The Maelstrom-class battlecruisers are deployed as the main strategic bombardment platform of the Diable Avionics fleets thanks to their ability to mount and relentlessly fire the infamous Uhlan Siege Laser battery.
+diableavionics_maelstrom,SHIP,"围绕微型导弹阵列与重型闪烁系统而建立的一种细长而灵活的战列巡洋舰。由于能搭载臭名昭著的枪骑兵围攻加农炮，使旋流-级成为了{恶魔航电}主要的战略打击平台。
 
-While barely capable of standing toe-to-toe with proper battleships, the flexible Maelstrom can fulfill many different roles from auxiliary carrier to long-range fire support ship. If caught in a pinch, it is a capable assault ship that can deftly reposition itself using its Class-X Phase Grazer Core.
+虽然很难与战列舰正面抗衡，但灵活的旋流-级依旧可扮演多种战术角色，从辅助航母到远程火力支援舰，且如果能掌握合适时机，并灵活运用相位驱动器来调整舰体位置，就使其足以成为一种能力出色的攻击舰。
 
-The Maelstrom design started as an attempt to create a battleship with ""Phase Skimming"" capabilities. The hull was to be lightweight and equipped with two Heavy Flicker Cores with additional capacitors. After a few months of attempts, a couple wrecks and a destroyed test observation bay along with all its occupants, the project was scaled back. 
+由于在设计之初就是为了创造一种具备'相位穿梭'能力的战舰，而让旋流-级的船体不仅被最大限度的轻量化，还配备了两颗沉重的闪烁核心与额外的电容器。但经过数个月的尝试后，一些残骸和一处被摧毁的测试用空间站，使这个项目的激进程度被大幅度缩减。
 
-Instead of a proper dip into phase space that would allow the ship to seemingly instantly relocate, the Flicker Cores were tuned to only harness some of the energy and effects of phase space to move the hull in real space. An already significant feat by itself, the difficulty of which might send the hopes for a teleporting capital ship into the ""against the laws of physics"" bin.",,,
+研究表明，通过适当浸入相位空间，来让舰船看似瞬间移动的理论尽管看似行之有效，但不可预测的高风险，让研究者不得不将闪烁核心调整为利用相位空间内的部分能量与效应，而使船体在真实空间内进行短期移动。实现这项可贵技术突破的困难程度，也使人们将更进一步远程传送主力舰的希望扔进了'违背物理定律'的垃圾桶内。",,,
 ,,,,,
 ,,,,,
 # PANDEMONIUM,,,,,
 ,,,,,
 ,,,,,
-diableavionics_pandemonium,SHIP,"A capital-sized hull that has been developed and seen more use as a propaganda tool than a weapon of war. While its sheer bulk gives it respectable firepower, it is comparatively inefficient to the use of multiple Maelstrom battle-cruisers, and has troubles to find a place in the Navy's fast-paced doctrine. However, when used as a demoralization and bombardment platform, nothing else in Diable Avionics' arsenal holds a candle to the results obtained from deploying a Pandemonium-class Dreadnought.
+diableavionics_pandemonium,SHIP,"作为一种宣传工具而非战斗专用来开发并使用的主力舰。虽然魔窟-级庞大的舰体配备了令人眼花缭乱的武器阵列，但与多艘旋流-级相比，该舰的整体效率依旧相当之低。尽管在时下快节奏的海军作战理论中难以找到一席之地，但作为一种打击士气的轰击平台，没有任何一艘{恶魔航电}的战舰能与魔窟-级相提并论。
 
-Diplomacy is exclusively conducted with one nearby, often going through constant ""Weapon Tests"" and ""Crew Exercises"" where they fire into the hulks of un-salvageable ships towed along. The glowing unrecognizable masses of twisted metal are to be left behind once talks are over, as a macabre signature.
+由于经常作为战争时期的政治工具，特别是在双方谈判期间，航电军方总会在周遭不合时宜地进行着""武器试验""与""船员演习""，并向一艘早已无法打捞的战舰残骸进行开火。而一旦谈判结束，那团发光且无法辨认的扭曲金属快则被留在原地，并成为一种可怕的无声威胁。
 
-Given the rarity of this class of ship, each production UAC seems to have been somewhat specialized. The only UAC type present in the Sector for example provides a model with extensive Wanzer accommodations to fill a battle-carrier role, likely to capitalize on the shifting favored combat doctrines at the time of the Great Collapse. The flexibility of both roles being filled by one ship is both a blessing and a logistical curse, with no proper standard for the unique needs of a ship of this weight. 
+鉴于这类舰船的稀缺性，每个蓝图都被特意专业化，这导致了多种不同的魔窟-级蓝图的存在，例如当前星区中唯一的经典版本，则配备了专用的万泽整备工厂，以填补现代战场上的重要角色，但也很可能是因{""大崩塌""}期间，为了适应不断变化的军事准则，而将此前多版本的优点尽数整合，不管怎样，该舰的最终版本虽然融合了两者优势，但也导致后勤维护成本十分高昂。
 
-Protection wise, the Pandemonium is quite simply layers upon layers of reactive armor slabs attached upon the ship's Neo-steel framework. Given the size and unsophisticated nature of this protection scheme, Pandemoniums have a significant portion of the displacement of a small-sized orbital port. This tends to be highly troublesome for both parties when such ship desires to dock, as the stations that have a dock large enough to accommodate a Pandemonium are few and far between, and those that do will likely need to schedule an orbital boost assist after such visit.",,,
+而在防护方面，魔窟-级采用简单的多层反应装甲附着在新型钢质框架上的方式，但由于这种保护模式的规模较大，使其质量甚至媲美于部分中型空间站，而这也导致魔窟-级的停靠流程非常麻烦，且因很少有空间站具备专业的大型对接设施，而使得该舰经常需要一种轨道推进装置的辅助。",,,
 ,,,,,
 ,,,,,
 # SPECIAL,,,,,
@@ -270,17 +271,15 @@ Protection wise, the Pandemonium is quite simply layers upon layers of reactive 
 # GULF,,,,,
 ,,,,,
 ,,,,,
-diableavionics_IBBgulf,SHIP,"Across the sector, there exist many unique ship classifications resulting from extensive modifications to a base design. While most differ only in minor characteristics, some Mod-Hulls (as they are called) go above and beyond anything the original is capable of. These ships often gain legendary reputations for their accomplishments in the battlefield, and become the prized possessions of elite privateers, bounty hunters, and tech miners.
+diableavionics_IBBgulf,SHIP,"这些舰船不仅都经过大规模的改装，且大多都远远超出原始的设计规范，这样做的目的，不仅仅是让其扮演原本无法从事的特定角色，更多的则是从原始船体中榨取最后一滴可用潜能。只有在极少数情况下，一艘舰船才会被如此彻底改造，成为了一艘所谓的'新船'，这些承载着独特性能以及更高能力的舰船，人们通常都会在舰种名前加上{Mod，代表'改造'。随着它们在战场上取得杰出成就并获得传说级声望，也使其成为了精英海盗、赏金猎人、行业精英们梦寐以求的珍贵财产。
 
-Technically classified as a cruiser, this ship defies all standards due to the variety of roles it can fulfill. Reasonably mobile for its bulk, well-defended, well-armed, one would be hard-pressed to find a flaw to exploit when faced with the Gulf. Fortunately for the enemies of the Diable Avionics Corporation, this ship stands unique. Probably the result of a troubled development now shrouded in state secrets.
+星域中一直流传着许多有关深渊-级是如何诞生的传闻，而这些自相矛盾的流言中，只有一则最不浮夸、最接近真相、诉说着一名天才黑客的故事。这个匿名的家伙据说是个理想主义者，他鄙视{恶魔航电}对军事力量的盲目推崇，在实行高税收政策的同时，却对公民诉求漠不关心的态度。为了急于离开这片星系，他设法攻破了安保协议，并顺利获权控制了自动制造工厂的{AI，之后他开始准备生产一艘用来逃跑的舰船，但在尝试以篡改数据的方式来加快生产进程的时候，却意外导致{UAC}数据被彻底破坏。
 
-There are many contradictory stories about the creation of the Gulf, but the least grandiose one, and likely the closest to the truth talks about a genius hacker. This anonymous individual is said to have been an idealist that despised the attitude of the Diable Avionics' military and the blind eye the other citizens turned to their exaction. Anxious to leave the system, (s)he managed to defeat the corporation's security protocols and accessed the AI of their auto-factory. From there (s)he attempted to start the production of a vessel to commandeer and escape, but instead botched the process and corrupted the UAC's data. 
+而该工厂最终生产出一艘仅有一半涂装，融合了疾风、平静、阴霾的融合体。但震惊的是，这名黑客通过一次模拟演示，发现该舰足以在空间作战中证明它的存在价值。
 
-The factory ended up producing a half-painted monstrous chimera, part Gust, part Storm, and part Calm... A ship that surprisingly turned out to be space-worthy, and even more baffling: quite dangerous in combat. 
+尽管得知该消息后的航电当局，成功回收该舰，但官方声明中却并未提及那名黑客是否遭到逮捕。虽然几乎所有工程师均致电过海军部，要求目睹该原型舰的真容，好将其拆开，并学习其独特的设计理念，但由于他们无法保证能仿制成功，或者将其重新组装回去，所以为了以防万一，海军上将们经商议决定将其直接投入现役。
 
-It was immediately seized by the authorities but the story does not tell if the mythical hacker got caught. Immediately every engineer called the Admiralty to give them the ship so that they can disassemble it and learn from it. However due to their inability to guarantee that they would be capable of either building more ships of this type, or at least putting this one back together afterward, the admirals got cold feet and decided to push it into active duty.
-
-This unique instance of the Gulf-class has since earned an infamous reputation in the inner circles of the Diable Avionics administration for its decades of service exclusively spent in covert ops. Public records mention that it went missing in action in cycle 188 while on an unspecified mission during the Second Hegemony/Tri-Tachyon AI War.",,,
+此后独特的深渊-级花费了数十年的时间，服务于{恶魔航电}的秘密特遣小组，并赢得了臭名昭著的声誉。据公开记载中所提及到的，在{c.188}星历年的{霸主}与速子科技的第二次{AI}战争期间，深渊-级在参与袭击运输舰队的秘密任务中失去踪迹。",,,
 ,,,,,
 ,,,,,
 # FIGHTERS,,,,,
@@ -291,99 +290,97 @@ This unique instance of the Gulf-class has since earned an infamous reputation i
 # VORTEX,,,,,
 ,,,,,
 ,,,,,
-diableavionics_vortex,SHIP,A remote-controlled flying slab of armor armed with a PD weapon makes for a deceptively efficient defense system. Having the possibility to vent under their protection gave the Calm-class destroyer the unexpected bite it previously dearly needed.,,,
+diableavionics_vortex,SHIP,携带单一{PD}武器的装甲无人机，不仅能为平静-级提供额外的防御火力，还能在近距离交战中打击目标。,,,
 ,,,,,
 ,,,,,
 # ARBITRATOR,,,,,
 ,,,,,
 ,,,,,
-diableavionics_arbitrator,SHIP,"The Arbitrator fast interceptor is one of the few remaining ""regular"" strike-crafts in the Diable Avionics catalog: the last iteration of a long line of trans-atmospheric single-seaters. Armed with a single barrel IBIS and an Artassault revolver cannon, they can bring a respectable amount of firepower anywhere on the battlefield in a very short time thanks to their drop-booster.
+diableavionics_arbitrator,SHIP,"令人惊讶，仲裁-级作为{恶魔航电}唯一的非万泽型战机，也是一种跨大气层飞行器的最终迭代版。凭借{""落锤""}助推器赋予的卓越航速，以及{IBIS}与突击转轮突击炮带来的可观短期火力，使该高速截击机不管是拦截或是与战机缠斗时都丝毫不落下风。
 
-If the silhouette of that craft is reminiscent of a Thunder interceptor, it is because they indeed share a common ancestry. The engine, avionics and armament are different, but the overall frame still bears some similarities from what has been a Domain standard fighter for centuries.",,,
+如果光从工艺角度来看，仲裁-级确实很容易让人们联想到雷霆重型截击机，毕竟它们都有着共同的血统。除了拥有不同的引擎、航空电子设备与武器装备，但整体框架的相似度，仍然与几个世纪前就诞生的{人之领}标准战斗机存在着诸多相似之处。",,,
 ,,,,,
 ,,,,,
 # ARBITRATOR Z,,,,,
 ,,,,,
 ,,,,,
-diableavionics_arbitratorZ,SHIP,"The somewhat exotic Arbitrator ""Zwilling"" (twin) is a cost-effective option for bombing operations. The joint Arbitrator-class fuselages have lost their iconic booster stage and regular armament to mount a full rack of Plover rockets and a small self-defense turret.",,,
+diableavionics_arbitratorZ,SHIP,仅被小批量生产的一种低成本轰炸机，由于很难在市场上购买到它，导致其出场频率不高。通过移除标志性的落锤助推器与常规武器，以便为珩科鸟火箭发射架与{IBIS}腾出空间。,,,
 ,,,,,
 ,,,,,
 # FROST,,,,,
 ,,,,,
 ,,,,,
-diableavionics_frost,SHIP,"A baseline model of Wanzer optimized for mission versatility and a light logistical load. This is the cheapest series of Wanzers still in service, but the chassis solid characteristics all around, and a few updates to the design when needed have maintained its efficiency over the cycles.
+diableavionics_frost,SHIP,"利用反导弹与反战机武器来执行护航任务的基准型万泽联队。而这一廉价且高效的系列早已证明了它们的存在价值。
 
-The Frost is a 6th generation Wanzer but is only two generations into the space-oriented version of the Wanzer concept. The relative immaturity of the platform and its kinks have been ironed out over time, but the avionic controls are less than ideal for the extreme requirements of high-speed long-range space combat. As such the design had to be equipped with close-quarter weaponry to maximize the chances of a lethal hit: In this instance a Covet smooth-bore revolver that fires tungsten carbide flechettes accompanied by a tungsten coated, chemically sharpened monofilament combat blade. While limited in range, this line of Wanzers is still capable of handily carrying out their mission in the modern battlefield, and is not to be underestimated by standard fighter pilots.",,,
+作为第六代万泽系列，仅仅只有两代人才能有幸成为这艘概念万泽联队的驾驶员。由于平台技术的不成熟，以及配备的航电设备不太适合在空间内高速作战，因此才被迫将霜冻-级降级为支援型角色。但也为此给其配备了滑膛突击炮，以及拥有钨涂层的战斗利刃，而这些短程且低精度的武器，却最大限度的增加了致命打击近程目标的机会。虽然交战范围有限，但霜冻-级仍能轻松执行护航任务，且出色的战力永远不会被敌方标准战斗机的飞行员所轻视。",,,
 ,,,,,
 ,,,,,
 # STRIFE,,,,,
 ,,,,,
 ,,,,,
-diableavionics_strife,SHIP,"An upgraded 6th generation Wanzer chassis, additional armor plating and redundant backup systems ensure this craft will keep its place to the top of the food chain. A versatile high damage Fragmentation load-out complemented by an integrated point defense system give this model a deadly reputation throughout the Sector. However it is somewhat lacking raw firepower when facing particularly armored targets.
+diableavionics_strife,SHIP,"基于第六代万泽底盘而构建，凭借额外的电镀装甲与冗余系统，冲突-级不仅站在了万泽食物链的顶端，它还依靠多功能破片速射武器和整合点防御系统在星域中享有盛誉。但在面对全副武装的重型目标时，它因缺乏足够的反装甲武器而表现不佳。
 
-With an additional Sub-reactor Combo Fuel pack attached to the rear of the Strife, much-needed power is fed into the pulse drives to maintain a favorable acceleration curve despite the weight of the extra applique gigajoule electro-armor. Still, the extensive model upgrades made the chassis somewhat unwieldy for interception roles, but the tradeoff is that even a single wing is more than capable of taking apart an isolated frigate.",,,
+为了帮助高性能脉冲驱动器与沉重的武器系统的正常运作，该万泽联队的后方被额外附加了次级反应堆与混合燃料罐。由于所有关键区域{(包括四肢)}都被数层电镀装甲所覆盖，导致比其它万泽联队稍显笨拙的同时，难以扮演截击机的角色，但它仍能仅凭一己之力摧毁一艘与它缠斗的护卫舰。",,,
 ,,,,,
 ,,,,,
 # HOAR,,,,,
 ,,,,,
 ,,,,,
-diableavionics_hoar,SHIP,"The Hoar chassis is a late 6th generation Wanzer that benefited from a mature technological platform. As such it is a well-rounded and efficient design specifically tailored to work in tandem with larger ships. Their two AFP-99 ""Tombstone"" high-velocity guns are efficient at dispatching strike-crafts and missiles alike thanks to their exceptional accuracy, and they can quickly finish off ships previously damaged by heavy fire. The head-mounted compact Winee provides an intermittent ability to neuter a whole strike craft formation at once with EMP.
+diableavionics_hoar,SHIP,"基于第六代万泽底盘而构建的白霜-级，凭借成熟的技术平台，两门能灵活打击舰艇与导弹的{AFP{-{99}'墓碑'速射炮，以及能迅速利用EMP伤害瘫痪一整支战机联队的爆发式{威尼}EMPR，使其成为了专门与大型战舰协同作战的一种全面且高效的优秀设计。
 
-The development process of the Hoar-type chassis is still used today in master-classes on project management. The craft was produced on time, within budget, respected the design specifications, and incurred only a tiny number of casualties during testing. Hoars have since seen multiple updates to keep them relevant in the ever-evolving combat space, including improved engines, more weight-efficient armor, and better weapons. The use of a relatively large crew also offered interesting benefits when it came to multi-tasking and fine manipulations. As such, Hoars are often deployed to help with search-and-rescue operations after a battle. Their sturdy construction and two prehension devices being quite handy for such tasks.
+因其能在预算范围内按时生产，且严苛的设计规范使它在测试期间伤亡率极低，所以白霜-级的底盘研制过程至今仍被应用于之后的开发项目之中，此后，为了能迅速应对不断发展的空间战术，从而让白霜-级经历了多次升级，其中就包含了改进后的引擎，以及更轻更坚固的装甲与更优秀的武器。此外，当涉及到多任务和精细操作的战后搜救行动时，拥有较大框架、坚固结构以及预警装置的白霜-级，此刻正好能发挥出意想不到的优势。
 
-At some point the chassis was reaching its limits and was about to be limited to back-line escort duties when the Diable Avionics Design Board decided to use this well-refined type of strike-craft to test their prototype Quantum Targeting Prediction computers(TM). The somewhat rudimentary (compared to later version of both the computer and the software) targeting override revealed a depth of untapped potential: for a brief moment the test-Wanzer was able to accurately engage as many targets as the operators could feed the system with, and once coupled with a temporary shunt of all operational safeties, it could destroy most of them in that time-frame. Sadly the system cannot be kept online for long as the computer has to be maintained a few thousandths of a degree above absolute zero. On the other hand, the crews would not be able to survive its operation much longer either, especially when their Wanzer is nearly disassembling itself around them lining-up a dozen shots in couple of seconds.",,,
+在某些情况下，近卫护航任务显然并不是白霜-级的极限所在，因此，不满足于现状的恶魔航电设计委员会决定用这种优秀的万泽设计来测试他们的量子目标预测器{(TM)的原型机。这种有些简陋{(与后来计算机与软件相比)}的目标超控系统也得此揭示了其尚未开发的深度潜力：在极短的时间内，测试用的万泽不仅能精确打击尽可能多的目标，一旦解除系统安全限制，它就能在该时间段内摧毁大部分的目标。遗憾的是，必须在超低温下运作的该系统显然无法长时间内保持在线状态，而另一方面，在几秒钟内连续射击十几次时后随时可能解体的万泽意味着内部的船员们难以存活太久。",,,
 ,,,,,
 ,,,,,
 # WARLUST,,,,,
 ,,,,,
 ,,,,,
-diableavionics_warlust,SHIP,"Slow but having quite a long reach, these Wanzers carry a highly damaging sniper weapon, a Magicbox anti-missile launcher, built-in PD on the turreted sensory package and two small drones companions. This load-out allows them to dispatch lightweight targets quickly while maintaining a 360 degrees defense coverage, making them a superb escort strike-craft.
+diableavionics_warlust,SHIP,"缓慢而致命，凭借极具破坏力的远程动能武器、微型导弹发射舱、魔术盒反导发射器以及两架无人机，使其不仅能高效处理轻型目标，也能严防死守，而让该万泽足以扮演一种一流的护卫舰或攻击艇。
 
-The gold standard for defense Wanzers, a perfect balance of effectiveness at a still reasonable price tag. The Warlust chassis is for all intents and purposes an autonomous fully-featured point-defense solution. Built using a standardized connection system called MULS-P ""Multi-Unit Linkage System - Production"", this interchangeable system allows two differing series of 7th generation Wanzers parts to be matched together into a working unit, weapon calibration notwithstanding. Damaged parts can be swapped out and put aside to be repaired out of combat, reducing the workload for the rearming carrier craft.",,,
+不仅是防御类万泽的黄金标准，其合理的造价也完美平衡了其有效性。其底盘基于一种全自动化点防御解决方案，并采用标准化的{MULS-P}多元联动系统生产。通过这种可互换的智能系统，即使是两种不同系列的第七代万泽组件，在无需武器校准的前提下，也可相互匹配，因此，只需将损坏的零件替换出来，放置在一旁进行战斗外的维修，就可完成该万泽的整备流程，所以大大节约了航母的工作量。",,,
 ,,,,,
 ,,,,,
 # AVALANCHE,,,,,
 ,,,,,
 ,,,,,
-diableavionics_avalanche,SHIP,"The 7th gen ""Avalanche"" MBW is a monster in wolf's clothing. Heavily armored, armed with a twin shots Snub-Recson, a rack of Thunderbolt missiles and its signature D64-FLAK ""Snow Ball"" scatter-cannon, the Avalanche is already a very dangerous machine on paper. The fact that engineers built-in enough safe mechanical margins to sustain a few seconds of extreme performance overdrive is just the cherry on top of an already impressive cake.
+diableavionics_avalanche,SHIP,"第七代'雪崩'{MBW}是一架披着狼皮的怪物。不仅配备了厚重的装甲，且标志性{D64-FLAK}霰弹炮，雷霆导弹与瑞克森的致命组合，使'雪崩'仅在纸面数据上就看起来非常危险。事实上，工程师们还为此给它内置了一种过载系统来使其在数秒内发挥出极限性能，而这仅是这块令人印象深刻的蛋糕上的一颗樱桃而已。
 
-Fairly mobile for its size, the Avalanche is the Jack-of-all-trades of the 7th generation. Especially deadly to strike-crafts and frigates, it can tangle with heavier foes when properly supported. They are also the largest Wanzer model equipped with two Haptic AppropriatioN Devices making them uniquely suited for operation requiring fine manipulations and/or recovery. Crew mess tales recant the exploits of black-ops Avalanche pilots pulling off ""impossible"" sabotage operations, planting bombs on stations undetected long before they would be used, or snatching some enemy officer in their transfer shuttle right out of the sky.",,,
+作为第七代万泽的多面手，雪崩-级凭借其压倒性的体型，使它在打击战机与护卫舰时，更具破坏力，并在适当的支援下，也能威胁到较大的战舰。此外，所配备的触觉适应装置，让内部的驾驶者在精细操作或打捞任务中游刃有余。而那些王牌飞行员总愿意利用雪崩-级来完成'不可能'的特别行动，如在不被发现的前提下在空间站内安装炸弹，或直接在运输机中劫走敌方重要军官。",,,
 ,,,,,
 ,,,,,
 # BLIZZAIA,,,,,
 ,,,,,
 ,,,,,
-diableavionics_blizzaia,SHIP,"The perfect complement to a few wings of Avalanches or Warlusts, the Blizzaia brings the much needed heavy firepower required to break the strongest warships in the Sector. Their low speed makes them quite vulnerable, so providing a light escort is recommended to ensure they survive long enough to deliver their full payload.
+diableavionics_blizzaia,SHIP,"完美填补了与战意-级等突击型万泽联队协同作战时所缺失的重型火力。尽管它足以摧毁星域中最强大的战舰，但较低的航速导致其非常容易遭到火力拦截，因此建议配合一些轻型护航编队的掩护，来确保它们在存活的前提下，造成更多破坏。
 
-A bomber equivalent sporting a D13-4 ""Cicada"" grenade launcher and a Grave Light Auto-Cannon. Early models had teething issues regarding the grenades detonation timer, leading to several instances of friendly fire. Having un-powered and hard to track explosive devices floating around the enemy in a busy battlefield may sound like a good idea at first, but having your own fleet forced to fly through them will change that line of thinking.",,,
+一架相当于搭载有{D13-4}的'金蝉'榴弹发射器和一门轻型自动炮的轰炸机。鉴于早期型号的榴弹引爆定时器有些问题，而导致经常击中友军，而因此延长了引爆时间，尽管让这些难以预测的爆炸物从敌舰身边飘荡，起初听起来确实不错，但让自己舰队被迫飞过它们的时候，那就并不有趣了。",,,
 ,,,,,
 ,,,,,
 # ZEPHYR,,,,,
 ,,,,,
 ,,,,,
-diableavionics_zephyr,SHIP,"An early 9th gen model of Wanzer that later lead to both the Valiant-class and the Raven-class Wanzers. For the former, it demonstrated the validity of the concept of multiple energy configurations via physical component reconfiguration, aka Versatile Frame Design. For the latter, it proved that larger models of Wanzers were able to stand toe to toe with frigates, survive such encounter while still being serviceable by a modified Wanzer gantry (those now being the standard on all Diable Avionics ship models with Wanzer carrying capacity). 
+diableavionics_zephyr,SHIP,"诞生于勇士-级与渡鸦-级之前的一种早期第九代万泽设计。对于前者来说，这种通过物理组件重构技术{(又称通用框架)}证明了多能量武器配置的概念化设计的有效性。而对于后者，在体积方面印证了在兼容于万泽维修龙门架的同时，保证了大型万泽联队具备与护卫舰相提并论的战力。
 
-Despite having been designed to use traditional controls, this Wanzer also served as a test-bed for the vastly more efficient S-Type Neural Interface. Today's modernized retrofits are now using those by default and will only accept manual inputs after some minor cockpit modifications. Given the constant shortage of well trained S-type pilots, about 67% of the Zephyrs undergo the procedure immediately after exiting the production line, a fact often pointed out as a waste of resources by the administration.",,,
+尽管在设计之初采用了传统控制模式，但由于风神-级曾一度成为改进{S}型神经链接模块的实验机，(如今的现代化版本已经采用蓝图所设计的默认驾驶舱，并只接受手动操控模式)。不幸的是，鉴于训练有素的{S}型飞行员持续短缺，导致约{67%}的风神-级在退出生产线后就立即接受传统驾驶舱的改装，而这一事实经常被当时政府认为是一种毫无意义的资源浪费。",,,
 ,,,,,
 ,,,,,
 # VALIANT,,,,,
 ,,,,,
 ,,,,,
-diableavionics_valiant,SHIP,"The (current) pinnacle of strike-craft Wanzer technology, the Valiant received its ""Versatile"" designation from the ability to reconfigure its thruster profile for maximum velocity or maneuverability. This makes them the fastest Wanzers on the battlefield, alleviating the key weakness of the other models. In addition to speed, Valiant Wanzers are also equipped with a shield, a pair of Micro-Missile launchers, a PD turret and a pair of deadly miniaturized electromagnetic rifles. This well-rounded load-out allows them to effectively engage any target. Unsurprisingly, they come with a price tag matching their impressive performance.
+diableavionics_valiant,SHIP,"作为万泽技术的巅峰之作，勇士-级依靠重新配置推力配比，来达到最高航速的能力，使其获得了{""多面体""}的称号。而这一标志性的技术突破，不仅使它成为战场上最快的万泽，还弥补了其它型号的一个重要缺陷。除了速度，配备有护盾的勇士-级凭借微型导弹发射器、小型电磁步枪以及点防御系统，使其具备出色生存能力的同时，拥有对抗任何类型目标的能力。理所当然的是，令人印象深刻的价格标签也是一大亮点之一。
 
-Although the use of transforming Wanzers remains unreliable, their performance is not to be understated. The Valiant is a 9th+ generation Wanzer, incorporating expensive miniaturized TX-5 omni-shield technology and advanced energy weapons. Additionally, this Wanzer was designed to be able to reconfigure its hull components and internal machinery to maximize energy flow to its engines when required.
+尽管这种改造版的万泽非常稀有，但它们优异的表现依旧不容忽视。勇士-级作为第九代万泽联队，它们不仅配备了昂贵的微型{TX-5}全盾系统以及先进的能量武器，还拥有可变式船体框架与机械组件，以最大限度地增加引擎的能量配给。
 
-Due to the multiple control modes needed to operate the Valiant, most pilots get a surgically implanted neural-link interface called the S-Type device, which maps out neuron activity patterns for control inputs. Out of ten trained pilots fitted with the S-Type device, seven will show no side effects, two will have moderate to severe memory loss when disconnected from their Wanzer, and the remainder are afflicted with multiple personality disorders, psychosis or in rare instances, brain death. Those who do not survive the procedure are posthumously awarded two ranks.
-
-While far from being the most powerful Wanzer individually, they certainly are such when measured by weight.",,,
+由于操作勇士-级需要持续切换多种控制模式，使飞行员大多都需要通过外科手术植入被称为{S}型神经链接模块，使其可直接从运动神经元映射指令。不幸的是，所有植入{S}型模块的飞行员中，尽管有近七成没有出现明显的副作用，但仍有两成在与万泽断连后会出现中度到重度的记忆丧失，而其余的人将会出现多重人格障碍，精神疾病甚至是脑死亡。而那些没能撑下来的人，则会被追授二等荣誉勋章。",,,
 ,,,,,
 ,,,,,
 # RAVEN,,,,,
 ,,,,,
 ,,,,,
-diableavionics_raven,SHIP,"The Type-11 Raven is the heaviest 9th generation strike-craft Wanzers in the Diable Avionics catalog, thus the heaviest currently produced period. Being a good 50% larger than 7th gen frames, it can accommodate nearly full-size ship weaponry: a Grave HMG and a compact Glowtusk make those assault Wanzers quite effective against anything but the thickest defense. A compact Grazer Core and huge plates of ablative nano-armor complete the deadly package. 
+diableavionics_raven,SHIP,"11}型渡鸦-级作为最沉重的第九代万泽，由于机体比第七代整整增加了{50%，因此才可容纳标准版的舰载武器、相位漂移系统以及巨大的烧蚀纳米装甲。而掘墓者{HMC}与格罗斯线性突击炮的致命组合，使其能轻易威胁到重型舰船。
 
-While designed as a triple-seater craft to help spread the workload, the Raven can still be maned single-handedly by a 9th gen Wanzer pilot thanks to the S-type neural interface. Even with the extra volume and mass of this design, engineers were unable to incorporate both a TX-5 class shield emiter alongside a displacement system, the latter being ultimately kept to prevent outmaneuvering by enemy fighter forces. Mass production of such an advanced craft is not practical and thus comes with an eyebrow-raising price tag.",,,
+虽然采用三驾驶舱的设计，以帮助减少操纵者的工作量，但依旧可让具备{S}型神经模块的飞行员单独驾驶。基于扩展后的{MULS-P2}标准第九代工艺，尽管该设计特意拓宽了整体框架的体积与质量，但仍无法在搭载闪烁系统的同时加入{TX-5}护盾发生器。由于渡鸦-级采用了轻质但笨重的纳米结构与超轻型装甲纳米复合材料，但这种先进工艺目前依旧无法大规模生产，因此渡鸦-级即便是在{恶魔航电}的舰队中依旧非常罕见。",,,
 ,,,,,
 ,,,,,
 ,,,,,
@@ -405,78 +402,75 @@ While designed as a triple-seater craft to help spread the workload, the Raven c
 # IBIS,,,,,
 ,,,,,
 ,,,,,
-diableavionics_ibis,WEAPON,"The Integrated Ballistic Interception System is the mainstay CIWS solution of the Diable Avionics fleet, commonly seen mounted on both ships and Wanzers. Those weapons have an excellent interception ratio against all but the toughest torpedoes thanks to their signature spray pattern.",Point Defense,,
+diableavionics_ibis,WEAPON,综合弹道拦截系统是{恶魔航电}舰队的主流{CIWS}解决方案，因出色的拦截率，而通常作为战舰与万泽对空防御的最后一道防线。,点防御,,
 ,,,,,
-diableavionics_raptor,WEAPON,"An upscaled IBIS firing twice the amount of ordnance at a longer range thanks to the elongated barrels. Usually installed as the centerpiece of the point defense grid, the Raptor prioritizes compatibility over specialization to allow even the most mundane of ships to mount this reliable defense system. Predictable, portable, and potent all describe the Raptor in equal parts. 
+diableavionics_raptor,WEAPON,"通过加长的双联炮管，使这类升级后的{IBIS}拥有更好的射程与破坏力。而作为防御火力网的重要组成部分，其优秀的兼容性，使最普通的舰船也能安装这种强大的防御系统。因此，可靠、便捷、高效即是猛禽的代言词。
 
-It is not unheard of to switch the weapon to an aggressive firing profile and grind away at the exposed internals of warships, although doing so will distract the targeting computer from missile attacks.",Point Defense,,
+当用以打击装甲受损的舰体时，其咄咄逼人的破坏力也不禁让人眼前一亮，但这样往往会分散拦截{AI}的注意力，并被来袭的导弹趁虚而入。",点防御,,
 ,,,,,
 ,,,,,
 # RECSON,,,,,
 ,,,,,
 ,,,,,
-diableavionics_recson,WEAPON,"A best-in-class kinetic gun able to rend most shields apart quickly, and can even cleave through lightly armored targets at an alarming pace. The short barrel and oversized projectile makes for a relatively inaccurate weapon, an acceptable trade-off given the excellent range it can reach for such a small contraption.
+diableavionics_recson,WEAPON,"这种毁灭性的动能炮，不仅能迅速撕开大部分护盾，还能以惊人的速度劈开轻甲目标的舰体。短管和超大的炮弹使其精确度并不出色，但优秀的射程却足以弥补这个缺点。
 
-Built around a robust laser-cooled electromagnetic accelerator firing dense molybdenum-tungsten alloy rods. The special ammunition creates disruptive wave patterns when annihilated by shields, causing their integrity to lower rapidly until they ultimately fail.",Assault,,
+具备激光冷却系统的磁轨炮，能发射出致密的钼钨合金棒，当命中护盾时，该弹药产生的独特波浪反应能迅速降低护盾效能，直至最终失效。",突击,,
 ,,,,,
-diableavionics_recson2,WEAPON,"One of the most iconic designs of the Diable Avionics Navy, a devastating dual Kinetic gun that rends most shields apart quickly at long range, and can even cleave through lightly armored targets at an alarming pace.
+diableavionics_recson2,WEAPON,"作为{恶魔航电}最具标志性的武器设计之一，这种毁灭性的双联装动能炮，不仅能迅速撕开大部分护盾，还能以惊人的速度劈开轻甲目标。
 
-The ""Recson V"" is a dual electromagnetic accelerator with integrated laser cooling system to flash freeze the accelerator rails after each cycle. This process is relatively inefficient but extremely fast, allowing the weapon to sustain a rapid fire-rate throughout a battle without much thermal wear. Weapon testing revealed that the special molybdenum-tungsten alloy ammunition creates disruptive wave patterns when annihilated by shields, causing their integrity to lower rapidly until they ultimately fail.",Assault,,
+瑞克森{V}是一种配备双电磁加速器与激光冷却系统的复杂武器。尽管相对低效，但过程却非常之快，从而允许武器在没有太多热磨损的情况下，在整场战斗中保持压制火力。经测试，特殊的钼钨合金棒在命中护盾时会产生破坏性的波动，从而迅速降低护盾效能，直至最终失效。",突击,,
 ,,,,,
 ,,,,,
 # ARTASSAULT,,,,,
 ,,,,,
 ,,,,,
-diableavionics_artassault,WEAPON,"A quick-bursting revolver cannon that fires high explosive shells. Easily tears into frigate grade armor although the high rate of fire and short barrel limit its accuracy as well as its range.
+diableavionics_artassault,WEAPON,"发射高爆弹的速射式转轮突击炮。虽然极高的射速降低了精确度，但依旧能轻易威胁到护卫级的轻型装甲。
 
-The M66 ""Artassault"" revolver cannon is a specialized assault weapon made for hit and run tactics. With five plasma cartridges at the ready, the Artassault is nearly guaranteed to deliver a harsh message to pirates and civilians alike. To prevent wear, the gun is liquid-cooled using the recoil itself to circulate the refrigerating fluid inside a micro-tubes jacket sandwiched between the inner thin carbide barrel and the outer aluminium structural tube.",Assault,,
+M}66}阿特赛转轮突击炮是一种应用于打击与逃跑战术的突击武器。随着{5}枚等离子弹头被高速射出，阿特赛所爆发出的惊人火力，绝对是那些海盗或民用舰所不愿看到的。
+
+为了提高可靠性，该炮利用后坐力来进行液态冷却，以使冷却液在硬质合金枪管与外部铝制结构管间的微管套内持续循环冷却。",突击,,
 ,,,,,
-diableavionics_artdeux,WEAPON,"A twin belt-fed cannon with overwhelming fire-rate and decent range. This device offers a unique option to capitalize on any opening with supreme prejudice, if given enough margin in the flux grid capacity to properly deploy its full damage potential.
+diableavionics_artdeux,WEAPON,"独特的双联速射式火炮，拥有压倒性的火力与良好的射程。
 
-The M266 ""Artdeux"" uses the same ammunition from the M66 ""Artassault"" revolver cannon, this time assembled in belts to increase the burst size significantly. The elongated barrels give it a significantly higher range and accuracy, albeit with slightly less punch per hit due to thermal limitations. The overwhelming impact of the Artdeux doubles as a potent psychological tool: it can drive enemy captains to fight too cautiously, giving up the initiative with deadly outcomes.",Assault,,
+尽管}M}266}'阿特克斯'使用了M}66}'阿特赛'同口径的弹药，但因采用了弹链式供弹具，而使其备弹量大大提高，此外，加长的炮管不仅让它的射程与精度都有明显提升，但受到过热方面的影响，使其每次命中的冲击力稍有下降。无论如何，'阿特克斯'其压倒性的破坏力将成为大多数敌方舰长不可逾越的心理障碍，这不仅迫使他们需要更谨慎的战斗，也迫使他们放弃了最关键的主动权。",突击,,
 ,,,,,
 ,,,,,
 # GRAVE,,,,,
 ,,,,,
 ,,,,,
-diableavionics_graveac,WEAPON,"The Grave Light Auto-Cannon brings forth a strong anti-shield tool into a very small package. A multi-barrel brute-force approach gives it a strong alpha strike potential, although the long reload time can be a huge liability if it fails to crack the enemy's defenses.
+diableavionics_graveac,WEAPON,"将强大的反护盾利器小型化后的成功案例。尽管这种野蛮的打击武器具备极高的破坏潜力，但较长的重装时间，使其压制力非常糟糕。
 
-The design shares a large number of components with its bigger brother the Grave Machine-Gun, notably the same high-end ammunition, leading to both a reasonable price tag and a simplified maintenance. Bulk orders of both weapons used to yield significant discounts before the Collapse.",Assault,,
+该设计与它的大兄弟'掘墓者{HMC'共享了大量的组件，尤其是相同的高端弹药，而导致造价比较合理，且维护简单。而这两款武器的批量订单均在'大崩塌'前都有很大的折扣力度。",突击,,
  ,,,,,
-diableavionics_gravemg,WEAPON,"A devastating high-powered machine-gun. This Electrothermal-Chemical gun firing penetrating slugs is a welcome addition to any loadout focussed on raw damage output rather than range.
+diableavionics_gravemg,WEAPON,"能持续发射电热化学穿透弹的速射突击炮，对那些注重破坏力而非射程的船长来说，它总是一个不错的选择。
 
-The beating heart of this cannon is the unique ammunition fired: the plasma catalyzed liquid-propellant drives a high-density contact-fused ""Sabot"" type penetrator. Upon impact with a ship's shield, a secondary charge is detonated and adds its energy to the already considerable velocity of the projectile in a devastation one-two punch. Risks of ammunition cook-off are mitigated due to the reactants being inert when not submitted to an electric current.",Assault,,
+该武器的心脏当属装填的独特弹药：一种通过等离子体催化的液体推进剂，所驱动的高密度接触融合式的穿甲弹。当与标准护盾撞击时，二次装药将被引爆，并在弹丸已经拥有相当高的速度上增加能量，从而形成一举两得的高度破坏性。由于反应剂在不受电流作用时是惰性的，因此弹药被炸毁的风险有所减轻。",突击,,
 ,,,,,
 ,,,,,
 # GLOWTUSK LINEAR RIFLE,,,,,
 ,,,,,
 ,,,,,
-diableavionics_glowtusk,WEAPON,"The Glowtusk Linear Rifle is an old piece of technology, hence why it uses an admittedly inhumane nuclear fission fuel rod as the main method of inflicting damage. Effective against both armor and hulls, but adequately mitigated by shields.
+diableavionics_glowtusk,WEAPON,"格罗斯线性突击炮采用了一种相对古老的技术，而这就是为什么仍然使用相当不人道的核裂变燃料棒来作为所装填的弹药。但不可否认，这种原始炮弹不仅能有效破坏装甲，还能稍微削弱较弱的护盾。
 
-Only a few steps away from barbarism, the Glowtusk is the result of intentional psychological warfare design. The composite uranium fuel rod is launched at speeds high enough to start nuclear fission on contact with a solid object. The low efficiency of a surface detonation leads to poor shield penetration but once the offending protection is bypassed, the explosive effect is nothing short of spectacular. 
- 
-While tolerated for space combat, atmospheric use of such weapons would be considered a war crime given the eon-lasting radioactive fallout they cause. Pre-Collapse trials against the Diable Avionics Corporation forced their Weapon Division to revise the composition of the fission rod to limit the half-life of the produced isotopes to less than five hundred thousand Old Earth years, an injunction that activists at the time qualified as ""nothing short of insulting and meaningless"".",Support,,
+仅仅只需几步，这种野蛮且漠视人类生命的残暴武器就能发挥出全部功效。由于会以极高的速度将这种复合铀燃料棒迅速推出，以此使其在接触到固体表面时立即开始核裂变，但也正因如此，导致它对护盾的穿透力比较糟糕，可一旦侥幸绕过这层防护，其产生的爆炸效果则是非常壮观的。
+
+虽然在太空作战中可被容忍，但考虑到这种武器可被应用到大气乃至地面作战中，它们会产生持续时间极长的放射性沉降物的特性会被认为触犯了战争罪。正因如此，'大崩塌'前的{人之领}对{恶魔航电}的审判迫使他们的武器部门修改了裂变棒的组成，将产生出的同位素的半衰期限制在{50}万年以下，这一禁令则被当时的批评家们评价为：'简直就是种侮辱且毫无意义'。",支援,,
 ,,,,,
-diableavionics_glowfang,WEAPON,"The Glowfang equation Rifle is an old piece of technology, hence why it uses an admittedly inhumane nuclear fission fuel rod as the main method of inflicting damage. Effective against both armor and hulls, but adequately mitigated by shields.
-
-Only a few steps away from barbarism, the Glowfang is the result of intentional psychological warfare design. The composite uranium fuel rod is launched at speeds high enough to start nuclear fission on contact with a solid object. The low efficiency of a surface detonation leads to poor shield penetration but once the offending protection is bypassed, the explosive effect is nothing short of spectacular. 
- 
-While tolerated for space combat, atmospheric use of such weapons would be considered a war crime given the eon-lasting radioactive fallout they cause. Pre-Collapse trials against the Diable Avionics Corporation forced their Weapon Division to revise the composition of the fission rod to limit the half-life of the produced isotopes to less than five hundred thousand Old Earth years, an injunction that activists at the time qualified as ""nothing short of insulting and meaningless"".",Support,,
 ,,,,,
 # MOSTRO CANNON ARRAY,,,,,
 ,,,,,
 ,,,,,
-diableavionics_mostro,WEAPON,"A massive quad-barrel dual-linked cannon array designed to tear through starship armor at an alarming rate. The high-density plasma shells leave little room for range or efficiency, but the unrelenting fire-rate more than makes up for that.
+diableavionics_mostro,WEAPON,"大型四联装加农炮阵列，旨在以惊人的破坏力撕裂星舰装甲。但高密度的等离子体炮弹，意味着射程与效率方面并不出色。
 
-A capital grade variant developed from the experience acquired while designing the Grave HMC and the Artassault. Utilizing sophisticated autoloaders similar to the Grave in tandem with the Plasma shell technology perfected in the Artassault ammunition, the Mostro is able to deliver around 120 heavy anti-armor rounds a minute. The explosive mass they contain is enough to break any armor in few hits, and with such a barrage of shells, hits are exceedingly hard to dodge. The slightly lackluster range could be seen as a liability, if it was not for the renowned mobility of the Diable Avionics Corporation ships.",Assault,,
+基于掘墓者{HMC}与阿特赛而制成的大型武器。利用掘墓者复杂的发射机理以及阿特赛的等离子弹头技术，莫斯特罗能每分钟发射近{120}枚反装甲弹，其蕴含的爆炸力足以在短时间内击破任何装甲，大量的弹药也令敌人难以规避。鉴于{恶魔航电}的战舰均拥有不错的机动性，它略显不足的射程是可以被接受的妥协。",突击,,
 ,,,,,
 ,,,,,
 # OPFER GV SUPPRESSION ARTILLERY,,,,,
 ,,,,,
 ,,,,,
-diableavionics_opfergv,WEAPON,"The Opfer GV is a massive weapon system built around the core of four heavy Gatling cannons. Able to unleash utter devastation upon any and all shield systems, the Opfer has become a well known, and very much feared, sight on Diable Avionics hulls.
+diableavionics_opfergv,WEAPON,"围绕四门重型转轮机枪建造成的大型武器系统。由于能对任何护盾造成巨大压力，而使'牺牲者'成为了{恶魔航电}最臭名昭著的武器。
 
-The sheer bulk of the weapon does little to hide the brute-force approach of the design. While there are countless instances clever engineering tricks to reduce the overall volume, the Opfer is a massive contraption with little to no concession made for ease of installation or maintenance: With half the turret consisting just ammunition feeds and cooling elements, a small bridge had to be fitted on top for a small crew to fix ammo jams or mitigate overheating issues.",Assault,,
+这款武器的巨大体积几乎无法掩盖其设计时的野蛮风格。虽然已经有无数的能工巧匠试图减少其整体体积，但'牺牲者'因庞大的冷却装置，而在安装与维护方面几乎没有做出任何让步。因炮塔内有一半的空间均被弹药装填器与冷却元件所塞满，而特意在顶部加装了小型桥梁，来帮助小个子的维修人员迅速解决经常出现的卡壳与过热的问题。",突击,,
 ,,,,,
 ,,,,,
 # ENERGY WEAPONS,,,,,
@@ -487,93 +481,94 @@ The sheer bulk of the weapon does little to hide the brute-force approach of the
 # WINEE,,,,,
 ,,,,,
 ,,,,,
-diableavionics_winee,WEAPON,"A private offshoot of the classic Ion Cannon modified into a quick burst firing weapon to capitalize on short opening rather than be used as a constant disabler. More efficient against larger targets given the wide spray pattern.
+diableavionics_winee,WEAPON,"经典离子炮的独特分支，这种高速突击武器，以牺牲持续压制力来大幅强化短期爆发力而著称，鉴于所发射的能量弹散布较广，因此建议用以打击大型目标。
 
-The Winee sadly was a failed commercial venture, as the early models had terrible reliability driving up ongoing costs. By the time all the kinks were ironed out the reputation of the device was well established and no amount of rebranding could save it, especially when competing with the reliable and cheap Ion Cannon.
+可悲的是，作为一种失败的商业投资计划，因早期型号可靠性很差，而导致维护成本非常高昂。尽管如今所有问题均得到解决，但该武器的'好名声'早已家喻户晓，且再多的重塑品牌宣传也无法拯救，最重要的是，它还需要把更可靠且廉价的离子炮作为竞争对手。
 
-The early release was the idea of a now anonymous executive that attempted to drive up their end-of-the-year results. Early sales did earn them a large bonus before the issues started to crop up. 
- 
-Despite heated protests that they warned their superior about those problems and that the project could never have met its imposed deadline, the entire engineering staff was fired right after they fixed all the reported failure points. A subsequent inquiry did acknowledge their version of the project's demise. The branch's board of directors asked the executive to resign, offering them a generous severance package to keep the whole ordeal under wraps. None of the workers were re-hired afterward.",Support,,
+早期版本的构想来自于一名匿名高管，目的是提高他们的年终业绩。由于在初期并未出现问题，因此那些早期销售出去的订单确实为这个团队赢得了一大笔奖金。
+
+尽管有人曾强烈抗议说，他们曾就这些问题警告过他们的上级，因为该项目在当时远远无法达到所宣传的效果，但当这些人修复了所有报告的故障点后，整个工程队全员仍遭到解雇。虽然在随后的调查中，他们确实承认应该对该项目的失败负有不可推卸的责任。而分公司的董事会则要求项目高管自行辞职，并给他们提供了一笔丰厚的离职补偿金，来掩盖整个事件。之后，这些工人均未被重新雇佣。",支援,,
 ,,,,,
 ,,,,,
 # BURCHEL,,,,,
 ,,,,,
 ,,,,,
-diableavionics_burchel,WEAPON,"An oscillating meson emitter with a respectable damage potential, but sometimes falls short due to its limited number of capacitors and lack of a clear-cut doctrinal niche.
+diableavionics_burchel,WEAPON,"简单的振荡介子发射器，具有很高的破坏潜力，但受限于电容器容量，其有效性并不是那么让人满意。
 
-Using emerging mechanics of meson-phase contamination, the life expectancy of the stream of stable mesons is extended long enough for viable military use. Although the damage output is nothing to scoff at, the limited range relegated it to point defense roles rather than assault as initially envisioned. Still, when nothing else is available, they can reliably be used against lightly armored enemy ships.",Point Defense,,
+利用介子相位污染力学的原理，通过稳定介子流的寿命，来延长到足够的留存时间用以军事用途。尽管其破坏力没有什么是值得嘲笑的，但使用的融合单元却限制了每次发射周期中，转换介子的总量。即便如此，当用来拦截单一目标时，其所具备的爆发力是其它同类型武器所无法比拟的。",点防御,,
 ,,,,,
-diableavionics_glaux,WEAPON,"A heavy oscillating meson emitter array with a high damage potential, but somewhat held back by its limited number of capacitors.
+diableavionics_glaux,WEAPON,"沉重的振荡介子发射器阵列，具有极高的破坏潜力，但受限于电容器容量，导致其有效性大打折扣。
 
-The ""Glaux"" Lance Repeater was the culmination of many attempts of harnessing the volatile meson subatomic particle. Issues of meson stability had to be solved by enveloping each pulse of mesons within a temporary phase field to extend their half-life. Being one of the first implementations of such a weapon, it had yet to be properly miniaturized, unlike its younger sibling the ""Burchel"".
+格洛激光炮是一种试图利用不稳定的介子与质子间的相互作用而制成的武器，通过使用临时相位立场的包裹，来延长介子的半衰期。作为此类武器的首批原型之一。由于未被小型化，且依旧采用陈旧的量子半导体电容器，因此相较于它的小表弟""布舍尔""，它只能被安装在中型武器槽之中。
 
-Using such immature and inefficient technology could seem unwise for a military device, but the early development goal was to create a weapon for covert operations: the kind of application where causing an unusual profile of damage was a desired feature in and of itself to prevent traceability. Of course as soon as the cat was out of the bag, that same unusual profile became an unmistakable signature, but this was expected and further refinements on the Glaux made it a serviceable alternative to other conventional burst beam weapons.",Assault,,
+使用这种不成熟、效率低下的技术对于一个军事势力来说似乎并不明智，但在早期的开发中，以秘密行动的武器为设计理念就不难猜出这样选择的理由：最大限度的隐蔽性，以及防追踪特性。但其独特的外形却仍成为了一个最为明显的特征，尽管在意料之中，但也迫使对格洛激光炮的进一步改进中使其最终成为传统突击光束武器的替代品。",突击,,
 ,,,,,
 ,,,,,
 # STATE,,,,,
 ,,,,,
 ,,,,,
-diableavionics_state,WEAPON,"An intermediate beam weapon consisting of a pair of linked positron emitters. Lower range compared to contemporary beams put packs a superior punch.
+diableavionics_state,WEAPON,"由双联正电子发射器所组成的中程光束武器，与其它现代光束武器相比，尽管射程较低但更具威胁。
 
-The ""State"" positron emitter system is a specialized particle beam connected to the host vessel's reactors to power the relatively inefficient matter/antimatter creation process. The choice of positrons limit range due to self repulsion, but that same property makes them much easier to manipulate into a weaponized beam.
+斯塔特正电子发射器系统是一种与舰船主反应堆相连的专用粒子束，由于是利用效率较低的反物质生成来提供能量，因此自身的排斥反应限制了正电子束的有效范围，但也正因如此，使它们更适合扮演一种军用破坏光束。
 
-A segment of the Diable Avionics military particularly proud of the technological achievements of their weapon division has for a long time criticized the State for being ""too mundane"". They would deliberately eschew what is in essence a bland but effective device in favor of something unusual but less potent, claiming that esoteric weapons have the added benefit of a deep psychological impact upon the enemy crews. While studies did acknowledge some veracity to these claims, it is unclear if the trade-off is strategically favorable.",Fire Support,,
+长期以来，作为小部分{恶魔航电}武器部门特别引以为傲的技术成果，这些公然批评自己国家'太过世俗'的技术狂人们，总会特意避开那些平淡却行之有效的装置，并转而选择一些不寻常但威力较小的东西，并声称越高深莫测的武器将对敌方机组人员的心理带来更负面的影响。虽然有研究承认了这一说法的真实性，但目前还尚不清楚这种权衡能在战略带来多少有利之处。",火力支援,,
 ,,,,,
 ,,,,,
 # NOCTURNE,,,,,
 ,,,,,
 ,,,,,
-diableavionics_nocturne,WEAPON,"The Nocturne EMP system trades the upfront flux efficiency and range of a standard Ion Beam for a vastly superior shield penetration. 
+diableavionics_nocturne,WEAPON,"通过削弱标准离子束的幅能输出率与有效射程而换取触发几率更高的穿盾{EMP}电弧。
 
-The Nocturne is often mistaken for a beam, but it does not technically emit particles of any sort. It instead projects a stream of low density nano-tubes ladden with a network of molecular EMP emitters, barely more complex than single atom coils. When the target is physically linked with the host ship, an electrical surge activates the emitters that are closest to the enemy ship and disrupt their electrical grid. This constant barrage of high velocity fragments is also highly effective at destabilizing shields.",Support,,
+经常被误认为光束武器的夜曲，实际上是一种投射高密度纳米电磁铁的古怪发射器，在发射电涌前，该武器将会试图与目标进行物理链接，之后无论成功与否均将激活离敌舰最近的电磁铁，从而扰乱其护盾的扩散循环系统，从而使一种短期且恒定的粒子流越过护盾打击目标舰体本身。",支援,,
 ,,,,,
 ,,,,,
 # LAZYHORN,,,,,
 ,,,,,
 ,,,,,
-diableavionics_lazyhorn,WEAPON,"The Lazyhorn Warp Projector is the combination of gravitational manipulation mixed with warp physics to create a highly volatile point defense weapon.
+diableavionics_lazyhorn,WEAPON,"结合了引力操纵与曲速物理而制成的一种高度不稳定的点防御武器。
 
-For all the point defense options the Diable Avionics Corporation had at their disposal, they still struggled with massive volleys of incoming ordinance. This piece of antiquated technology could be described as a stripped-down civilians hyperspace core attached to two gravitic control matrices to utilize hyperspace energy as pseudo proximity charges. By causing space-time ""vortices"" with pinpoint gravity wells, multiple weak but viable hyperspace points are temporarily generated. These points are very much unstable and will collapse readily when matter interacts with them, a perfect outcome to use as a weapon.
+尽管{恶魔航电}拥有一整套全方位的点防武器系统，但仍无法有效抵挡突如其来的饱和打击。为此，该武器所利用的过时技术可大致概括为：将一种拆卸下的民用超空间核心安装在两组重力控制矩阵上，利用超空间能量作为伪临近电荷，通过使用精确重力井来强制时空塌缩，并临时生成多个可行的超空间点。由于时空塌缩的性质，导致这些点不仅极不稳定，且与任何物质相互作用时，则很容易发生崩溃，因此非常适合作为武器。
 
-The very small gradients achievable prevent the use of such weapon as a proper anti-ship weapon, but it is nonetheless perfectly suited to deal with unarmored missiles.",Point Defense,,
+由于可实现的梯度非常小，因此无法将这种武器作为合适的反舰武器来使用，但仍完全可以用来对付没有装甲的导弹。",点防御,,
 ,,,,,
 ,,,,,
 # SRAB,,,,,
 ,,,,,
 ,,,,,
-diableavionics_srab,WEAPON,"The SRAB guided charge is a re-engineering of a mining device. While its civilian version was ill-suited to combat use, the massive amount of xenon tetroxide contained in the militarized homing impactor nows lends a credible threat to any target. 
+diableavionics_srab,WEAPON,"SRAB}制导发射器是一种采矿装置的军事化变种。虽然它的民用版并不适合用来战斗，但这种利用包裹有三氧化氙与制导模块的军用版，依旧能威胁到绝大数电镀装甲。
 
-Directly shaped in its low-temperature crystalline form, the projectile is uncommon in that the detonating compound itself is used as the structural body, without any outer skin of any kind. All electronic components are fixed on top of the explosive. Steering is achieved by local ablation of the outer layer of xenon tetroxide using a low power laser, and the detonation is initiated by a simple contact fuse. The explosion from such a device liberates large quantities of pure oxygen, usually triggering many electronic safeties in the target to prevent secondary fire. 
- 
-However the lack of protective skin on the projectile means that a few well-placed shots have the potential of causing an early detonation.",Support,,
+所发射的弹丸不仅直接以低温结晶的形式直接成型，且因引爆化合物本身即是作为结构体，并没有任何外壳，因此所有电子元件都需固定在炸药上，并通过低功率的激光器对四氧化二氮氙气外层进行局部烧蚀，从而通过简单的接触引信启动引爆。由于这种装置的爆炸会释放出大量的纯氧，而通常会触发目标中的许多电子保险装置，来防止二次起火。
+
+但由于弹丸没有任何保护外壳，因此可能提前爆炸。
+",支援,,
 ,,,,,
 ,,,,,
 # HEXAFIRE,,,,,
 ,,,,,
 ,,,,,
-diableavionics_hexafire,WEAPON,"A single barrel rapid-loading energized fusion bolt projector. The weapon fires small darts of vaporized heavy elements in a grid pattern, a generation method that benefits from higher flux levels. The high velocity, high temperature, high-density projectiles have also a decent effect on armor.
+diableavionics_hexafire,WEAPON,"能快速装填的单管能量聚变发射器，因在发射时产生较高的幅能，而使该武器能以网格状的方式发射气化后的重元素的小型飞镖。而这些高速、高温、高密度的弹丸也足以威胁到大部分的装甲。
 
-The Hexafire scatter-cannon was designed merely decades before the Great Collapse, during a paradigm shift in weapon design attempted to reduce the logistical loads of auto-factories. At the time, production lines were under stress due to increasingly complex and esoteric munitions to produce. The project director had for objective to create a jack-of-all-trades close combat weapon using the easiest to produce ammunition that could still be patented and sold for profit with said weapon system.
+焱式霰弹炮诞生于{""大崩塌""}前几十年里，在此期间的设计迭代中，随着所生产出的弹药越来越复杂且深奥，而导致自动工厂的后勤负担日益繁重，因此，项目负责人最终决定利用最易生产的弹药来制造出一种万能的近战武器，如今该武器不仅获得了多项专利，还通过出口贸易获得了不菲的利润。
 
-The device's principle is simple: a disk-shaped lattice of lightweight conducting metal meshed with thin cones of heavier material is inserted into a firing chamber. The disk is then subjected to an intense current using a high power capacitor, causing the metal to brutally vaporize and expand. Through sheer mechanical force it will melt and squeeze out the heavy darts. 
+该武器的原理非常简单：将一个由轻质导电金属制成的网状圆盘与较重材料制成的薄锥体所组成的发射室，利用高功率电容器对该圆盘施加强电流，使金属残酷地汽化并膨胀，最后通过纯粹的机械力，将其熔化并挤出。
 
-The ammunition is exceedingly simple to produce since it does not require any electronic component. It is also completely inert and safe to store in the turret bustle. The accuracy is only limited by the precision of the assembly, opening the possibility to sell higher quality ordnance at a much higher price. At the highest tier, the projectile darts are made of special alloys that can be ""supercharged"" for additional damage by being directly exposed to flux from the ship's energy grid.",Assault,,
+而弹药生产方面同样简单，因为它无需任何电子元件，且完全是惰性的，因此可以安全地存放至炮塔弹药库内。而精度仅受限于弹药的生产工艺规格，这就为以更高的价格出售更高质量的弹药提供可能，而最高级别的弹药，因采用特殊合金制成，即可在接触到目标舰载能量网时造成额外伤害。",突击,,
 ,,,,,
-diableavionics_hexafire2,WEAPON,"A twin barrel rapid-loading energized fusion bolt projector. The weapon fires small darts of vaporized heavy elements in a grid pattern, a generation method that benefits from higher flux levels. The high velocity, high temperature, high-density projectiles have also a decent effect on armor.
+diableavionics_hexafire2,WEAPON,"能快速装填的双联能量聚变发射器，因在发射时产生较高的幅能，而使该武器能以网格状的方式发射气化后的重元素的小型飞镖。而这些高速、高温、高密度的弹丸也足以威胁到大部分的装甲。
 
-The Hexafire scatter-cannon was designed merely decades before the Great Collapse, during a paradigm shift in weapon design attempted to reduce the logistical loads of auto-factories. At the time, production lines were under stress due to increasingly complex and esoteric munitions to produce. The project director had for objective to create a jack-of-all-trades close combat weapon using the easiest to produce ammunition that could still be patented and sold for profit with said weapon system.
+焱式霰弹炮诞生于{""大崩塌""}前几十年里，在此期间的设计迭代中，随着所生产出的弹药越来越复杂且深奥，而导致自动工厂的后勤负担日益繁重，因此，项目负责人最终决定利用最易生产的弹药来制造出一种万能的近战武器，如今该武器不仅获得了多项专利，还通过出口贸易获得了不菲的利润。
 
-The device's principle is simple: a disk-shaped lattice of lightweight conducting metal meshed with thin cones of heavier material is inserted into a firing chamber. The disk is then subjected to an intense current using a high power capacitor, causing the metal to brutally vaporize and expand. Through sheer mechanical force it will melt and squeeze out the heavy darts. 
+该武器的原理非常简单：将一个由轻质导电金属制成的网状圆盘与较重材料制成的薄锥体所组成的发射室，利用高功率电容器对该圆盘施加强电流，使金属残酷地汽化并膨胀，最后通过纯粹的机械力，将其熔化并挤出。
 
-The ammunition is exceedingly simple to produce since it does not require any electronic component. It is also completely inert and safe to store in the turret bustle. The accuracy is only limited by the precision of the assembly, opening the possibility to sell higher quality ordnance at a much higher price. At the highest tier, the projectile darts are made of special alloys that can be ""supercharged"" for additional damage by being directly exposed to flux from the ship's energy grid.",Assault,,
+而弹药生产方面同样简单，因为它无需任何电子元件，且完全是惰性的，因此可以安全地存放至炮塔弹药库内。而精度仅受限于弹药的生产工艺规格，这就为以更高的价格出售更高质量的弹药提供可能，而最高级别的弹药，因采用特殊合金制成，即可在接触到目标舰载能量网时造成额外伤害。",突击,,
 ,,,,,
 ,,,,,
 # UHLAN ARTILLERY,,,,,
 ,,,,,
 ,,,,,
-diableavionics_uhlan,WEAPON,"A powerful heavy weapon formerly used to soften up offending stations. Improvements in targeting systems and refinements of the muzzle geometry improved the accuracy enough to make a serviceable anti-ship weapon: Difficult to install and unreliable, but quite devastating when it connects. 
+diableavionics_uhlan,WEAPON,"曾作为打击非法空间站的重型武器，但通过对瞄准系统与炮口几何形状的改进，使其成为适合战舰搭载的大型远程反舰系统。虽难以安装且精确度糟糕，但却极具破坏力。
 
-This massive array of machinery is often the first and last word in long-range combat operations. Built upon a plethora of sub-systems for cooling and massive focal tunnels, the Uhlan vertically stacks three x-ray laser assemblies that feed into the ""barrel"" of the 40-meter long x-ray mirror tunnels. The weapon itself requires low yield nuclear charges to be detonated inside the breech assembly to power the laser. Snap deployment high-strength internal shields protect the machinery from the brunt of the blast. From the outside one will notice the over-sized heat-sinks and the breech itself exposed occasionally for a cooling cycle. During the firing process, crews often report gravitational as well as phasic anomalies occurring within the area of the breech, likely in relation to the high energies at play.",Assault,,
+这种庞大的机械阵列通常都是远程作战行动中的尾声。枪骑兵建立在一种庞大的散热元件与大型聚焦隧道系统之上，并通过将三个垂直的激光组件堆叠至{40}米长的{X}射线镜面隧道的{""枪管""}之中。由于武器本身要求在膛内引爆融核电荷，以便为激光器提供能源，但在这种机制下的内部组件居然未被高温所瞬间气化的原理，至今依旧是个未解之谜。但一些直觉敏锐的人却从中发现，该武器除了配备了超大型的散热器，其尾部不仅在发射期间逐渐向后位移，且众所周知的是，一些未知的重力与相位异常读数都发生在这处后膛区域，或许这可能与某种深奥的冷却技术有关。",突击,,
 ,,,,,
 ,,,,,
 # MISSILE WEAPONS,,,,,
@@ -584,87 +579,87 @@ This massive array of machinery is often the first and last word in long-range c
 # BANISH,,,,,
 ,,,,,
 ,,,,,
-diableavionics_banishsmall,WEAPON,"A single-use torpedo with a degeneracy warhead used to crush targets while inducing numerous side effects on contact. Potent against both hull and shields, but somewhat weaker against armor compared to conventional high yield torpedoes. The interferences caused by the warhead once armed deny any useful level of tracking thus it is remotely pre-aimed before lighting the torpedo's engine.
+diableavionics_banishsmall,WEAPON,"用于粉碎目标或压制护盾的一种具有简并性弹头的特殊鱼雷，但在反装甲方面要弱于传统鱼雷。由于弹头在发射后将产生极高的干扰波，而使任何类型的制导系统失效，因此才被迫采用了预先瞄准的方式来发射鱼雷。
 
-Degeneracy weapons are relatively rare in the Sector due to high maintenance costs while sitting inactive in storage. Indeed the warheads contain a pair of micro-pellets of degenerate matter that collapse when colliding with each other at high speed, generating a femtosecond lived black hole. However maintaining the delicate balance of energy to stabilize the quantum state of the pellets is an arduous task, not event mentioning avoiding premature impacts in a spaceship that can be exposed to enemy fire.
- 
-To prevent deadly accidents the warhead is heavily armored and the pellets are physically separated to prevent unwanted detonations. A beneficial side effect of this heavy shielding is a relatively high resistance to interception.",Strike,,
+较高的维护成本与弹药储存难度，使这种简并性武器在这片星域中是比较罕见的。事实上，该鱼雷的弹头内含有一对微颗粒状的简并物质，在高速碰撞时，将会产生微秒级的黑洞，并在相互作用后崩溃。然而，要维持微妙的能量平衡来稳定弹头内的简并物质是一项艰巨的任务。
+
+为了防止致命事故的发生，弹头采用了极为厚重和装甲，来物理隔离外界环境，以防止不必要的引爆。而这种重装防护的唯一优势，就是让该鱼雷拥有较高的抗拦截能力。",打击,,
 ,,,,,
-diableavionics_banish,WEAPON," A reloading launch tube firing a torpedo with a degeneracy warhead used to crush targets while inducing numerous side effects on contact. Potent against both hull and shields, but somewhat weaker against armor compared to conventional high yield torpedoes. The interferences caused by the warhead once armed deny any useful level of tracking thus it is remotely pre-aimed before lighting the torpedo's engine.
+diableavionics_banish,WEAPON,"用于粉碎目标或压制护盾的一种具有简并性弹头的特殊鱼雷，但在反装甲方面要弱于传统鱼雷。由于弹头在发射后将产生极高的干扰波，而使任何类型的制导系统失效，因此才被迫采用了预先瞄准的方式来发射鱼雷。
 
-Degeneracy weapons are relatively rare in the Sector due to high maintenance costs while sitting inactive in storage. Indeed the warheads contain a pair of micro-pellets of degenerate matter that collapse when colliding with each other at high speed, generating a femtosecond lived black hole. However maintaining the delicate balance of energy to stabilize the quantum state of the pellets is an arduous task, not event mentioning avoiding premature impacts in a spaceship that can be exposed to enemy fire.
- 
-To prevent deadly accidents the warhead is heavily armored and the pellets are physically separated to prevent unwanted detonations. A beneficial side effect of this heavy shielding is a relatively high resistance to interception.",Strike,,
+较高的维护成本与弹药储存难度，使这种简并性武器在这片星域中是比较罕见的。事实上，该鱼雷的弹头内含有一对微颗粒状的简并物质，在高速碰撞时，将会产生微秒级的黑洞，并在相互作用后崩溃。然而，要维持微妙的能量平衡来稳定弹头内的简并物质是一项艰巨的任务。
+
+为了防止致命事故的发生，弹头采用了极为厚重和装甲，来物理隔离外界环境，以防止不必要的引爆。而这种重装防护的唯一优势，就是让该鱼雷拥有较高的抗拦截能力。",打击,,
 ,,,,,
 ,,,,,
 # MAGICBOX,,,,,
 ,,,,,
 ,,,,,
-diableavionics_magicbox,WEAPON,"A straightforward missile armed with a directed blast fragmentation warhead, solely intended for high-speed munition interception. A moderate store of ready-to-fire missiles allows for the nullification of multiple threats in short successions.
+diableavionics_magicbox,WEAPON,"简单的直击式防空导弹，配备有定向爆炸的破片弹头，旨在用于快速拦截来袭的敌方导弹。通过适度存储待发导弹，即可在短时间内连续摧毁多处威胁。
 
-The initial requirement specifications asked for a hybrid interception vehicle able to destroy up to ""Harpoon"" types of ordnances but also threaten light fighters. However designing a warhead light enough to not hamper the performances of the missile but strong enough to defeat the armor of a strike-craft proved to be out of reach of the research bureau. Despite a non-negligible psychological impact on the accuracy of the pilots submitted to a hail of those lightning-fast missiles, the lack of effective damage to the spacecraft itself and the wide windows of vulnerability opened by wasting the ready-rack ammunition was deemed unacceptable. Thus the target selection AI has been set to only consider unarmored missile threats.",Point Defense,,
+最初的规格要求是，不仅能摧毁'鱼叉'导弹，也能威胁轻型战机。然而设计一种足够轻的弹头，且不妨碍导弹机动性，但破坏力却要足以击溃攻击机的装甲，显然是有些痴人说梦。尽管这些闪电般快速的导弹对飞行员有着不小的心理负担，但由于破坏力无法击穿大部分的战机装甲，因此，AI}制导系统已被设定成只考虑非装甲导弹的威胁。",点防御,,
 ,,,,,
 ,,,,,
 # MICROMISSILES,,,,,
 ,,,,,
 ,,,,,
-diableavionics_micromissile,WEAPON,"Frequently used on most Diable Avionic's products, these swarming missiles are designed as much to disrupt the defenses of the enemy as they are to deal some minor damage.
+diableavionics_micromissile,WEAPON,"经常被应用于大多数{恶魔航电}的产品当中，旨在利用源源不断的数量优势，来干扰或破坏敌舰的防御火力，并造成一些轻微伤害。
 
-These simple missiles rely on randomized target interception algorithms to confuse enemy point defenses: they assist the fleet's Wanzer wings in accomplishing their mission while being exposed to minimal return fire and they cover the approach of more dangerous ordnances. Furthermore they subtly enhance the fleet in every aspect, forcing the enemy to constantly keep their shield up at all times, limiting their maneuverability. While using a few of them might be considered a waste of resources, their strength rises sharply with numbers, and their virtually unlimited stock means they are a constant drain on the enemy for the whole battle duration.",Fire Support,,
+这些先进的导弹依靠随机目标拦截算法，来混淆敌方的点防御火力，以使其暴露在主火力的打击之下，并协助舰队中的万泽联队来完成任务。此外，他们还在各方面巧妙地增强了舰队的战力，比如迫使敌方时刻保持护盾，从而限制其机动性。虽然少量使用效果不佳，但它们的实力同样随数量的增加而急剧上升，并且由于其备弹量几乎是无限的，这也就意味着它们将在整场战斗中成为拖垮敌人的消耗品。",火力支援,,
 ,,,,,
-diableavionics_microbuiltin,WEAPON,"Frequently used on most Diable Avionic's products, these swarming missiles are designed as much to disrupt the defenses of the enemy as they are to deal some minor damage.
+diableavionics_microbuiltin,WEAPON,"经常被应用于大多数{恶魔航电}的产品当中，旨在利用源源不断的数量优势，来干扰或破坏敌舰的防御火力，并造成一些轻微伤害。
 
-These simple missiles rely on randomized target interception algorithms to confuse enemy point defenses: they assist the fleet's Wanzer wings in accomplishing their mission while being exposed to minimal return fire and they cover the approach of more dangerous ordnances. Furthermore they subtly enhance the fleet in every aspect, forcing the enemy to constantly keep their shield up at all times, limiting their maneuverability. While using a few of them might be considered a waste of resources, their strength rises sharply with numbers, and their virtually unlimited stock means they are a constant drain on the enemy for the whole battle duration.",Fire Support,,
+这些先进的导弹依靠随机目标拦截算法，来混淆敌方的点防御火力，以使其暴露在主火力的打击之下，并协助舰队中的万泽联队来完成任务。此外，他们还在各方面巧妙地增强了舰队的战力，比如迫使敌方时刻保持护盾，从而限制其机动性。虽然少量使用效果不佳，但它们的实力同样随数量的增加而急剧上升，并且由于其备弹量几乎是无限的，这也就意味着它们将在整场战斗中成为拖垮敌人的消耗品。",火力支援,,
 ,,,,,
-diableavionics_microarray,WEAPON,"Built into the flank of the Maelstrom-class, this twenty tubes wide Micro-Missile Array supplements its main armaments with a flurry of Diable Avionic's signature ordinance, bringing havoc and confusion in the enemy's point-defense grid and chipping away armor at a steady rate.
+diableavionics_microarray,WEAPON,"这种安装在旋流-级侧翼上的微型导弹阵列，旨在利用数量上的优势，来大幅干扰或破坏敌舰的防御火力，并以稳定的速度摧毁装甲。
 
-These simple missiles rely on randomized target interception algorithms to confuse enemy point defenses: they assist the fleet's Wanzer wings in accomplishing their mission while being exposed to minimal return fire and they cover the approach of more dangerous ordnances. Furthermore they subtly enhance the fleet in every aspect, forcing the enemy to constantly keep their shield up at all times, limiting their maneuverability. While using a few of them might be considered a waste of resources, their strength rises sharply with numbers, and their virtually unlimited stock means they are a constant drain on the enemy for the whole battle duration.",Fire Support,,
+这些先进的导弹依靠随机目标拦截算法，来混淆敌方的点防御火力，以使其暴露在主火力的打击之下，并协助舰队中的万泽联队来完成任务。此外，他们还在各方面巧妙地增强了舰队的战力，比如迫使敌方时刻保持护盾，从而限制其机动性。虽然少量使用效果不佳，但它们的实力同样随数量的增加而急剧上升，并且由于其备弹量几乎是无限的，这也就意味着它们将在整场战斗中成为拖垮敌人的消耗品。",火力支援,,
 ,,,,,
-diableavionics_microcluster,WEAPON,"Built into the flank of the Pocket-Gust-class, this six tubes wide Micro-Missile Array supplements its main armaments with a flurry of Diable Avionic's signature ordinance, bringing havoc and confusion in the enemy's point-defense grid and chipping away armor at a steady rate.
+diableavionics_microcluster,WEAPON,"这种安装在阵风-级侧翼上的微型导弹系统，旨在利用数量上的优势，来干扰或破坏敌舰的防御火力，并以稳定的速度削弱装甲。
 
-These simple missiles rely on randomized target interception algorithms to confuse enemy point defenses: they assist the fleet's Wanzer wings in accomplishing their mission while being exposed to minimal return fire and they cover the approach of more dangerous ordnances. Furthermore they subtly enhance the fleet in every aspect, forcing the enemy to constantly keep their shield up at all times, limiting their maneuverability. While using a few of them might be considered a waste of resources, their strength rises sharply with numbers, and their virtually unlimited stock means they are a constant drain on the enemy for the whole battle duration.",Fire Support,,
+这些先进的导弹依靠随机目标拦截算法，来混淆敌方的点防御火力，以使其暴露在主火力的打击之下，并协助舰队中的万泽联队来完成任务。此外，他们还在各方面巧妙地增强了舰队的战力，比如迫使敌方时刻保持护盾，从而限制其机动性。虽然少量使用效果不佳，但它们的实力同样随数量的增加而急剧上升，并且由于其备弹量几乎是无限的，这也就意味着它们将在整场战斗中成为拖垮敌人的消耗品。",火力支援,,
 ,,,,,
-diableavionics_microcluster2,WEAPON,"Built into the back of the Daze-class, this six tubes wide Micro-Missile Array supplements its main armaments with a flurry of Diable Avionic's signature ordinance, bringing havoc and confusion in the enemy's point-defense grid and chipping away armor at a steady rate.
+diableavionics_microcluster2,WEAPON,"这种安装在混乱-级后方的微型导弹系统，旨在利用数量上的优势，来干扰或破坏敌舰的防御火力，并以稳定的速度削弱装甲。
 
-These simple missiles rely on randomized target interception algorithms to confuse enemy point defenses: they assist the fleet's Wanzer wings in accomplishing their mission while being exposed to minimal return fire and they cover the approach of more dangerous ordnances. Furthermore they subtly enhance the fleet in every aspect, forcing the enemy to constantly keep their shield up at all times, limiting their maneuverability. While using a few of them might be considered a waste of resources, their strength rises sharply with numbers, and their virtually unlimited stock means they are a constant drain on the enemy for the whole battle duration.",Fire Support,,
+这些先进的导弹依靠随机目标拦截算法，来混淆敌方的点防御火力，以使其暴露在主火力的打击之下，并协助舰队中的万泽联队来完成任务。此外，他们还在各方面巧妙地增强了舰队的战力，比如迫使敌方时刻保持护盾，从而限制其机动性。虽然少量使用效果不佳，但它们的实力同样随数量的增加而急剧上升，并且由于其备弹量几乎是无限的，这也就意味着它们将在整场战斗中成为拖垮敌人的消耗品。",火力支援,,
 ,,,,,
-diableavionics_microcluster_left,WEAPON,"Built into the flank of the Storm-class, this six tubes wide Micro-Missile Array supplements its main armaments with a flurry of Diable Avionic's signature ordinance, bringing havoc and confusion in the enemy's point-defense grid and chipping away armor at a steady rate.
+diableavionics_microcluster_left,WEAPON,"这种安装在暴风-级侧翼上的微型导弹系统，旨在利用数量上的优势，来干扰或破坏敌舰的防御火力，并以稳定的速度削弱装甲。
 
-These simple missiles rely on randomized target interception algorithms to confuse enemy point defenses: they assist the fleet's Wanzer wings in accomplishing their mission while being exposed to minimal return fire and they cover the approach of more dangerous ordnances. Furthermore they subtly enhance the fleet in every aspect, forcing the enemy to constantly keep their shield up at all times, limiting their maneuverability. While using a few of them might be considered a waste of resources, their strength rises sharply with numbers, and their virtually unlimited stock means they are a constant drain on the enemy for the whole battle duration.",Fire Support,,
+这些先进的导弹依靠随机目标拦截算法，来混淆敌方的点防御火力，以使其暴露在主火力的打击之下，并协助舰队中的万泽联队来完成任务。此外，他们还在各方面巧妙地增强了舰队的战力，比如迫使敌方时刻保持护盾，从而限制其机动性。虽然少量使用效果不佳，但它们的实力同样随数量的增加而急剧上升，并且由于其备弹量几乎是无限的，这也就意味着它们将在整场战斗中成为拖垮敌人的消耗品。",火力支援,,
 ,,,,,
-diableavionics_microarrayM,WEAPON,"Built into the flanks of the Pandemonium-class, this ten tubes Micro-Missile Array supplements its main armaments with a flurry of Diable Avionic's signature ordinance, bringing havoc and confusion in the enemy's point-defense grid and chipping away armor at a steady rate.
+diableavionics_microarrayM,WEAPON,"这种安装在魔窟-级侧翼上的微型导弹阵列，旨在利用数量上的优势，来干扰或破坏敌舰的防御火力，并以稳定的速度削弱装甲。
 
-These simple missiles rely on randomized target interception algorithms to confuse enemy point defenses: they assist the fleet's Wanzer wings in accomplishing their mission while being exposed to minimal return fire and they cover the approach of more dangerous ordnances. Furthermore they subtly enhance the fleet in every aspect, forcing the enemy to constantly keep their shield up at all times, limiting their maneuverability. While using a few of them might be considered a waste of resources, their strength rises sharply with numbers, and their virtually unlimited stock means they are a constant drain on the enemy for the whole battle duration.",Fire Support,,
+这些先进的导弹依靠随机目标拦截算法，来混淆敌方的点防御火力，以使其暴露在主火力的打击之下，并协助舰队中的万泽联队来完成任务。此外，他们还在各方面巧妙地增强了舰队的战力，比如迫使敌方时刻保持护盾，从而限制其机动性。虽然少量使用效果不佳，但它们的实力同样随数量的增加而急剧上升，并且由于其备弹量几乎是无限的，这也就意味着它们将在整场战斗中成为拖垮敌人的消耗品。",火力支援,,
 ,,,,,
 ,,,,,
 # THUNDERBOLT,,,,,
 ,,,,,
 ,,,,,
-diableavionics_thunderboltsmall,WEAPON,"A rack of specialized short-range missiles armed with medium yield contact-fuzzed shaped charge warheads. The concentrated stream of plasma can punch clean through a ship provided its armor has been previously compromised.
+diableavionics_thunderboltsmall,WEAPON,"搭载有中等当量接触式核弹头的一种专用短程导弹，其爆炸时所迸发出的等离子体射流将会击穿装甲受损的战舰。
 
-The FV-24 ""Thunderbolt"" is a lightweight guided missile wielding a triple nuclear shaped-charge warhead sandwiched between layers of lightweight amorphous alloy plating. Much of the cost of development was allocated to refining the nuclear charges for maximum behind-armor effects. Given the high penetration potential, it is not uncommon to see a trail of what was once delicate pieces of machinery, armor and crew be ejected forcefully out the freshly blown hole of a target ship.",Fire Support,,
+FV-24}雷霆轻型导弹，其内部构造由模块化的传感器封装，与被夹在轻质非晶合金电镀层之间的三重核型电荷弹头所组成。且在开发期间，由于将大部分成本用于精炼融核电荷，使其潜在破坏力被显著提高。考虑到该导弹本身就具备不俗的穿透力，因此当命中装甲损坏的船体时，其产生的冲击波会将脆弱的机械，装甲板与机组成员从破碎的孔洞中驱逐出去。",火力支援,,
 ,,,,,
-diableavionics_thunderboltpod,WEAPON,"A medium-sized mount of the Thunderbolt launcher. Fitted with electromagnetic launch rails and a high-speed rotary autoloader, this variant has exceptional fire support capability.
+diableavionics_thunderboltpod,WEAPON,"雷霆发射器的中型挂载版本。配有电磁发射轨道和高速旋转装填机，使其具备出色的火力支援能力。
 
-The FV-24 ""Thunderbolt"" is a lightweight guided missile wielding a triple nuclear shaped-charge warhead sandwiched between layers of lightweight amorphous alloy plating. Much of the cost of development was allocated to refining the nuclear charges for maximum behind-armor effects. Given the high penetration potential, it is not uncommon to see a trail of what was once delicate pieces of machinery, armor and crew be ejected forcefully out the freshly blown hole of a target ship.
+FV-24}雷霆轻型导弹，其内部构造由模块化的传感器封装，与被夹在轻质非晶合金电镀层之间的三重核型电荷弹头所组成。且在开发期间，由于将大部分成本用于精炼融核电荷，使其潜在破坏力被显著提高。考虑到该导弹本身就具备不俗的穿透力，因此当命中装甲损坏的船体时，其产生的冲击波会将脆弱的机械，装甲板与机组成员从破碎的孔洞中驱逐出去。
 
-One advantage of the enlarged mounting solution compared to the regular rack is that it is strong enough to withstand the kickback of a launch rail system. Two electromagnetic catapults give a strong initial burst of speed to the ordnances, potentially allowing them to by-pass defenses through sheer velocity when fired at close range.",Fire Support,,
+与普通版本相比，这种放大后的改造方案有一大优势：就是该导弹的强度足以承受轨道发射系统的弹射力，而使其获得优秀的初速，从而在近距离发射时，足以通过纯粹的速度绕过目标的点防御火力网。",火力支援,,
 ,,,,,
-diableavionics_strifethunderbolt,WEAPON,Back-mounted specialized short-range missiles armed with medium yield contact-fuzzed shaped charge warheads. The concentrated stream of plasma can punch clean through a ship provided its armor has been previously compromised.,Fire Support,,
+diableavionics_strifethunderbolt,WEAPON,搭载有中等当量接触式核弹头的一种专用短程导弹，其爆炸时所迸发出的等离子体射流将会击穿装甲受损的战舰。,火力支援,,
 ,,,,,
 ,,,,,
 # PLOVER,,,,,
 ,,,,,
 ,,,,,
-diableavionics_plover,WEAPON,"Predecessors of the FV-24 ""Thunderbolt"" missiles, these high-power rockets use the same type of nuclear shaped-charge warhead mounted on top of a solid rocket motor with basic attitude stabilization.
+diableavionics_plover,WEAPON,"FV-24}雷霆导弹的前身，这种高功率的火箭采用了固体火箭发动机与前者同类型的核弹头，且具备基本的姿态稳定功能。
 
-The FV-16 ""Plover"" Heavy Rocket is a relatively simple implementation of the nuclear shaped-charge. Each individual rocket carries two nuclear warheads attached to its own tungsten plate to form hyper-velocity plasma jets, able to consistently penetrate starship grade armor.",Assault,,
+FV-16}啄木鸟重型火箭，采用一种相对简单的锥形构造设计。由于每个火箭均携带有两枚附着在钨板上的核弹头，配合超高速的等离子体射流，使其足以击穿星舰的标准装甲。",突击,,
 ,,,,,
 ,,,,,
 # THRUSH,,,,,
 ,,,,,
 ,,,,,
-diableavionics_thrush,WEAPON,A hybrid dual-rail long-range interception system. Launches a pair of fast missiles equipped with a powerful main warhead. It can also deploy four Micro-Missiles as a backup system should the main carrier fail to successfully intercept its intended target.,Fire Support,,
+diableavionics_thrush,WEAPON,混合型双联远程拦截系统，能发射两枚配有大当量弹头的高速导弹。,火力支援,,
 ,,,,,
 ,,,,,
 # SPECIAL,,,,,
@@ -675,41 +670,33 @@ diableavionics_thrush,WEAPON,A hybrid dual-rail long-range interception system. 
 # VERSANT,,,,,
 ,,,,,
 ,,,,,
-diableavionics_versant_harvest_LEFT,WEAPON,An energized projectile accelerator with limited output per shot but a decent fire-rate and superb projectile speed. Special dampeners housed in the base of the weapon allows it to keep rounds on target even during continuous firing at extreme accelerations.,Assault,,
-diableavionics_versant_harvestB_LEFT,WEAPON,An energized projectile accelerator with limited output per shot but a decent fire-rate and superb projectile speed. Special dampeners housed in the base of the weapon allows it to keep rounds on target even during continuous firing at extreme accelerations.,Assault,,
-diableavionics_versant_harvestC_LEFT,WEAPON,An energized projectile accelerator with limited output per shot but a decent fire-rate and superb projectile speed. Special dampeners housed in the base of the weapon allows it to keep rounds on target even during continuous firing at extreme accelerations.,Assault,,
+diableavionics_versant_harvest_LEFT,WEAPON,射出高能炮弹的磁轨炮，尽管破坏力有限，但具备优秀的射速与极高的初速。由于在武器基座上安装有特殊的阻尼器，使该武器能在长时间内不间断地倾泻火力，并保证子弹不偏离目标。,突击,,
+diableavionics_versant_harvestB_LEFT,WEAPON,射出高能炮弹的磁轨炮，尽管破坏力有限，但具备优秀的射速与极高的初速。由于在武器基座上安装有特殊的阻尼器，使该武器能在长时间内不间断地倾泻火力，并保证子弹不偏离目标。,突击,,
+diableavionics_versant_harvestC_LEFT,WEAPON,射出高能炮弹的磁轨炮，尽管破坏力有限，但具备优秀的射速与极高的初速。由于在武器基座上安装有特殊的阻尼器，使该武器能在长时间内不间断地倾泻火力，并保证子弹不偏离目标。,突击,,
 ,,,,,
 ,,,,,
-diableavionics_versant_harvest_RIGHT,WEAPON,An energized projectile accelerator with limited output per shot but a decent fire-rate and superb projectile speed. Special dampeners housed in the base of the weapon allows it to keep rounds on target even during continuous firing at extreme accelerations.,Assault,,
-diableavionics_versant_harvestB_RIGHT,WEAPON,An energized projectile accelerator with limited output per shot but a decent fire-rate and superb projectile speed. Special dampeners housed in the base of the weapon allows it to keep rounds on target even during continuous firing at extreme accelerations.,Assault,,
-diableavionics_versant_harvestC_RIGHT,WEAPON,An energized projectile accelerator with limited output per shot but a decent fire-rate and superb projectile speed. Special dampeners housed in the base of the weapon allows it to keep rounds on target even during continuous firing at extreme accelerations.,Assault,,
+diableavionics_versant_harvest_RIGHT,WEAPON,射出高能炮弹的磁轨炮，尽管破坏力有限，但具备优秀的射速与极高的初速。由于在武器基座上安装有特殊的阻尼器，使该武器能在长时间内不间断地倾泻火力，并保证子弹不偏离目标。,突击,,
+diableavionics_versant_harvestB_RIGHT,WEAPON,射出高能炮弹的磁轨炮，尽管破坏力有限，但具备优秀的射速与极高的初速。由于在武器基座上安装有特殊的阻尼器，使该武器能在长时间内不间断地倾泻火力，并保证子弹不偏离目标。,突击,,
+diableavionics_versant_harvestC_RIGHT,WEAPON,射出高能炮弹的磁轨炮，尽管破坏力有限，但具备优秀的射速与极高的初速。由于在武器基座上安装有特殊的阻尼器，使该武器能在长时间内不间断地倾泻火力，并保证子弹不偏离目标。,突击,,
 ,,,,,
 ,,,,,
 ,,,,,
 # VIRTUOUS,,,,,
 ,,,,,
 ,,,,,
-diableavionics_virtuous_headA,WEAPON,"An oscillating meson emitter with a respectable damage potential, but often falls short due to its limited number of capacitors and lack of a clear-cut doctrinal niche.",Point Defense,,
-diableavionics_virtuous_headB,WEAPON,A private offshoot of the classic Ion Cannon modified into a quick burst firing weapon to capitalize on short opening rather than be used as a constant disabler. More efficient against larger targets given the wide spray pattern.,Support,,
-diableavionics_virtuous_headC,WEAPON,"The Grave Light Auto-Cannon brings forth a strong anti-shield tool into a very small package. A multi-barrel brute-force approach gives it a strong alpha strike potential, although the long reload time can be a huge liability if it fails to crack the enemy's defenses.",Assault,,
-diableavionics_virtuous_headD,WEAPON,"A straightforward missile armed with a directed blast fragmentation warhead, solely intended for high-speed munition interception. A moderate store of ready-to-fire missiles allows for the nullification of multiple threats in short successions.",Point Defense,,
+diableavionics_virtuous_headA,WEAPON,一种振荡介子发射器，具有可观的杀伤力，但由于其有限的电容数量和缺乏明确的作用环境而常常达不到要求。,点防御,,
+diableavionics_virtuous_headB,WEAPON,经典武器离子炮的一个分支，它被调整成了短点射的开火模式，利用短促的快速开火而非持续射击来造成杀伤。鉴于它有着较大的散射，对付大体积目标时会更有效。,支援,,
+diableavionics_virtuous_headC,WEAPON,掘墓者轻型自动炮是一种体积小巧的强大反护盾武器，多管齐射的粗暴攻击方式赋予了它强大的打击能力。但是假如它没能快速突破敌人的防御，那么较长的装填时间会成为巨大的负担。,突击,,
+diableavionics_virtuous_headD,WEAPON,一种装有定向爆炸破片弹丸的直射导弹，专为高速弹丸的拦截而准备。适度储备一定量的导弹再行开火可以在短时间内消除多重威胁。,点防御,,
 ,,,,,
-diableavionics_virtuous_scicle_L,WEAPON,"The Scicle Blaster is an enlarged energized projectile accelerator with an impressive fire-rate and damage output at the cost of a tremendous flux requirement. The weapon has the reputation of being quite dangerous to use, not because there would be any risk of malfunction but because it is very easy to loose track of one's flux level when firing it, and a pilot can find themselves at the mercy of a riposte without any capacitor margin for their shield.",Assault,,
-diableavionics_virtuous_scicle_R,WEAPON,"The Scicle Blaster is an enlarged energized projectile accelerator with an impressive fire-rate and damage output at the cost of a tremendous flux requirement. The weapon has the reputation of being quite dangerous to use, not because there would be any risk of malfunction but because it is very easy to loose track of one's flux level when firing it, and a pilot can find themselves at the mercy of a riposte without any capacitor margin for their shield",Assault,,
-diableavionics_virtuous_snowblast_L,WEAPON,"A twin barrel predecessor of the Grave assault cannon before its miniaturization. While its instant output is impressive and will give pause to any ship trying to get into its cone of fire, the sustained firepower of the Snowblast is only average, its range is limited, and its armor penetration is anemic at best.",Shield Breaker,,
-diableavionics_virtuous_snowblast_R,WEAPON,"A twin barrel predecessor of the Grave assault cannon before its miniaturization. While its instant output is impressive and will give pause to any ship trying to get into its cone of fire, the sustained firepower of the Snowblast is only average, its range is limited, and its armor penetration is anemic at best.",Shield Breaker,,
-diableavionics_virtuous_grave_L,WEAPON,"A twin barrel predecessor of the Grave assault cannon before its miniaturization. While its instant output is impressive and will give pause to any ship trying to get into its cone of fire, the sustained firepower of the Snowblast is only average, its range is limited, and its armor penetration is anemic at best.",Shield Breaker,,
-diableavionics_virtuous_grave_R,WEAPON,"A twin barrel predecessor of the Grave assault cannon before its miniaturization. While its instant output is impressive and will give pause to any ship trying to get into its cone of fire, the sustained firepower of the Snowblast is only average, its range is limited, and its armor penetration is anemic at best.",Shield Breaker,,
-diableavionics_virtuous_excision_L,WEAPON,"A long range precision gun directly affixed to the hull rather than mounted in a gimballed weapon emplacement. Sports a ridiculous range and projectile speed, but the recoil is so massive, its accuracy drops significantly after every shot.",Long Range Strike,,
-diableavionics_virtuous_excision_R,WEAPON,"A long range precision gun directly affixed to the hull rather than mounted in a gimballed weapon emplacement. Sports a ridiculous range and projectile speed, but the recoil is so massive, its accuracy drops significantly after every shot.",Long Range Strike,,
-diableavionics_virtuous_glaux_L,WEAPON,"The Glaux Mk.2 does everything the regular Glaux is known and loved (or hated, depending on which end you are facing) for, but better. It has more range and a higher beam output and even a slightly improved energy conversion efficiency thanks to the larger cooling systems.",General,,
-diableavionics_virtuous_glaux_R,WEAPON,"The Glaux Mk.2 does everything the regular Glaux is known and loved (or hated, depending on which end you are facing) for, but better. It has more range and a higher beam output and even a slightly improved energy conversion efficiency thanks to the larger cooling systems.",General,,
-diableavionics_virtuous_grasshopper_L,WEAPON,"The Grasshopper grenade launcher has been designed to overwhelm most point defense through sheer volume of fire. The projectiles also have a decent area of effect that can be used to clear out strike crafts, of neutralize the threat of missile carriers.",Anti-Armor,,
-diableavionics_virtuous_grasshopper_R,WEAPON,"The Grasshopper grenade launcher has been designed to overwhelm most point defense through sheer volume of fire. The projectiles also have a decent area of effect that can be used to clear out strike crafts, of neutralize the threat of missile carriers.",Anti-Armor,,
-diableavionics_virtuous_beast_L,WEAPON,"The Beast cannon array is derived from the well known Mostro, using the same barrels and ammunition. This three-barrelled linked fire configuration allows for more powerfull strikes at the cost of its sustained firepower.",Anti-Armor,,
-diableavionics_virtuous_beast_R,WEAPON,"The Beast cannon array is derived from the well known Mostro, using the same barrels and ammunition. This three-barrelled linked fire configuration allows for more powerfull strikes at the cost of its sustained firepower.",Anti-Armor,,
-diableavionics_virtuous_roar_L,WEAPON,The aptly named Roar gatling cannon can unleash a flurry of high velocity kinetic amunition that will overwelm most shields in short order. Another notable feature of this weapon is its quite favorable flux efficiency.,Anti-Shield,,
-diableavionics_virtuous_roar_R,WEAPON,The aptly named Roar gatling cannon can unleash a flurry of high velocity kinetic amunition that will overwelm most shields in short order. Another notable feature of this weapon is its quite favorable flux efficiency.,Anti-Shield,,
+diableavionics_virtuous_armA_L,WEAPON,镰式爆能束是一种大尺寸的高能粒子加速器，具有令人印象深刻的射速和伤害输出，其代价是巨大的幅能需求。被评价为一种对使用者来说很危险的武器，不是因为有故障的风险，而是在开火时驾驶员很难把握幅能水平，使用者经常发现自己很快就没有足够的空余幅容来支持护盾的运作了。,突击,,
+diableavionics_virtuous_armA_R,WEAPON,镰式爆能束是一种大尺寸的高能粒子加速器，具有令人印象深刻的射速和伤害输出，其代价是巨大的幅能需求。被评价为一种对使用者来说很危险的武器，不是因为有故障的风险，而是在开火时驾驶员很难把握幅能水平，使用者经常发现自己很快就没有足够的空余幅容来支持护盾的运作了。,突击,,
+diableavionics_virtuous_armB_L,WEAPON,"掘墓者突击炮的全尺寸双管版本。虽然它的瞬间输出令人印象深刻，并且能逼退任何试图进入它射程内的船只，但{""暴风雪""}的持续火力只是平均水平，它的射程有限，而且穿甲能力不强。",反护盾,,
+diableavionics_virtuous_armB_R,WEAPON,一种相较于安装在可转动武器槽位上更适合充当同级战舰轴炮的长程精确武器。拥有荒谬的射程和弹速，但后坐力十分巨大，每次射击后它的精确度都会显著下降。,长程打击,,
+diableavionics_virtuous_armC_L,WEAPON,格洛Mk.2可以做到常规格洛激光炮为人所知和喜爱的 (或讨厌的，取决于你是在用它还是在面对它) 所有事情，且能做得更好。由于更大的冷却系统，它有更长的射程和更高的光束输出，以及稍微提高的能量转换效率。,通用,,
+diableavionics_virtuous_armC_R,WEAPON,蚱蜢榴弹发射器能够以纯粹的火力优势来压倒大多数点防御系统。这些射弹有相当大的杀伤范围，可以用来清除战机以及消除导弹舰的威胁。,反装甲,,
+diableavionics_virtuous_armD_L,WEAPON,凶兽加农阵列源自著名的莫斯特罗，二者使用相同的炮管和弹药。三管连接的配置以持续开火的能力换来了更强大的打击能力。,反装甲,,
+diableavionics_virtuous_armD_R,WEAPON,咆哮者转轮机炮可以在短时间内射出大量高速动能弹药以在短时间内压垮大部分的护盾。这种武器的另一个显著特点是其相当高的幅能利用率。,反护盾,,
 ,,,,,
 ,,,,,
 ,,,,,
@@ -717,15 +704,15 @@ diableavionics_virtuous_roar_R,WEAPON,The aptly named Roar gatling cannon can un
 # DEPRECATED,,,,,
 ,,,,,
 ,,,,,
-diableavionics_heavythermalpulse,WEAPON,"A much more flux intensive version of the venerable TPC, the large amounts of energy pumped into the weapon system increases firepower at the cost of range. 
+diableavionics_heavythermalpulse,WEAPON,"基于备受尊敬的{TPC}而改造的高幅能变种版，通过将大量能源注入武器系统，以牺牲射程为代价来增加其火力。
 
-A variation of the iconic Thermal Pulse Cannon, engineers have markedly increased output by simply shunting more energy into the capacitors, this has a notable impact on the efficiency of the design but one often cited as worthwhile.
+作为疾风-级的标志性主炮，工程师们通过简单地将更多能量注入至电容器，以显著增加其输出火力，尽管这种设计会间接影响到幅能产出率，但这一切都被认为是值得的。
 
-The substantial heat generated with each firing cycle can potentially cause many components to burn out through repeated use, therefore a governor is installed to reduce said occurrences while integrated heat sinks dampen the effects on the ship's systems.",Assault,,
+由于在发射期间所产生的高温会导致许多部件过热损坏，因此通过安装调速器以减少此类事故的发生，同时集成的散热片也减弱了对舰船电子系统的影响。",突击,,
 ,,,,,
-diableavionics_lightTPC,WEAPON,This scaled down version of the venerable Thermal Pulse Cannon is often used on small ships and fighters. Losing most of the bite of its huge cousin but is still a fairly efficient piece of weaponry for its size.,Assault,,
+diableavionics_lightTPC,WEAPON,这种按比例缩小后的热脉冲加农炮通常被应用于小型舰船或战机。虽然破坏力遭到削弱，但仍是一种相当有效的武器,突击,,
 ,,,,,
-diableavionics_versant_head,WEAPON,"Twin-linked head-mounted Tactical Lasers that have been augmented into the ultraviolet range, limiting the turret's arc and range but sharply raising the damage output.",Point Defense,,
+diableavionics_versant_head,WEAPON,内置于舰首挂载点的双联战术激光，尽管射界与射程有限，但大幅度提高了该武器的破坏力。,点防御,,
 ,,,,,
 ,,,,,
 ,,,,,
@@ -739,80 +726,76 @@ diableavionics_versant_head,WEAPON,"Twin-linked head-mounted Tactical Lasers tha
 ,,,,,
 ,,,,,
 ,,,,,
-diableavionics_damperwave,SHIP_SYSTEM,A modified Damper Field that instead of a static aura protecting the hull generates a wave that pulls the entire ship in its wake allowing for seemingly impossible dodges in addition to its temporary protection. Holds many charges that slowly regenerate.,Drones ,Generates a protective wave reducing incoming damage and propelling the ship in the desired direction.,
+diableavionics_damperwave,SHIP_SYSTEM,一种改装过的阻尼力场，与原本生成保护船体的静态场不同，该系统能产生特殊的波，使舰船展现出与它的模样完全不匹配的规避能力并提供一定的防护性。该系统拥有可缓慢恢复的多次充能。,Drones ,Generates a protective wave reducing incoming damage and propelling the ship in the desired direction.,
 ,,,,,
-diableavionics_drift,SHIP_SYSTEM,A failed capital class flicker core that only allows quick re-orient rather than full ship displacement.,Movement,"Rapidly reorients the ship in the desired bearing with a nudge in the velocity direction. Drains a small amount of flux, especially when the shields are down.",
-diableavionics_nudge,SHIP_SYSTEM,A miniaturized failed capital class flicker core that only allows quick re-orient rather than full ship displacement.,Movement,"Rapidly reorients the ship in the desired bearing with a nudge in the velocity direction. Drains a small amount of flux, especially when the shields are down.",
+diableavionics_drift,SHIP_SYSTEM,一种失败的主力级闪烁系统，仅允许舰船快速旋转舰身，而非进行位移。,机动,向当前移动的方向轻推，在调整舰体姿态的同时，排出少量幅能.,
+diableavionics_nudge,SHIP_SYSTEM,一种小型化后的失败的主力级闪烁系统，仅允许舰船快速旋转舰身，而非进行位移。,机动,向当前移动的方向轻推，在调整舰体姿态的同时，排出少量幅能.,
 ,,,,,
-diableavionics_vortex,SHIP_SYSTEM,Deploys up to four PD drones while optimizing the flux grid to best synergize with their assigned task.,Drones ,Deploys up to four drones and boosts various systems on the ship depending on their assigned behavior.,
+diableavionics_vortex,SHIP_SYSTEM,部署四架遵循固定阵型的小型{PD}无人机，能提供有效的点防御火力。,无人机,部署四架装备有{PD}激光炮的无人机。,
 ,,,,,
-diableavionics_heavyflicker,SHIP_SYSTEM,"A system to briefly skim across the Phase space band interface, providing a short-ranged jump forward at the cost of producing hard flux.",Movement,Allows instant relocation toward the current velocity vector. A heavy Core allows for three charges.,
+diableavionics_heavyflicker,SHIP_SYSTEM,向目标方向瞬移，并产生幅能。,机动,向当前移动的方向瞬移，能连续使用三次。,
 ,,,,,
-diableavionics_flicker,SHIP_SYSTEM,"A system to briefly skim across the Phase space band interface, providing a short-ranged jump forward at the cost of producing hard flux.",Movement,Allows instant relocation toward the current velocity vector. A light core has a brief cooldown and up to four charges.,
+diableavionics_flicker,SHIP_SYSTEM,简单的超空间跃出系统，以产生硬幅能为代价来短程瞬移。,机动,向当前移动的方向瞬移，能短时间内重新充能，最多充能四次.,
 ,,,,,
-diableavionics_transit,SHIP_SYSTEM,"An extremely complex contraption of hinges and moving part allow this versatile frame to concentrate all available thrust to the rear for maximum speed and acceleration, and changes back to a more maneuverable form when close to the enemy.",Movement,"An extremely complex contraption of hinges and moving part allow this versatile frame to concentrate all available thrust to the rear for maximum speed and acceleration, and changes back to a more maneuverable form when close to the enemy.",
+diableavionics_transit,SHIP_SYSTEM,旋转并移动船体构件的复杂装置，来将能量集中至推进器当中，以此来提高最高航速与加速度，当靠近敌人时，即可切换成原有模式并恢复极高的机动性。,机动,通过降低机动性并禁用护盾，来提高最高航速与加速度.,
 ,,,,,
-diableavionics_transit2,SHIP_SYSTEM,"An extremely complex contraption of hinges and moving part allow this versatile frame to concentrate all available thrust to the rear for maximum speed and acceleration, and changes back to a more maneuverable form when close to the enemy.",Movement,"An extremely complex contraption of hinges and moving part allow this versatile frame to concentrate all available thrust to the rear for maximum speed and acceleration, and changes back to a more maneuverable form when close to the enemy.",
+diableavionics_transit2,SHIP_SYSTEM,旋转并移动船体构件的复杂装置，来将能量集中至推进器当中，以此来提高最高航速与加速度，当靠近敌人时，即可切换成原有模式并恢复极高的机动性。,机动,通过降低机动性并禁用护盾，来提高最高航速与加速度.,
 ,,,,,
-diableavionics_fluxredirection,SHIP_SYSTEM,"Assigns all available flux dissipation capacity to the weapons systems, allowing for a brief surge in damage output and fire rate.",Offensive,"Assigns all available flux dissipation capacity to the weapons systems, allowing for a brief surge in damage output and fire rate.",
+diableavionics_fluxredirection,SHIP_SYSTEM,将所有可用幅能耗散能力分配给武器系统，以暂时提高破坏力与射速。,进攻,以无法耗散硬幅能为代价，提高武器伤害并降低幅能产出.,
 ,,,,,
-diableavionics_quantumimpulse,SHIP_SYSTEM,The Q-ECM3 Priere system is a large scale quantum jammer that interferes with all hostile missiles denying any form of tracking within a limited area.,Special,"Interferes with all hostile missiles, denying them any form of tracking within 2000su of the emitting ship.",
+diableavionics_quantumimpulse,SHIP_SYSTEM,Q-ECM3}窥探者是一种大规模的量子干扰系统，旨在有效范围内无效所有敌对导弹的制导系统。,特殊,无效{2000单位}范围内所有敌对导弹的追踪能力.,
 ,,,,,
-diableavionics_evasion,SHIP_SYSTEM,Evades incoming ordnance by executing a brief maneuver out of the way.,Movement,Evades incoming ordnance by executing a brief maneuver out of the way.,
+diableavionics_evasion,SHIP_SYSTEM,立即移动一小段距离，期间无视所有炮火。,机动,立即移动一小段距离，期间无视所有炮火.,
 ,,,,,
-diableavionics_slash,SHIP_SYSTEM,The most economical way to dispatch an enemy is often to stick a tungsten blade through its reactor's containment system.,Offensive," ""While you were partying, I studied the blade"" ",
+diableavionics_slash,SHIP_SYSTEM,最经济的破坏方式当属在敌舰反应堆的控制系统中插入一个钨条。,进攻,用右手刀刃向前发动斩击.,
 ,,,,,
-diableavionics_dakka,SHIP_SYSTEM,"When standard 10 shots clips no longer cut it, you just have to feed your trusty Grom MG a 100 cartridges belt.",Offensive," ""Time to let old painless out of the bag."" ",
+diableavionics_dakka,SHIP_SYSTEM,可靠的格罗姆弹链让你知道什么才是火力压制。,进攻,略微提高射程的同时为主武器装填{100}发弹药.,
 ,,,,,
-diableavionics_kata,SHIP_SYSTEM,"When standard 10 shots clips no longer cut it, you just have to feed your trusty Grom MG a 100 cartridges belt.",Offensive," ""I do not kill with my gun; He who kills with his gun has forgotten the face of his father. I kill with my heart."" ",
+diableavionics_kata,SHIP_SYSTEM,"当标准 10 发弹夹并不能应对当前局势时, 你可能会需要这个 100 发的弹链.",进攻,短暂大幅提高主武器的射速.,
 ,,,,,
-diableavionics_booster,SHIP_SYSTEM,Detatches the large booster engine used to quickly traverse the battlefield and unlock the weapons systems. Can be used as an improvised ordinance for a bombing run.,Movement,Drop the booster engine and unlocks the weapons.,
+diableavionics_booster,SHIP_SYSTEM,将临时的大型增压助推器分离，以使该战机的武器系统上线。,机动,分离助推器并启动武器.,
 ,,,,,
-diableavionics_fastRefit,SHIP_SYSTEM,Halve the refit time of carried fighter wings but doubles the Fighter replacement rate gauge consumption.,Special,Halve the refit time of carried fighter wings but doubles the Fighter replacement rate gauge consumption.,
+diableavionics_fastRefit,SHIP_SYSTEM,战机的整备时间减半，但整备速率的消耗量增加一倍。,特殊,战机的整备时间减半，但整备速率的消耗量增加一倍.,
 ,,,,,
-diableavionics_assumeControl,SHIP_SYSTEM,"Temporarily gives remote control of the resident wing to an Ace safely piloting from the carrier, increasing its performance and durability significantly.",Fighter,"Temporarily gives remote control of the resident wing to an Ace safely piloting from the carrier, increasing its performance and durability significantly.",
+diableavionics_assumeControl,SHIP_SYSTEM,暂时将战机的控制权交给{A}级安全驾驶员，以提高作战效率。,战机,暂时获得战机控制权.,
 ,,,,,
-diableavionics_shield,SHIP_SYSTEM,"Redirects all power from the weapon systems to shields, greatly increasing the efficiency at which damage is absorbed. This process generates hard flux at a steady rate even if the shields are not taking any fire. This is a licensed version that has been artificially limited.",Defensive,"Reduces the damage taken by shields to a minimum for a short duration, but generates hard flux while active.",
+diableavionics_shield,SHIP_SYSTEM,引导所有武器系统的能量重定向至护盾，以提高损害被吸收的效率，但这个过程中会持续产生硬幅能，即时护盾并未受到任何伤害。这是一种经人为限制后的特许版本。,防御,大幅度降低护盾所受到的伤害，但会持续产生硬幅能.,
 ,,,,,
-diableavionics_berserk,SHIP_SYSTEM,"Briefly allows every systems to operate way beyond their stardard limit, dramatically increasing firerate and weapon rotations.",Offensive,Dramatically increases the weapons rotation speed and fire-rate for a few seconds.,
+diableavionics_berserk,SHIP_SYSTEM,大幅提高武器射速与转速。,进攻,短时间内大幅提高武器射速与转速。,
 ,,,,,
-diableavionics_warlust_drone,SHIP_SYSTEM,Deploys two small drone companions to help with PD operations.,Drones ,Deploys two Point Defense drones.,
+diableavionics_warlust_drone,SHIP_SYSTEM,部署两架小型无人机来提供点防火力。,无人机,部署两架小型无人机来提供点防火力.,
 ,,,,,
-diableavionics_splitter,SHIP_SYSTEM,"And Dah' said: I shall cut thy army in half, and in half again. Only then your courage will be tested.",Offensive,"And Dah' said: I shall cut thy army in half, and in half again. Only then your spirit will be tested.",
+diableavionics_splitter,SHIP_SYSTEM,我将摧毁你一半的军队，并周而复始，只有这样，你的勇气才会得到考验。,进攻,通过改变舰体外形，使两门主武器向目标精确扫射.,
 ,,,,,
-diableavionics_capacitors,SHIP_SYSTEM,Connects the shield systems to a secondary array of Plasma Capacitors able to store great quantities of flux for a short amount of time. Effectively increases the damage absorption of the shield tenfold.,Defensive,Increases the shield efficiency tenfold for a very short while.,
+diableavionics_capacitors,SHIP_SYSTEM,将护盾系统连接至次级等离子体电容器阵列，使其短时间内大幅提高护盾的吸收能力。,防御,在极短的时间内让护盾获得{10}倍的伤害减免.,
 ,,,,,
-diableavionics_draftrepairs,SHIP_SYSTEM,"Circulate an electro-ceramic liquid within a mesh of conduits embedded withing the armor layer along with an electric current. At every armor breach the liquid spills out and start to cure under the electric charge, effectively restoring some hull integrity. Interrupting the process leads to an obstruction of the conduits without any meaningful strengthening of the structure, preventing any future improvement. Due to the electrification, weapons have to be temporarily disabled, although additional power can be fed to the engines in the meantime.",Defensive,"Restore up to half the lost hull integrity since the last use, disable the weapons but increases the ship's acceleration.",
+diableavionics_draftrepairs,SHIP_SYSTEM,在嵌入装甲层的网状导管中，通过电流使电陶瓷液体循环。使每一个装甲缺口均溢出液体，并在电荷下固化，从而达到修复船体的目的。由于中断这一过程会导致管道堵塞，并让结构无法得到任何有意义的加固，从而阻碍未来的修复行为。由于电气化，武器必须暂时禁用，当然额外的电力也可以在此期间提供给发动机。,防御,恢复船体值，最大恢复值为两次使用间船体损伤的一半，期间禁用武器但增加船的加速度。,
 ,,,,,
-diableavionics_unlockedFlicker,SHIP_SYSTEM,"A considerably improved phase skimmer, providing short-ranged jumps forward in rapid successions at the cost of producing hard flux. Each teleport releases damaging EMP arcs at nearby targets, destroying projectiles and damaging enemy ships.",Teleporter,Allows instant short-range relocation toward the current velocity vector with a damaging burst of EMP arcs that also destroy projectiles. Holds many charges that replenish at a rapid pace.,
-diableavionics_citadel,SHIP_SYSTEM,"Divert all power to weapons computers and shield emitters, at the expense of flux dissipation and mobility. The Virtuous gains a massive boost to speed and active venting when the defense system is deactivated.",Defense,Increases weapons range and shield strength at the cost of all mobility and flux dissipation. Deactivation gives a massive boost to speed and active venting.,
-diableavionics_temporalshell,SHIP_SYSTEM,A Temporal Shell system licensed before the collapse offering slightly higher time dilation rates for shorter periods.,Special,Speeds up the flow of time on board the ship for a very short while. Holds two charges and generates a small amount of hard flux when used.,
-diableavionics_circus,SHIP_SYSTEM,Launches a large salvo of Micro-Missiles at all targets in a large area around the ship.,Special,Launches a large salvo of Micro-Missiles at all targets in a large area around the ship.,
+diableavionics_unlockedFlicker,SHIP_SYSTEM,一个改进过的相位闪现装置，以产生硬幅能为代价，为舰船提供了在短时间内向前进行快速短距离闪现的能力。,传送,在当前行进方向上进行快速短跳。充能次数多且补充速度快。,
+diableavionics_citadel,SHIP_SYSTEM,降低其他系统的能量和计算能力来为护盾系统和武器瞄准计算机提供充分的优先权。牺牲所有机动性和幅能排散能力来换取武器以及护盾性能的显著提高。在系统失效时给予短暂的速度提升，提升幅度取决于系统激活的时间。,防御,增加武器射程和护盾强度，但牺牲所有机动性和幅能耗散能力。失效时可以提高速度。,
+diableavionics_temporalshell,SHIP_SYSTEM,一种在大崩塌前获得了许可的时流之壳系统，在更短的时间内提供更高的时流速度。,特殊,在很短的时间内加快船身时间流动。能充能两次，使用时产生少量硬幅能。,
+diableavionics_circus,SHIP_SYSTEM,发射大量的微型导弹，以便更轻易地接近敌人或是撤退。,特殊,发射大量微型导弹以便进攻或防御。,
 ,,,,,
 #DEPRECATED,,,,,
 ,,,,,
-diableavionics_draftarmor,SHIP_SYSTEM,Armor of high durability protects the front of the ship from all known attacks.,Drones,Extra durable armor protects the front from all known attacks.,
+diableavionics_draftarmor,SHIP_SYSTEM,坚固的装甲将保护船体正面免受伤害。,无人机,坚固的装甲将保护船体正面免受伤害.,
 ,,,,,
-diableavionics_forcedburn,SHIP_SYSTEM,"Forcibly activates the engine assembly with stabilizing agents to allow a slow charge of the burn drive but with limitless duration, as long as the flux capacitors hold.",Movement,"Forcibly activates the engine assembly with stabilizing agents to allow a slow charge of the burn drive but with limitless duration, as long as the flux capacitors hold.",
-,,,,,
-,,,,,
+diableavionics_forcedburn,SHIP_SYSTEM,使用稳定剂来强制增压引擎出力，使其能缓慢提高最高航速，只要幅能寄存器未满，就可无限提速。,机动,持续产生幅能并缓慢提升最高航速.,
 ,,,,,
 ,,,,,
 ,,,,,
 ,,,,,
-diableavionics,FACTION,"A fairly recent addition to the Sector, direct contact is heavily discouraged. Their purpose seems to be reclaiming the Sector in the name of the old Dominion. Their backers have yet to be seen, but rumors all generally point to a well trained, militarized organization.",,,
 ,,,,,
-diableavionics_station_eclipse,CUSTOM,"An imposing station well equipped to deal with enemies and repossessing ships alike. This incredibly massive structure is the central hub of all military operations of the Diable Avionics Corporation in the Sector and houses one of their two autofactories. Its construction began before the Great Collapse but was not finished until long after. Most of the components were already delivered when the gates shut down but some of the missing parts were critically important. Even after cannibalizing the other planned stations for their components, the station was unable to be brought fully online. It took two fortunes and an age to build up the required resources and blueprints of modules that could be adapted to their station design. While efficiency is somewhat reduced, it still is a force to be reckoned with.",,,
-diableavionics_station_shadow,CUSTOM,"A forward listening post placed to the edge of the central cluster of systems. This is the most recent station assembled by the Diable Avionics Corporation. While most of the components were delivered to Sivie before the Collapse, it only has been operational for a couple of decades. Many of its of systems are not working at full capacity compared to the original design specifications because when it was waiting silently in storage many of its components were used as spare parts for the massive Eclipse Station. From the impenetrable citadel able to project massive fleets in the Sector as originally planned, Shadow Station has been reduced to a listening post and refitting dry-dock.",,,
-diableavionics_station_ressource,CUSTOM,"A heavily fortified exploitation station built to resist any asteroid impact and to repel any invasion. Orbiting the edge of the asteroid belt for optimal access to its resources. While not a military station per se, the fact that this is the only Diable Avionics station built before the Great Collapse makes it slightly more efficient than the Hyperspace Outposts assembled since.",,,
-diableavionics_prison,CUSTOM,"A seemingly Eden-like planet turned into a hellish place. The Diable Avionics polity transformed what could have been one of the most thriving planets in the Sector into a prison, and relocated all of their captured slaves there to exploit its abundant resources. Given the intensity of the extraction of resources, it only took a few decades before being transformed into a wasteland at the cost of tens of thousands of lives.
-
-How such a planet was not registered into the general database of the habitable worlds is unknown, but could give some credence to Diable Avionics' claim of ownership over the Sector: If they have the best planets reserved for their usage and removed from other Domain sanctioned databases, that could indicate that they were indeed receiving preferential treatment.
-
-But the corollary of this observation might be even more critical: Is this the only system fully in their control or are there more undocumented planets out there they are currently exploiting?",,,
 ,,,,,
-diableavionics_station_tier1,SHIP,"A Diable Avionic-designed orbital station featuring a heavy fighter complement and a plethora of weapon emplacements. This platform hosts shipyards, habitats, factories, and large stockpiles of weapons and supplies allowing projection of military and industrial power throughout the local orbital volume.",,,
+diableavionics,FACTION,最近出现在这片星域的新成员，不推荐与其正面接触。他们的目的似乎是以{人之领}的名义恢复旧时代的统治。尚未发现它们存在牢靠的盟友，但大部分的谣言都将{恶魔航电}描述成一种训练有素的军事化组织。,,,
 ,,,,,
-diableavionics_station_tier2,SHIP,"A large Diable Avionic-designed battlestation augmented with heavy weapons modules in addition to additional fighter decks and missile emplacements. This platform hosts shipyards, habitats, factories, and large stockpiles of weapons and supplies allowing projection of military and industrial power throughout the local orbital volume.",,,
+diableavionics_station_eclipse,CUSTOM,"气势宏伟且装备精良的轨道空间站，以随时准备好应对任何来袭的舰队或接驳舰的靠近。作为{恶魔航电}在这片星域中最重要的军事枢纽，这处令人难以置信的庞大结构容纳有两座自动化制造工厂。始建于{大崩塌""}之前，直至{""大崩塌""}后很久才彻底竣工。虽然大部分组件在星门关闭前就已送达，但仍遗失了一些相当重要的部件。尽管利用拆解其它计划当中空间站的组件来作为替代品，但{Eclipse}空间站依旧无法正常运作，因此才花费了两个世纪的时间与财富，收集到足够的资源并将其应用到模组蓝图之上，虽效率有所降低，但仍拥有不可忽视的力量。",,,
+diableavionics_station_shadow,CUSTOM,"位于中央星系边缘的前哨监听站，由恶魔航电最近几年内组装完成。虽然大部分组件在{""大崩塌""}前就以送达完毕，但它却在这些年内才正式开始运作。与原设计规范相比，它的许多系统均无法满负荷运转，因为它的大部分组件，都成为了{Eclipse}空间站的替代品。而这也导致{Forward}前哨站从原计划中坚不可摧的战争堡垒成为了一种前哨站与维修船坞。",,,
+diableavionics_station_ressource,CUSTOM,"为抵御小行星撞击并击退任何入侵者而建造的一处戒备森严的开采站，此外，因环绕于小行星带边缘的最佳轨道，意味着它无时无刻都能获取到丰富的矿产资源。尽管不是一种军事空间站，但作为恶魔航电唯一在{""大崩塌""}之前就建成的空间站，其效率则要比{Forward}前哨站更加出色。",,,
+diableavionics_prison,CUSTOM,这颗看似伊甸园般的行星实际上却是一处充满怨恨的地狱。归功于恶魔航电残忍的统治手段，不仅将本应是该星系中最繁荣的行星改造成一个监狱，还将大量从各种渠道捕获的奴隶安置于此，以开发此处的丰富资源。由于资源攫取的力度如此之大，导致仅仅花费了几十年的时间，以牺牲数万人的生命为代价将这里转化成了一片荒地。,,,
 ,,,,,
-diableavionics_station_tier3,SHIP,"An enormous Diable Avionic star fortress, bristling with missile launchers and undisclosed proprietary systems. It can host shipyards, habitats, factories, and large stockpiles of weapons and supplies. These platforms project military and industrial power throughout their local orbital volume.",,,
+diableavionics_station_tier1,SHIP,一处由{恶魔航电}设计的防御轨道站，其特点是拥有大量武器炮位的平台与重型战机机库。因内部同时包含造船厂、栖息地、工厂、战略储备，所以该平台也能让人类向已知空间投射军事与工业力量。,,,
+,,,,,
+diableavionics_station_tier2,SHIP,一处由{恶魔航电}设计的作战基地，除了增建的战机甲板与导弹平台外，还强化了两侧的火力平台。因内部同时包含造船厂、栖息地、工厂、战略储备，所以该平台也能让人类向已知空间投射军事与工业力量。,,,
+,,,,,
+diableavionics_station_tier3,SHIP,一处布满了导弹发射器与未知系统的星际要塞。因内部同时包含造船厂、栖息地、工厂、战略储备，所以该平台也能让人类向已知空间投射军事与工业力量。,,,

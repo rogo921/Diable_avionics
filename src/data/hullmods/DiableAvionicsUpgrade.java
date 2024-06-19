@@ -34,7 +34,7 @@ public class DiableAvionicsUpgrade extends BaseHullMod {
 
     @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
-        stats.getMaxSpeed().modifyFlat(id, (Float) mag.get(hullSize.toString()));
+        stats.getMaxSpeed().modifyFlat(id, (Float) mag.get(hullSize));
     }
 
     @Override
@@ -65,13 +65,13 @@ public class DiableAvionicsUpgrade extends BaseHullMod {
             return "25";
         }
         if (index == 1) {
-            return "15";
+            return "20";
         }
         if (index == 2) {
-            return "10";
+            return "15";
         }
         if (index == 3) {
-            return "5";
+            return "10";
         }
         if (index == 4) {
             return "7%";

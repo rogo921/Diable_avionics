@@ -62,7 +62,7 @@ public class DiableAvionicsSniperkit extends BaseHullMod {
 //                    Global.getLogger(this.getClass()).info(w.getRange());
 //                }         used by debug
 
-                // fighter.addTag(Tags.WING_STAY_IN_FRONT_OF_SHIP);
+                 fighter.addTag(Tags.WING_STAY_IN_FRONT_OF_SHIP);
             }
         }
     }

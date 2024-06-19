@@ -19,13 +19,13 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 
 		// Set a small blurb for each fleet that shows up on the mission detail and
 		// mission results screens to identify each side.
-		api.setFleetTagline(FleetSide.PLAYER, "Sprear-head formation");
-		api.setFleetTagline(FleetSide.ENEMY, "Temporary delay");
+		api.setFleetTagline(FleetSide.PLAYER, "矛头集团军");
+		api.setFleetTagline(FleetSide.ENEMY, "巡逻舰队");
 		
 		// These show up as items in the bulleted list under 
 		// "Tactical Objectives" on the mission detail screen
-		api.addBriefingItem("Launch missiles for maximum PD saturation.");
-		api.addBriefingItem("Use your shield sparingly at high flux, your shielding is merely average.");
+		api.addBriefingItem("发射微型导弹使敌舰 PD 系统趋于饱和.");
+		api.addBriefingItem("您的护盾并不出色, 请谨慎控制幅能水平.");
 		
 		// Set up the player's fleet.  Variant names come from the
 		// files in data/variants and data/variants/fighters

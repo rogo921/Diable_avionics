@@ -43,7 +43,6 @@
             "diableavionics_draft":1,
             "diableavionics_vapor":1,
             "diableavionics_sleet":1,
-            "diable_brisk":0.75,
             "diableavionics_versant":0.5,
 
             "diableavionics_laminar":1,
@@ -52,7 +51,6 @@
             "diableavionics_calm":1,
             "diableavionics_hayle":1,
             "diableavionics_coanda":1,
-            "diable_polarV":0.75,
             "diableavionics_derecho":0.5,	
             "diableavionics_miniGust":0.5,
             "diableavionics_fractus":1,
@@ -63,8 +61,6 @@
 
             "diableavionics_haze":1,
             "diableavionics_daze":1,
-            "diable_ashfall":0.75,
-            "diable_riptide":0.75,
             "diableavionics_gust":0.5,
             "diableavionics_storm":1,	
             "diableavionics_rime_m":0.25,
@@ -337,8 +333,6 @@
             "shielded_holds",
             "recovery_shuttles",
             "ecm",
-            "diableavionics_mount",
-            "diableavionics_avionics"
         ],
     },
 

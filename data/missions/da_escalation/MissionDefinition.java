@@ -20,14 +20,14 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 
         // Set a small blurb for each fleet that shows up on the mission detail and
         // mission results screens to identify each side.
-        api.setFleetTagline(FleetSide.PLAYER, "Advanced Tactics Group");
-        api.setFleetTagline(FleetSide.ENEMY, "Baited Patrol");
+        api.setFleetTagline(FleetSide.PLAYER, "高级战术小组");
+        api.setFleetTagline(FleetSide.ENEMY, "被诱来的巡逻队");
 
         // These show up as items in the bulleted list under 
         // "Tactical Objectives" on the mission detail screen
-        api.addBriefingItem("Your fleet has an unmatched mobility on the battlefield.");
-        api.addBriefingItem("Divide and Conquer.");
-        api.addBriefingItem("Capture points to give more orders.");
+        api.addBriefingItem("你的舰队在战场上拥有无与伦比的机动性.");
+        api.addBriefingItem("逐一击破.");
+        api.addBriefingItem("占领通讯中继器以获得更多指挥点.");
 
         // Set up the player's fleet.  Variant names come from the
         // files in data/variants and data/variants/fighters

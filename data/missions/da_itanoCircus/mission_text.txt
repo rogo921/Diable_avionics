@@ -1,8 +1,7 @@
-9th gen wanzer pilots are selected extremely young and given intense training from the start to sharpen them into deadly weapons. VR training software is commonly "leaked" in schools to identify potential candidates. However the bar of entry is not for the faint of heart, as a minimum score of 500 is required to even show up on the recruiting databases. 
+第九代万泽的飞行员都非常年轻的，他们从一开始就会接受高强度的训练，最终成为致命的武器。VR训练软件通常会在军校中"遭到泄露"，以筛选出潜在的培养对象。然而，这并不适合胆小的人，因为学员至少需要获得500分才会出现在招聘数据库中。
 
-Hold [E] while refreshing the mission to toggle Easy Mode (Highscores will not get saved)
-Hold [C] while refreshing the mission to toggle the Free Cam
-Hold [M] while refreshing the mission to toggle the music
+按 [E] 并重选该任务来开关简单模式 (分数不会记录)
+按 [C] 并重选该任务来开关自由视角
+按 [M] 并重选该任务来开关音乐
 
-
-Credit to Mesotronik for the banger tunes!
+感谢 Mesotronik 提供的音乐!
