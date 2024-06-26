@@ -7,10 +7,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="Starsectore Core" level="project" />
+    <orderEntry type="library" name="Starsectore Core" level="project" />
     <orderEntry type="library" exported="" name="ExerelinCore" level="project" />
     <orderEntry type="library" exported="" name="Graphics" level="project" />
     <orderEntry type="library" exported="" name="LazyLib" level="project" />
     <orderEntry type="library" exported="" name="MagicLib" level="project" />
+    <orderEntry type="library" exported="" name="starsector-core0.97" level="application" />
   </component>
 </module>

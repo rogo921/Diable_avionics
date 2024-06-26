@@ -1,6 +1,7 @@
-package data.scripts.ai;
+package data.scripts.util;
 
 import com.fs.starfarer.api.Global;
+import com.fs.starfarer.api.characters.OfficerDataAPI;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.util.Misc;
 
@@ -87,7 +88,9 @@ public class Diableavionics_UniThreatenJudge {
         }
         return false;
     }
-
+    public static float OfficerPersonalityWeighting(ShipAPI ship){
+        return 0;
+    }
     private static float normalizeAngle(float ang) {
         while ((ang > 180f || ang < -180f)) {
             ang = normalize(ang);

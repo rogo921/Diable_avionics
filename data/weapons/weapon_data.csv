@@ -236,7 +236,7 @@ IBIS (单管),diableavionics_strifehead,,,,300,,40,,,90,4,,,,FRAGMENTATION,,,0,0
 IBIS (单管),diableavionics_blizzaiaHead,,,,300,,40,,,40,5,,,,FRAGMENTATION,,,0,0.1,1,,0,12,1,20,,1000,,,10,,,"PD,PD_ONLY,SYSTEM",,,,,,,,,,,,,,,
 夜曲 EMP 阵列 (短程),diableavionics_blizzaiaNocturne,3,0.75,2300,550,380,,720,20,12,11,,,,KINETIC,,,0.5,0.5,1,3,,,,,2500,,,,,,,"FIRE_WHEN_INEFFICIENT,SYSTEM","beam10, LR",,恶魔航电,,压制,,,,,,,,,,
 掘墓者 LAC (轻型),diableavionics_blizzaiaGraveac,1,,750,500,,70,,10,30,6,9,1,3,KINETIC,,,0,0.4,,,5,10,0.5,3,,900,,,100,,,"FIRE_WHEN_INEFFICIENT, SYSTEM","kinetic8, SR",,恶魔航电,,反护盾,,,,,,,,,,
-金蝉榴弹炮,diableavionics_blizzaiaCicada,,,,500,,500,,,30,,,,,HIGH_EXPLOSIVE,,,0,7.4,4,0.1,4,10,3,6,,350,450,3.5,300,-0.5,,"FIRE_WHEN_INEFFICIENT,SYSTEM, DO_NOT_CONSERVE",,,恶魔航电,,反护盾,,,,,,,,,,
+金蝉榴弹炮,diableavionics_blizzaiaCicada,,,,500,,500,,,30,,4,0.5,4,HIGH_EXPLOSIVE,,,0,1.6,4,0.1,4,10,3,6,,350,450,3.5,300,-0.5,,"FIRE_WHEN_INEFFICIENT,SYSTEM, DO_NOT_CONSERVE",,,恶魔航电,,反护盾,,,,,,,,,,
 ,diableavionics_blizzaiaShoulderL,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,恶魔航电,,重火力,,,,,,,,,,
 ,diableavionics_blizzaiaShoulderR,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

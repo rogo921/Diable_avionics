@@ -1,12 +1,12 @@
 {
   "id": "diableavionics",
-  "name": "Diable Avionics",
+  "name": "Diable Avionics rogo921CN edition",
   "author": "Tartiflette, formerly created by Flashfrozen with the participation of Debido,used maintained by matt,currently maintained by rogo921",
   "version":
     {
-      "major": 2,
-      "minor": 9,
-      "patch": 2
+      "major": 1,
+      "minor": 1,
+      "patch": 0
     },
   "description": "Claiming ownership over the possessions of millions seems to be a bold claim, but is one the Diable Avionics Corporation intends to enforce, with deadly means if necessary.",
   "gameVersion": "0.97a",
