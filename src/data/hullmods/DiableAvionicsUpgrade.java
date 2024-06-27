@@ -17,6 +17,7 @@ import org.magiclib.plugins.MagicAutoTrails;
 import org.magiclib.plugins.MagicTrailPlugin;
 import java.awt.*;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import static data.scripts.util.Diableavionics_stringsManager.txt;
@@ -108,6 +109,13 @@ public class DiableAvionicsUpgrade extends BaseHullMod {
 
         @Override
         public void advance(float amount) {
+            String personID=ship.getCaptain().getPersonalityAPI().getId();
+            String personName=ship.getCaptain().getPersonalityAPI().getDisplayName();
+            List<FighterWingAPI> allfighter=ship.getAllWings();
+            for(FighterWingAPI f:allfighter){
+                float range=f.getRange();
+
+            }
             interval.advance(amount);
             if (interval.intervalElapsed()) {
                 interval.setInterval(1f, 1f);

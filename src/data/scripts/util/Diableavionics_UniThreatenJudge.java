@@ -1,16 +1,28 @@
 package data.scripts.util;
 
-import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.characters.OfficerDataAPI;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.util.Misc;
 
 import org.lazywizard.lazylib.VectorUtils;
 import org.lazywizard.lazylib.combat.AIUtils;
 import org.lazywizard.lazylib.combat.CombatUtils;
+
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
 
 public class Diableavionics_UniThreatenJudge {
+
+    public static Map personal_weighting = new HashMap();
+    static {
+        personal_weighting.put(ShipAPI.HullSize.FIGHTER, 0f);
+        personal_weighting.put(ShipAPI.HullSize.FRIGATE, 25f);
+        personal_weighting.put(ShipAPI.HullSize.DESTROYER, 20f);
+        personal_weighting.put(ShipAPI.HullSize.CRUISER, 15f);
+        personal_weighting.put(ShipAPI.HullSize.CAPITAL_SHIP, 10f);
+    }
+
     public Diableavionics_UniThreatenJudge(){
 
     }
@@ -88,9 +100,19 @@ public class Diableavionics_UniThreatenJudge {
         }
         return false;
     }
-    public static float OfficerPersonalityWeighting(ShipAPI ship){
-        return 0;
-    }
+//    public static float OfficerPersonalityWeighting(ShipAPI ship){
+//
+//
+//            if (ship.getCaptain().isAICore()) return 1.0f;
+//            else if(ship.getCaptain().isDefault()){
+//
+//
+//            }
+//
+//            return 0f;
+//    }
+
+
     private static float normalizeAngle(float ang) {
         while ((ang > 180f || ang < -180f)) {
             ang = normalize(ang);
