@@ -27,6 +27,7 @@ name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating
 剥夺,diableavionics_shear,拖船,恶魔航电,flarelauncher,2,450,125,750,,75,15,,135,100,100,60,30,160,FRONT,,50,0.4,1.1,,,5,5,0,10,5,,8,17000,10,30,180,0.2,5,5,CIVILIAN,diable_ship_bp,,0.3,2,2,,15
 层流,diableavionics_laminar,采矿舰,恶魔航电,maneuveringjets,2,1500,225,2000,,150,15,,115,80,60,65,40,160,OMNI,,90,0.4,1.1,,,5,10,100,40,1,,10,15000,10,30,180,0.2,2,2,CIVILIAN,diable_ship_bp,,0.5,2,2,,16
 斜坡,diableavionics_versant,混合万泽,恶魔航电,diableavionics_transit2,8,1750,275,3500,,350,45,,110,200,200,180,220,300,FRONT,,270,0.25,0.8,,,5,5,0,0,1,,10,36000,8,25,240,0.2,8,8,,rare_bp,0.5,0.75,2,2,,17
+冷锋,diableavionics_coldfront,护卫舰,恶魔航电,,5,2000,200,3000,,150,50,,150,120,100,80,80,175,OMNI,,120,0.5,0.8,,,20,30,60,40,1,,10,15000,10,20,220,0.2,5,5,,diable_ship_bp,,0.5,2,2,,18
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 平静,diableavionics_calm,驱逐舰,恶魔航电,diableavionics_vortex,9,4750,575,4250,,325,80,0,85,55,44,40,30,450,OMNI,,75,0.4,1,,,50,80,80,50,2,,9,40000,6,14,360,0.15,9,9,,diable_ship_bp,,0.4,2,3,,19
 海勒,diableavionics_hayle,驱逐舰,恶魔航电,diableavionics_flicker,11,4100,410,6250,,425,105,,90,100,55,55,35,325,OMNI,,90,0.35,1,,,40,70,50,60,2.5,,9,55000,5,16,300,0.15,11,11,,diable_ship_bp,,0.6,2,3,,20

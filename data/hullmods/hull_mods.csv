@@ -7,7 +7,7 @@ name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hid
 ,,,,,,,,,,,,,,,,,,,
 弹性框架,diableavionics_wanzer,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsWanzer,万泽是精巧耐用的小型军用机甲，具备强化后的内部隔层与冗余系统。增加{%s}EMP}抗性，并且它们的武器与引擎耐久度提高{%s。,给予万泽{%s}的EMP}抗性，提升它们的武器与引擎耐久度{%s。,,graphics/da/hullmods/diableavionics_quantumsensor.png
 狙击手套件,diableavionics_sniperkit,2,,Diable Avionics,"special, merc, standard",Fighters,3000,,,,2,4,6,10,data.hullmods.DiableAvionicsSniperkit,"一套专用的升级组件用于最大化战意级万泽的支援能力，包含了专用特殊弹药和集成在精确射手武器上的下一代激光瞄准系统。与护航阵列类似，但是万泽更加强大的火控硬件允许他们享受和母舰相同的定位效果。
-所有本舰的战意万泽获得和母舰同级({%s}/{%s}/{%s}/{%s},取决于船体等级)的射程增益，同时使得战意的交战距离减少{%s}。",将战意万泽转变为“支援机”定位，并且获得额外的射程。,只减少{%s}的战意交战距离，而非{%s}。,graphics/da/hullmods/dibaleavionics_sniperkit.png
+所有本舰的战意万泽获得和母舰同级({%s}/{%s}/{%s}/{%s},取决于船体等级)的射程增益，但是专业化的改装使得本舰所有战机的交战距离减少{%s}。",将战意万泽转变为“支援机”定位，并且获得额外的射程。,只减少{%s}的战机交战距离，而非{%s}。,graphics/da/hullmods/dibaleavionics_sniperkit.png
 ,,,,,,,,,,,,,,,,,,,
 狭窄船体,diableavionics_cramped,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsCramped,"由于船体异常狭窄，因此无法适应需要大量空间的修改，如：
 %s,{%s,{%s。并降低{%s}导弹装填速度。",无法安装大型船插，导弹射速降低{%s}。,,graphics/da/hullmods/diableavionics_cramped.png

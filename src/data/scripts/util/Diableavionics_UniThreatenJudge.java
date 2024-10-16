@@ -100,17 +100,24 @@ public class Diableavionics_UniThreatenJudge {
         }
         return false;
     }
-//    public static float OfficerPersonalityWeighting(ShipAPI ship){
-//
-//
-//            if (ship.getCaptain().isAICore()) return 1.0f;
-//            else if(ship.getCaptain().isDefault()){
-//
-//
-//            }
-//
-//            return 0f;
-//    }
+    public static float OfficerPersonalityWeighting(ShipAPI ship){
+            float weightingValue = 0f;
+
+            if (ship.getCaptain().isAICore()){
+                weightingValue=1.0f;
+            }else if(ship.getCaptain().getPersonalityAPI().getDisplayName().contains("reckless")){
+                weightingValue=0.9f;
+            }else if(ship.getCaptain().getPersonalityAPI().getDisplayName().contains("aggressive")){
+                weightingValue=0.7f;
+            } else if(ship.getCaptain().isDefault()||ship.getCaptain().getPersonalityAPI().getDisplayName().contains("steady")){
+                weightingValue=0.5f;
+            }else if(ship.getCaptain().getPersonalityAPI().getDisplayName().contains("cautious")){
+                weightingValue=0.3f;
+            }else if(ship.getCaptain().getPersonalityAPI().getDisplayName().contains("timid"))
+                weightingValue=0.1f;
+
+            return weightingValue;
+    }
 
 
     private static float normalizeAngle(float ang) {

@@ -1,9 +1,13 @@
 package data.hullmods;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
+import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.impl.campaign.ids.HullMods;
 import data.scripts.ai.WanzerMovementScript;
+
+import java.util.List;
 
 public class DiableAvionicsWanzer extends BaseHullMod {
 
@@ -32,7 +36,14 @@ public class DiableAvionicsWanzer extends BaseHullMod {
         ship.getMutableStats().getWeaponDamageTakenMult().modifyMult(id, (100 - DISABLE_RESIST) / 100);
 
 
+        //ship.addListener(new Diableavionics_SniperAI(ship));
         ship.addListener(new WanzerMovementScript(ship));
+
+
+
+
+
+
     }
 
     @Override
@@ -40,4 +51,5 @@ public class DiableAvionicsWanzer extends BaseHullMod {
         // Allows any ship with a diableavionics hull id
         return (ship.getHullSpec().getHullId().startsWith("diableavionics_"));
     }
+
 }
