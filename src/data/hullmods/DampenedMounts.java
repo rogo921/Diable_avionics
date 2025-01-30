@@ -43,7 +43,10 @@ public class DampenedMounts extends DiableAvionicsMountBI {
     @Override
     public boolean isApplicableToShip(ShipAPI ship) {
         if (ship == null) return false;
-        return !ship.getVariant().getHullMods().contains(DiableAvionicsMountBI.BUILT_IN_MOUNT_ID);
+        if (ship.getVariant().getHullMods().contains(DiableAvionicsMountBI.BUILT_IN_MOUNT_ID)) return false;
+        if (!ship.getHullSpec().getHullId().startsWith("diableavionics_")) return false;
+
+        return true;
     }
 
     @Override
@@ -54,6 +57,9 @@ public class DampenedMounts extends DiableAvionicsMountBI {
 
     @Override
     public String getUnapplicableReason(ShipAPI ship) {
-        return txt("hm_builtin");
+
+        if(ship != null&&!ship.getHullSpec().getHullId().startsWith("diableavionics_")) return txt("hm_notdiableship");
+        else return txt("hm_hasdampalready");
+
     }
 }

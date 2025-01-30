@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="jars" level="project" />
+    <orderEntry type="library" name="starsector-core" level="project" />
+    <orderEntry type="library" name="ExerelinCore" level="project" />
+    <orderEntry type="library" name="jars2" level="project" />
+    <orderEntry type="library" name="Graphics" level="project" />
+    <orderEntry type="library" name="jars3" level="project" />
+    <orderEntry type="library" name="CjyToyBox" level="project" />
+    <orderEntry type="module" module-name="MagicLib" />
+    <orderEntry type="module" module-name="CjyToyBox" />
+    <orderEntry type="module" module-name="mods" />
+    <orderEntry type="module" module-name="uafdev" />
+  </component>
+</module>

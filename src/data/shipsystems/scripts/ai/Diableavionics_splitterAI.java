@@ -26,6 +26,9 @@ public class Diableavionics_splitterAI implements ShipSystemAIScript {
 
     @Override
     public void advance(float amount, Vector2f missileDangerDir, Vector2f collisionDangerDir, ShipAPI target){
+
+
+
         timer+=amount;
         if(timer>TICK){
             timer=0;
@@ -39,9 +42,17 @@ public class Diableavionics_splitterAI implements ShipSystemAIScript {
                             ){
                         if(theTarget.getShield()==null){ 
                             if(!theTarget.isFighter()) ship.useSystem();
-                        } else if(theTarget.getShield().isOff() || theTarget.isFrigate() || theTarget.isFighter()){                                                                        
+                        } else if(theTarget.getShield().isOff() || theTarget.isFrigate() || theTarget.isDestroyer()
+                        || theTarget.isFighter()){
                             ship.useSystem();
+                        }else if(theTarget.isCruiser()||theTarget.isCapital()) {
+
+                            if((float)Math.random()+theTarget.getFluxLevel()>=0.6){
+                                ship.useSystem();
+                            }
                         }
+
+
                     }
                 }
             }

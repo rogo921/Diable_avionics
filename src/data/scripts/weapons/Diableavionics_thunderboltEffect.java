@@ -115,6 +115,7 @@ public class Diableavionics_thunderboltEffect implements OnHitEffectPlugin {
 
 //                    wound = penetration(ship,wound,projectile.getFacing());
                     wound = penetration(target,wound,projectile.getFacing());
+                   float targethp = target.getHitpoints();
 
                     engine.applyDamage(
                             target,
@@ -126,7 +127,9 @@ public class Diableavionics_thunderboltEffect implements OnHitEffectPlugin {
                             false,
                             projectile.getSource()
                     );
-
+                    if(target.getHitpoints()>0){
+                        target.setHitpoints(targethp);
+                    }
                     //debug
 //                    engine.addFloatingText(wound, projectile.getBaseDamageAmount()/5+"",10, Color.green, target, 0.1f,0.1f);
                 }

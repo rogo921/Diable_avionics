@@ -41,5 +41,6 @@
 					   "particleCount":12,
 					   "particleColor":[199,93,76,215]},
 	"projectileSpecId":"diableavionics_grave_shot",
+	"everyFrameEffect":"data.scripts.weapons.Diableavionics_graveLacEffect",
 	"fireSoundTwo":"diableavionics_graveac_fire",
 }

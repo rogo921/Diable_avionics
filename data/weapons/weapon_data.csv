@@ -6,11 +6,11 @@ IBIS,diableavionics_ibis,0,,300,350,,25,,,180,4,24,10,8,FRAGMENTATION,3,,0,0.05,
 瑞克森 S,diableavionics_recson,1,,700,800,,200,,,24,8,,,,KINETIC,225,,0,2,1,,2,6,5,6,,650,,,100,,,,"kinetic9, LR, diable_weapon_bp",,恶魔航电,,反护盾,,,,,,,,,,
 瑞克森 V,diableavionics_recson2,2,0.75,2400,1000,,200,,,8,12,,,,KINETIC,250,,0,2.18,2,0.1,2,6,5,6,,650,,,100,,,,"kinetic14, LR, diable_weapon_bp",,恶魔航电,,反护盾,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-阿特赛转轮突击炮,diableavionics_artassault,0,,400,500,,75,,,30,5,,,,HIGH_EXPLOSIVE,60,,0,1.75,5,0.1,1,3,.25,1,,800,,,25,,,,"he8, diable_weapon_bp",,恶魔航电,,反舰艇,,,,,,,,,,
+阿特赛转轮突击炮,diableavionics_artassault,0,,400,600,,75,,,30,5,,,,HIGH_EXPLOSIVE,60,,0,1.75,5,0.1,1,3,.25,1,,800,,,25,,,,"he8, diable_weapon_bp",,恶魔航电,,反舰艇,,,,,,,,,,
 阿特克斯双管突击炮,diableavionics_artdeux,1,,1200,900,,40,,,12,11,30,7.5,15,HIGH_EXPLOSIVE,40,,0,0.05,2,0.05,1,6,0.1,2,,800,,,25,,,USE_LESS_VS_SHIELDS,"he12, diable_weapon_bp",,恶魔航电,,反船体,,,,,%s: 每枚炮弹将有概率在命中目标时引爆并造成额外{%s}伤害，视发射舰船的幅能水平来增减爆炸概率。,高热量炮弹|80{点破片,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-掘墓者 LAC,diableavionics_graveac,0,,600,500,,65,,10,30,6,9,1.666,3,KINETIC,52,,0,0.4,,,5,10,0.5,3,,900,,,100,,,,"kinetic8, SR, diable_weapon_bp",,恶魔航电,,反护盾,,,,,,,,,,
-掘墓者 HMC,diableavionics_gravemg,0,,1150,650,,65,,10,20,11,,,,KINETIC,52,,0,0.2,1,,1,10,0.5,3,,700,,,100,,,,"kinetic15, SR, diable_weapon_bp",,恶魔航电,,反护盾,,,,,,,,,,
+掘墓者 LAC,diableavionics_graveac,0,,600,600,,70,,10,30,6,9,1.666,3,KINETIC,52,,0,0.4,,,5,10,0.5,3,,900,,,100,,,,"kinetic8, SR, diable_weapon_bp",,恶魔航电,,反护盾,,,,,%s: 安装扩容弹匣增加{%s}的弹容而非{%s}，如果内置扩容弹匣，回复弹药量增加{%s}而非{%s},先进突击设计|100%|50%|100%|50%,,,,
+掘墓者 HMC,diableavionics_gravemg,0,,1150,650,,70,,10,20,11,,,,KINETIC,52,,0,0.2,1,,1,10,0.5,3,,700,,,100,,,,"kinetic15, SR, diable_weapon_bp",,恶魔航电,,反护盾,,,,,,,,,,
 格罗斯线性突击炮,diableavionics_glowtusk,0,,1800,600,,500,,50,18,10,,,,HIGH_EXPLOSIVE,400,,0,2.5,,,3,10,3,1,,750,,,350,,,,"he15, SR, diable_weapon_bp",,恶魔航电,,反装甲,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 莫斯特罗加农炮阵列,diableavionics_mostro,2,,3250,800,,250,,25,10,20,,,,HIGH_EXPLOSIVE,250,,0,1,,,2,6,0.5,4,,750,,,60,,,,"he17, diable_weapon_bp, rare_bp",,恶魔航电,,反装甲,,,,,,,,,,
@@ -41,20 +41,28 @@ SRAB 重型发射器,diableavionics_srab,3,0.75,2300,800,,600,400,50,7,13,,,,ENE
 微型导弹发射器,diableavionics_microbuiltin,1,,500,2000,,50,,5,6,2,25,0.3,3,HIGH_EXPLOSIVE,10,,0.1,5.7,3,0.1,6,6,5,6,,200,180,18,50,,,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE, DO_NOT_AIM","utility10, missile1",,恶魔航电,,饱和打击,普通,较差,,,,,,,,
 微型导弹系统,diableavionics_microcluster,3,,7500,2000,,50,,5,0,,60,0.8,8,HIGH_EXPLOSIVE,10,,0.4,5.9,8,0.1,6,6,5,6,,200,150,18,50,,,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE, DO_NOT_AIM",,,,,,,,,,,,,,,
 微型导弹系统,diableavionics_microcluster_left,3,,7500,2000,,50,,5,0,,60,0.8,8,HIGH_EXPLOSIVE,10,,0.4,5.9,8,0.1,6,6,5,6,,200,150,18,50,,,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE, DO_NOT_AIM",,,,,,,,,,,,,,,
-微型导弹系统,diableavionics_microcluster2,3,,7500,2000,,50,,5,0,,60,0.8,8,HIGH_EXPLOSIVE,10,,0.4,5.9,8,0.1,6,6,5,6,,200,5,18,50,,,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE, DO_NOT_AIM",,,,,,,,,,,,,,,
+微型导弹系统,diableavionics_microcluster2,3,,7500,2000,,50,,5,0,,72,0.8,6,HIGH_EXPLOSIVE,10,,0.4,5.9,6,0.1,6,6,5,6,,200,5,18,50,,,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE, DO_NOT_AIM",,,,,,,,,,,,,,,
 微型导弹阵列,diableavionics_microarray,3,,17500,2000,,50,,5,0,,600,4,40,HIGH_EXPLOSIVE,10,,0.1,5.95,80,0.05,6,6,5,6,,200,150,18,50,,,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE, DO_NOT_AIM",,,,,,,,,,,,,,,
 微型导弹阵列,diableavionics_microarrayM,3,,17500,2000,,50,,5,0,,300,2,40,HIGH_EXPLOSIVE,10,,0.1,5.95,40,0.05,6,6,5,6,,200,150,18,50,,,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE, DO_NOT_AIM",,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-魔术盒 PD 导弹,diableavionics_magicbox,1,0.75,400,1200,,150,,3,15,5,12,0.5,3,FRAGMENTATION,25,,0.5,1,1,0,7,14,14,12,,475,35,3.7,40,,,"DO_NOT_AIM, PD_ONLY, ANTI_FTR","pd9, missile0, diable_weapon_bp, rare_bp",,恶魔航电,,点防御 (范围),非常快,良好,,,,,,,,11.23
+魔术盒 PD 导弹,diableavionics_magicbox,1,0.75,400,1200,,150,,3,15,5,12,0.5,3,FRAGMENTATION,25,,0.5,1,1,0,7,14,14,12,,475,35,3.7,40,,,"DO_NOT_AIM, PD_ONLY, ANTI_FTR, PD","pd9, missile0, diable_weapon_bp, rare_bp",,恶魔航电,,点防御 (范围),非常快,良好,,,,,,,,11.23
+百宝箱 PD 导弹发射舱,diableavionics_magicboxPod,1,0.75,1200,3000,,300,,3,40,10,32,1,4,FRAGMENTATION,50,,0,2,1,0,10,25,5,12,,600,100,8,40,,,"DO_NOT_AIM, DO_NOT_CONSERVE, PD_ONLY, ANTI_FTR, PD","pd9, missile0,LR,diable_weapon_bp, rare_bp",,恶魔航电,,舰队防空,非常快,优秀,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-雷霆 MRM 发射架,diableavionics_thunderboltsmall,0,,200,1800,,800,,5,6,6,8,,,HIGH_EXPLOSIVE,0,,0,5.5,2,0.5,6,9,9,9,,400,50,10,250,,,DO_NOT_AIM,"missile7, strike4, diable_weapon_bp",,恶魔航电,,终结打击,普通,优秀,,,%s: 刺入船体并在敌舰内部造成{%s}的额外伤害，同时会瘫痪攻击路径上的武器。,穿透伤害|50%,,,TRUE,11.4
-雷霆 MRM 发射舱,diableavionics_thunderboltpod,1,,1150,2500,,800,,5,6,14,24,,,HIGH_EXPLOSIVE,0,,0.4,6,4,0.4,0,12,4,12,,400,650,10,250,,,DO_NOT_AIM,"missile13, strike9, diable_weapon_bp, rare_bp",,恶魔航电,,终结打击,普通,优秀,,,%s: 刺入船体并在敌舰内部造成{%s}的额外伤害，同时会瘫痪攻击路径上的武器。,穿透伤害|50%,,,TRUE,
+夜曲 DEM SRM,diableavionics_nocturneDEM_small,2,0.75,250,1200,,1200,1800,15,30,4,2,,,KINETIC,0,,0,3,1,,0,0,0,0,,300,75,7,400,,,DO_NOT_AIM,"missile8, strike4, merc, rare_bp, diable_weapon_bp, damage_special, damage_soft_flux",,恶魔航电,,反护盾,普通,"良好
+",,,"导弹靠近目标时向其一束夜曲激光，迅速造成大约{%s}的动能伤害，并且有{%s}的概率造成穿盾电弧瘫痪敌人
+",1200|50%,%s: 该伤害视为按导弹而不是能量类型武器计算加成。,DEM导弹,TRUE,
+nocturne_DEM_PAYLOAD,diableavionics_nocturneBeam_dem,1,,0,800,1600,,900,20,12,0,,,,KINETIC,0,,0.05,0.05,0.9,5.5,,,,,600000,,,,,,,"SYSTEM, DANGEROUS",fires_one_burst,,,,,,,,,,,,,,
+nocturne_DEM_Targetinglaser,diableavionics_nocturneDEM_targetinglaser,0,,1,0,1,,,0,200,0,1000,1000,,ENERGY,,0,0.05,0.05,1.3,0.05,,,,,1000000,,,,,,,SYSTEM,,,,,Special,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+雷霆 MRM 发射架,diableavionics_thunderboltsmall,0,,200,1800,,800,,5,6,6,8,,,HIGH_EXPLOSIVE,0,,0,5.5,2,0.5,6,9,9,9,,400,50,10,250,,,DO_NOT_AIM,"missile7, strike4, diable_weapon_bp",,恶魔航电,,终结打击,普通,优秀,,,%s: 刺入船体并会对命中路径上的内部装甲造成5次{%s}面板数值的伤害，同时会瘫痪攻击路径上的武器。,穿透伤害|20%,,,TRUE,11.4
+雷霆 MRM 发射舱,diableavionics_thunderboltpod,1,,1150,2500,,800,,5,6,14,24,,,HIGH_EXPLOSIVE,0,,0.4,6,4,0.4,0,12,4,12,,400,650,10,250,,,DO_NOT_AIM,"missile13, strike9, diable_weapon_bp, rare_bp",,恶魔航电,,终结打击,普通,优秀,,,%s: 刺入船体并会对命中路径上的内部装甲造成5次{%s}面板数值的伤害，同时会瘫痪攻击路径上的武器。,穿透伤害|20%,,,TRUE,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 放逐鱼雷 (双发),diableavionics_banishsmall,1,,350,1250,,2000,2000,500,18,2,2,,,ENERGY,,,0,10,1,,0,0,0,0,,10,120,6,400,,,"STRIKE, USE_VS_FRIGATES, DO_NOT_AIM","strike6, missile1, diable_weapon_bp",,恶魔航电,,,较快,预瞄,,,,,,,TRUE,9.7
 放逐鱼雷发射器,diableavionics_banish,2,0.75,1550,1500,,2000,2000,500,25,11,9,,,ENERGY,,,0,10,1,,0,0,0,0,,10,120,6,400,,,"STRIKE, USE_VS_FRIGATES, DO_NOT_CONSERVE, DO_NOT_AIM","missile13, strike9, diable_weapon_bp",,恶魔航电,,打击,较快,预瞄,,,,,,,TRUE,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-啄木鸟火箭发射舱,diableavionics_plover,0,,1220,1250,,600,,33,12,10,50,,,HIGH_EXPLOSIVE,0,,0,4.05,4,0.15,0,1,0.1,1,,500,50,4,100,,,,"rocket13, strike8, diable_weapon_bp",,恶魔航电,,反装甲,普通,无,,,%s: 刺入船体并在敌舰内部造成{%s}的额外伤害，同时会瘫痪攻击路径上的武器。,穿透伤害|50%,,,,
-画眉鸟 LRM 发射器,diableavionics_thrush,1,,1150,7000,,750,,65,30,13,10,0.13334,2,HIGH_EXPLOSIVE,0,,0,9,2,1,0,0,0,0,,425,25,16,300,,,"DO_NOT_AIM, CONSERVE_1","missile12, strike8, diable_weapon_bp, rare_bp",,恶魔航电,,远程支援,普通,普通,,,%s: 如果第一轮导弹未击中目标，则分裂成{%s}继续追踪。,二级载荷|4枚微型导弹,,,,
+啄木鸟火箭发射舱,diableavionics_plover,0,,1220,1250,,600,,33,12,10,50,,,HIGH_EXPLOSIVE,0,,0,4.05,4,0.15,0,1,0.1,1,,500,50,4,100,,,,"rocket13, strike8, diable_weapon_bp",,恶魔航电,,反装甲,普通,无,,,%s: 刺入船体并会对命中路径上的内部装甲造成5次{%s}面板数值的伤害，同时会瘫痪攻击路径上的武器。,穿透伤害|20%,,,,
+画眉鸟 LRM 发射器,diableavionics_thrush,1,,1150,7000,,750,,65,30,13,10,0.13334,2,HIGH_EXPLOSIVE,0,,0,9,2,1,0,0,0,0,,425,25,16,300,,,"DO_NOT_AIM, CONSERVE_1","missile12, strike8, diable_weapon_bp, rare_bp",,恶魔航电,,远程支援,普通,普通,,,%s: 如果第一轮导弹未击中目标，则分裂成{%s}继续追踪。,二级载荷|8枚微型导弹,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -79,7 +87,7 @@ SRAB 重型发射器,diableavionics_srab,3,0.75,2300,800,,600,400,50,7,13,,,,ENE
 ,debris_launcher7,,,,200,,1,2,,0,,,,,FRAGMENTATION,,,,,,,5,5,0,0,,375,,,10,,,SYSTEM,,,,,,,,,,,,,,,
 ,debris_launcher8,,,,200,,1,2,,0,,,,,FRAGMENTATION,,,,,,,5,5,0,0,,385,,,10,,,SYSTEM,,,,,,,,,,,,,,,
 ,diableavionics_hexafire_ricochet,,,,500,,66,10,,,,,,,ENERGY,,,,,,,0,0,0,0,,700,,,120,,,SYSTEM,,,,,,,,,,,,,,,
-,diableavionics_banishWarhead,,,,1100,,1500,1500,500,,,,,,ENERGY,,,,,,,0,0,0,0,,500,500,6,300,,,SYSTEM,,,,,,,,,,,,,,,
+,diableavionics_banishWarhead,,,,1100,,2000,2000,500,,,,,,ENERGY,,,,,,,0,0,0,0,,500,500,6,400,,,SYSTEM,,,,,,,,,,,,,,,
 ,diableavionics_derechoSystem,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 ,diableavionics_ecmModuleSystem,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 ,diableavionics_rime_system,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
@@ -89,6 +97,7 @@ SRAB 重型发射器,diableavionics_srab,3,0.75,2300,800,,600,400,50,7,13,,,,ENE
 ,diableavionics_armorModule,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 Deep Strike Pod,diableavionics_station_deepStrike,4,,350,10000,,500,2000,500,0,50,1,,,ENERGY,0,,1,30,1,,0,0,0,0,,500,50,20,500,,,"STRIKE,DO_NOT_AIM,SYSTEM","strike20, missile20",,恶魔航电,,,,,,,,,,,TRUE,9.7
 ,diableavionics_deepStrikeGlow,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+百宝箱 PD 导弹发射舱,diableavionics_magicboxPodbuiltin,,,1200,3000,,300,,3,40,10,32,1,4,FRAGMENTATION,50,,0,2,1,0,7,14,14,12,,600,100,6,40,,,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE, PD_ONLY, ANTI_FTR, PD",,,恶魔航电,,舰队防空,非常快,优秀,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #VERSANT FRIGATE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -135,7 +144,8 @@ Deep Strike Pod,diableavionics_station_deepStrike,4,,350,10000,,500,2000,500,0,5
 布舍尔激光炮,diableavionics_virtuous_headA,2,0.5,600,600,250,,,,75,0,6,0.5,3,ENERGY,,333,,,0.48,0.02,,,,,1000000,,,,,,,"PD,ANTI_FTR,SYSTEM","pd9,beam8, no_drop, no_sell, no_drop_salvage",,恶魔航电,,点防御,,,,,"%s: 对战机和导弹造成额外{%s}伤害
 ",先进聚焦透镜|25%,,,,
 威尼 EMPR,diableavionics_virtuous_headB,2,0.5,600,600,,25,400,25,50,0,,,,ENERGY,50,,0.5,7.2,5,0.075,,,,,,1000,,,25,,,"FIRE_WHEN_INEFFICIENT, SYSTEM","energy5, no_drop, no_sell, no_drop_salvage",,恶魔航电,,支援,,,,,%s: 当击中幅能水平较高的目标护盾或船体时，将有{%s}的概率产生打击武器与引擎的电弧，并造成额外{EMP}伤害。,EMP 电弧|25%,,,,
-掘墓者 LAC,diableavionics_virtuous_headC,1,,600,500,,70,,10,30,0,9,1.666,3,KINETIC,63,,0,0.4,,,5,10,0.5,3,,900,,,100,,,SYSTEM,"kinetic8, SR, no_drop, no_sell, no_drop_salvage",,恶魔航电,,反护盾,,,,,,,,,,
+掘墓者 LAC,diableavionics_virtuous_headC,1,,600,"600
+",,70,,10,30,0,9,1.666,3,KINETIC,63,,0,0.4,,,5,10,0.5,3,,900,,,100,,,SYSTEM,"kinetic8, SR, no_drop, no_sell, no_drop_salvage",,恶魔航电,,反护盾,,,,,,,,,,
 魔术盒 PD 导弹,diableavionics_virtuous_headD,1,0.75,400,1200,,150,,3,15,0,12,0.5,3,FRAGMENTATION,25,,0.5,1,1,0,7,14,14,12,,475,35,3.7,40,,,"DO_NOT_AIM, DO_NOT_CONSERVE, PD_ONLY, ANTI_FTR, SYSTEM","pd9, missile0, no_drop, no_sell, no_drop_salvage",,恶魔航电,,点防御 (范围),非常快,良好,,,,,,,,11.23
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #ARMS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -233,10 +243,11 @@ IBIS (单管),diableavionics_strifehead,,,,300,,40,,,90,4,,,,FRAGMENTATION,,,0,0
 ,diableavionics_strifeLeftPauldron,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #BLIZZAIA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-IBIS (单管),diableavionics_blizzaiaHead,,,,300,,40,,,40,5,,,,FRAGMENTATION,,,0,0.1,1,,0,12,1,20,,1000,,,10,,,"PD,PD_ONLY,SYSTEM",,,,,,,,,,,,,,,
+IBIS (单管),diableavionics_blizzaiaHead,,,,300,,40,,,40,5,,,,FRAGMENTATION,,,0,0.1,1,,0,12,1,20,,1000,,,10,,,"PD,PD_ONLY,SYSTEM",,,,,点防御,,,,,,,,,,
 夜曲 EMP 阵列 (短程),diableavionics_blizzaiaNocturne,3,0.75,2300,550,380,,720,20,12,11,,,,KINETIC,,,0.5,0.5,1,3,,,,,2500,,,,,,,"FIRE_WHEN_INEFFICIENT,SYSTEM","beam10, LR",,恶魔航电,,压制,,,,,,,,,,
-掘墓者 LAC (轻型),diableavionics_blizzaiaGraveac,1,,750,500,,70,,10,30,6,9,1,3,KINETIC,,,0,0.4,,,5,10,0.5,3,,900,,,100,,,"FIRE_WHEN_INEFFICIENT, SYSTEM","kinetic8, SR",,恶魔航电,,反护盾,,,,,,,,,,
-金蝉榴弹炮,diableavionics_blizzaiaCicada,,,,500,,500,,,30,,4,0.5,4,HIGH_EXPLOSIVE,,,0,1.6,4,0.1,4,10,3,6,,350,450,3.5,300,-0.5,,"FIRE_WHEN_INEFFICIENT,SYSTEM, DO_NOT_CONSERVE",,,恶魔航电,,反护盾,,,,,,,,,,
+掘墓者 LAC (轻型),diableavionics_blizzaiaGraveac,1,,750,"600
+",,70,,10,30,6,9,1,3,KINETIC,,,0,0.4,,,5,10,0.5,3,,900,,,100,,,"FIRE_WHEN_INEFFICIENT, SYSTEM","kinetic8, SR",,恶魔航电,,反护盾,,,,,,,,,,
+金蝉榴弹炮,diableavionics_blizzaiaCicada,,,,400,,500,,,30,,4,0.5,4,HIGH_EXPLOSIVE,,,0,1.6,4,0.1,4,10,3,6,,400,500,3.5,300,-0.5,,"FIRE_WHEN_INEFFICIENT,SYSTEM, DO_NOT_CONSERVE",,,恶魔航电,,重火力,,,,,,,,,,
 ,diableavionics_blizzaiaShoulderL,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,恶魔航电,,重火力,,,,,,,,,,
 ,diableavionics_blizzaiaShoulderR,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -244,7 +255,8 @@ IBIS (单管),diableavionics_blizzaiaHead,,,,300,,40,,,40,5,,,,FRAGMENTATION,,,0
 布舍尔 (轻型),diableavionics_ravenhead,,,,600,250,,,,36,9,9,0.75,2,ENERGY,,,0,0,0.48,0.02,,,,,1000000,,,,,,,"PD,PD_ONLY,SYSTEM",,,,,,,,,,"%s: 对战机和导弹造成额外{%s}伤害
 ",先进聚焦透镜|25%,,,,
 格罗斯线性突击炮,diableavionics_ravenright,1,,2250,500,,500,,50,25,11,,,,HIGH_EXPLOSIVE,,,0,2.5,,,3,10,3,1,,850,,,350,,,SYSTEM,,,,,,,,,,,,,,,
-掘墓者 HMC,diableavionics_ravenleft,1,,1750,550,,65,,10,30,11,,,,KINETIC,,,0,0.2,1,,1,10,0.5,3,,700,,,100,,,SYSTEM,,,,,,,,,,,,,,,
+掘墓者 HMC,diableavionics_ravenleft,1,,1750,550,,"70
+",,10,30,11,,,,KINETIC,,,0,0.2,1,,1,10,0.5,3,,700,,,100,,,SYSTEM,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #VALIANT WANZER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ILIS PD,diableavionics_valianthead,,,,500,150,,,,30,,,,,ENERGY,,,0.5,0.5,,,,,,,1600,1600,,,,,,"PD,PD_ONLY,SYSTEM",,,,,,,,,,,,,,,

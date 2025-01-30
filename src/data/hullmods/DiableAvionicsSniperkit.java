@@ -18,12 +18,11 @@ import java.util.Map;
 
 public class DiableAvionicsSniperkit extends BaseHullMod {
 
-    private float REDUCED_RANGE =0.25f;
-    private float SMOD_REDUCED_RANGE=0.75f;
+    private float REDUCED_RANGE =0f;
+    private float SMOD_REDUCED_RANGE=0.60f;
     private static float Warlust_maxrange=4000f;
-    private float maxdistance=Warlust_maxrange;
-    private boolean canDecelerate = true;
-    private IntervalUtil decelerateInterval = new IntervalUtil(0.25f, 0.5f);   //判定减速的间隔
+
+
 
     public static Map mag = new HashMap();
     static {
@@ -37,38 +36,16 @@ public class DiableAvionicsSniperkit extends BaseHullMod {
     @Override
     public void applyEffectsBeforeShipCreation(ShipAPI.HullSize hullSize, MutableShipStatsAPI stats, String id) {
 
+        if(isSMod(stats)){
+            stats.getFighterWingRange().modifyMult(this.getClass().getName(),SMOD_REDUCED_RANGE);
+        }else{
+            stats.getFighterWingRange().modifyMult(this.getClass().getName(),REDUCED_RANGE);
+        }
+
     }
    @Override
    public void advanceInCombat(ShipAPI ship, float amount) {
 
-       boolean sMod = ship.getVariant().getSMods().contains("diableavionics_sniperkit");
-       List<FighterWingAPI> Wings=ship.getAllWings();
-       for(FighterWingAPI w:Wings) {
-
-           if(w.getSpec().getId().contains("warlust")){
-               if(sMod){
-                   maxdistance=Warlust_maxrange*SMOD_REDUCED_RANGE;
-               }else{
-                   maxdistance=Warlust_maxrange*REDUCED_RANGE;
-               }
-
-              for(ShipAPI f: w.getWingMembers())
-              {
-                  float distance= MathUtils.getDistance(f,ship);
-                  if(distance>=maxdistance*0.9f){
-                      decelerateInterval.advance(amount);             //判断是否度过一定时间
-                      if (decelerateInterval.intervalElapsed()) {
-                          canDecelerate = true;       //判定可以减速
-                      }
-                      if (canDecelerate) {
-                          ship.giveCommand(ShipCommand.ACCELERATE_BACKWARDS, null, 0); //让飞机减速后退
-                      }
-                  }else {
-                      canDecelerate = false;
-                  }
-              }
-           }
-       }
    }
 
 

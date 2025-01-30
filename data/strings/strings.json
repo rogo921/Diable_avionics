@@ -71,6 +71,8 @@
 				hm_virtuousEffect_armor:"装甲值: ",
 				hm_virtuousEffect_emp:"所受EMP伤害: ",
 
+                "hm_notdiableship":"仅能够安装在恶魔航电旗下的舰船",
+                "hm_hasdampalready":"舰船已经内置了整合式的冲击缓解器",
                 hm_warning:"警告",
                 hm_noBays:"该舰没有标准飞行甲板",
 				hm_builtin:"舰船已经拥有龙门架",
@@ -99,6 +101,35 @@
                 "hm_sniperkit_01":"只能安装在有标准甲板的舰船上！",
                 "hm_sniperkit_02":"与护航阵列冲突不兼容！",
 
+                "hm_tooltip_title_specific": "详情",
+                "hm_dampdash_01":"万泽获得阻尼冲刺副系统，0.7s内强化机动性并提供爆发性冲刺，系统启动后短时间内获得高额减伤.",
+                "hm_dampdash_02":"\n 冷却时间:  %s",
+                "hm_dampdash_03":"\n 最大充能次数:  %s",
+                "hm_dampdash_04":"\n 充能回复时间:  %s",
+                "hm_dampdash_05":"\n 开启时减伤比率:  %s",
+                "hm_dampdash_06":"万泽机师会积极使用冲刺来规避致命的射弹和具有威胁的光束武器的瞄准，此外也会进攻性使用冲刺接近敌人\"",
+                "hm_dampdash_07":"机师增益",
+                "hm_dampdash_08":"敬请期待后续更新",
+                "hm_dampdash_09":"\"敌我数量二比一，建议采取冲刺回避\"",
+                "hm_dampdash_10":"         \u2014 渡鸦OS, 于某次对速子科技旗下舰队的猎杀行动中",
+
+                "hm_switchsub_cf01":"冷锋级护卫舰以功能性模块化船体为傲，这样的设计允许冷锋级护卫舰在默认的战术系统外额外选择装配不同的战术系统",
+                "hm_switchsub_cf02":"冷锋级护卫舰当前装配的额外战术系统为: %s",
+                "hm_switchsub_cf02A_hl":"突击电弧发射极",
+                "hm_switchsub_cf02B_hl":"前线AWACS",
+
+                "hm_switchsub_cf03A01":"额外的放电电容以及一套突击电弧发射装着被整合进船体，系统开启后，电极从船体中伸出对船头方向90°的射界内发射电弧，打击路径上的目标。",
+                "hm_switchsub_cf03A02":"电弧有效射程为%s，每道电弧造成%semp伤害和%s破片伤害",
+
+
+                "hm_switchsub_cf03B01":"一个尺寸小巧但是功能齐全的预警和控制系统模块被整合进船体，该模块能容纳一位高阶指挥人员及其班组对附近全体万泽机师予以指挥和调度,显著提升作战效能。",
+                "hm_switchsub_cf03B02":"对于附近%s单位距离内的所有万泽，提升%s的伤害与最大速度，并且受到军官等级加成",
+                "hm_switchsub_cf03B03":"最多允许一位五级军官提供%s的上述加成",
+                "hm_pressleft":"\n按下键盘左键并点击船插图标以切换不同的战术系统",
+
+
+               "subsystem_arc_01":"突击电弧发射极",
+               "subsystem_awacs_01":"前线AWACS",
 				hm_cc_1:"优化导航配置",
 
                 stm_repair0:"正在维修",
