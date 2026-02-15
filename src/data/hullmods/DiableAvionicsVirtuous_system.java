@@ -82,26 +82,6 @@ public class DiableAvionicsVirtuous_system extends BaseHullMod {
 
     @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
-        if (stats.getFleetMember() == null
-                || (stats.getFleetMember().getFleetData() == null || stats.getFleetMember().getFleetData().getFleet() != Global.getSector().getPlayerFleet())) {
-            //prevent direct recovery from Last Line fleet because we spawn a derelict after combat
-
-            if (!stats.getVariant().hasTag(Tags.VARIANT_UNBOARDABLE))
-                stats.getVariant().addTag(Tags.VARIANT_UNBOARDABLE);
-
-            if (stats.getVariant().hasTag(Tags.VARIANT_ALWAYS_RECOVERABLE))
-                stats.getVariant().removeTag(Tags.VARIANT_ALWAYS_RECOVERABLE);
-        } else if (stats.getFleetMember() != null
-                && stats.getFleetMember().getFleetData() != null
-                && stats.getFleetMember().getFleetData().getFleet() == Global.getSector().getPlayerFleet()) {
-
-            //always recover if in player fleet
-            if (stats.getVariant().hasTag(Tags.VARIANT_UNBOARDABLE))
-                stats.getVariant().removeTag(Tags.VARIANT_UNBOARDABLE);
-
-            if (!stats.getVariant().hasTag(Tags.VARIANT_ALWAYS_RECOVERABLE))
-                stats.getVariant().addTag(Tags.VARIANT_ALWAYS_RECOVERABLE);
-        }
 
         //trigger a system switch if none of the selector hullmods are present
         boolean switchSystem = true;
@@ -222,10 +202,10 @@ public class DiableAvionicsVirtuous_system extends BaseHullMod {
         if (ship.getOriginalOwner() < 0) {
             //undo fix for weapons put in cargo
             if (Global.getSector() != null &&
-                            Global.getSector().getPlayerFleet() != null &&
-                            Global.getSector().getPlayerFleet().getCargo() != null &&
-                            Global.getSector().getPlayerFleet().getCargo().getStacksCopy() != null &&
-                            !Global.getSector().getPlayerFleet().getCargo().getStacksCopy().isEmpty()) {
+                    Global.getSector().getPlayerFleet() != null &&
+                    Global.getSector().getPlayerFleet().getCargo() != null &&
+                    Global.getSector().getPlayerFleet().getCargo().getStacksCopy() != null &&
+                    !Global.getSector().getPlayerFleet().getCargo().getStacksCopy().isEmpty()) {
 
                 for (CargoStackAPI s : Global.getSector().getPlayerFleet().getCargo().getStacksCopy()) {
                     if (s.isWeaponStack() && s.getWeaponSpecIfWeapon().getWeaponId().startsWith("diableavionics_virtuous")) {

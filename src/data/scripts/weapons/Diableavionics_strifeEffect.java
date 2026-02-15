@@ -21,7 +21,7 @@ public class Diableavionics_strifeEffect implements EveryFrameWeaponEffectPlugin
     private ShipAPI ship;
     private AnimationAPI anim, aGlow;
     private WeaponAPI armL, armR, pauldronL, pauldronR, torso, wGlow;
-    
+    private ShipAPI sheild;
     private float delay = 0.1f;
     private float timer = 0;
     private float SPINUP = 0.02f;
@@ -43,6 +43,7 @@ public class Diableavionics_strifeEffect implements EveryFrameWeaponEffectPlugin
             maxFrame=anim.getNumFrames();
             frame=MathUtils.getRandomNumberInRange(0, maxFrame-1);
             for(WeaponAPI w : ship.getAllWeapons()){
+                String temp=w.getSlot().getId();
                 switch (w.getSlot().getId()){
                     case "B_TORSO" :
                         torso=w;
@@ -64,6 +65,7 @@ public class Diableavionics_strifeEffect implements EveryFrameWeaponEffectPlugin
                         aGlow=w.getAnimation();
                         break;
                 }
+
             }
         }
         
@@ -139,16 +141,28 @@ public class Diableavionics_strifeEffect implements EveryFrameWeaponEffectPlugin
         armR.setCurrAngle(weapon.getCurrAngle() + RIGHT_ARM_OFFSET);
         
         pauldronR.setCurrAngle(global + sineA*TORSO_OFFSET*0.5f + aim*0.75f + RIGHT_ARM_OFFSET*0.5f);
-             
-        armL.setCurrAngle(
-                        global
-                        +   
-                        ((aim+LEFT_ARM_OFFSET)*sinceB)
-                        +
-                        ((overlap+aim*0.25f)*(1-sinceB))
-        );
-        
-        pauldronL.setCurrAngle(torso.getCurrAngle()+MathUtils.getShortestRotation(torso.getCurrAngle(),armL.getCurrAngle())*0.6f);        
+
+        if (ship.getHullSpec().getHullId().contains("sheild"))
+        {
+           sheild=ship.getChildModulesCopy().get(0);
+           sheild.setFacing( global
+                   +
+                   ((aim+LEFT_ARM_OFFSET)*sinceB)
+                   +
+                   ((overlap+aim*0.25f)*(1-sinceB))
+           );
+           pauldronL.setCurrAngle(torso.getCurrAngle()+MathUtils.getShortestRotation(torso.getCurrAngle(),sheild.getFacing())*0.6f);
+        }else{
+            armL.setCurrAngle(
+                    global
+                            +
+                            ((aim+LEFT_ARM_OFFSET)*sinceB)
+                            +
+                            ((overlap+aim*0.25f)*(1-sinceB))
+            );
+            pauldronL.setCurrAngle(torso.getCurrAngle()+MathUtils.getShortestRotation(torso.getCurrAngle(),armL.getCurrAngle())*0.6f);
+        }
+
         
         wGlow.setCurrAngle(weapon.getCurrAngle());
         

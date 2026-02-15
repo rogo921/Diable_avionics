@@ -1,17 +1,54 @@
-package data.scripts.ai;
+package data.scripts.util;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.util.Misc;
 
+import org.lazywizard.lazylib.MathUtils;
 import org.lazywizard.lazylib.VectorUtils;
 import org.lazywizard.lazylib.combat.AIUtils;
 import org.lazywizard.lazylib.combat.CombatUtils;
+import org.lazywizard.lazylib.combat.WeaponUtils;
+import org.lwjgl.util.vector.Vector2f;
+import org.lazywizard.lazylib.VectorUtils;
+
+import java.util.EnumMap;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
 
 public class Diableavionics_UniThreatenJudge {
+
+//    public static Map personal_weighting = new HashMap();
+//    static {
+//        personal_weighting.put(ShipAPI.HullSize.FIGHTER, 0f);
+//        personal_weighting.put(ShipAPI.HullSize.FRIGATE, 25f);
+//        personal_weighting.put(ShipAPI.HullSize.DESTROYER, 20f);
+//        personal_weighting.put(ShipAPI.HullSize.CRUISER, 15f);
+//        personal_weighting.put(ShipAPI.HullSize.CAPITAL_SHIP, 10f);
+//    }
+
+
+    private static final Map<ShipAPI.HullSize, Integer> SHIP_THREAT_SCORE = new EnumMap<>(ShipAPI.HullSize.class);
+
+    static {
+        SHIP_THREAT_SCORE.put(ShipAPI.HullSize.DEFAULT, 0);
+        SHIP_THREAT_SCORE.put(ShipAPI.HullSize.FIGHTER, 1);
+        SHIP_THREAT_SCORE.put(ShipAPI.HullSize.FRIGATE, 3);
+        SHIP_THREAT_SCORE.put(ShipAPI.HullSize.DESTROYER,5);
+        SHIP_THREAT_SCORE.put(ShipAPI.HullSize.CRUISER,7);
+        SHIP_THREAT_SCORE.put(ShipAPI.HullSize.CAPITAL_SHIP,10);
+    }
+
     public Diableavionics_UniThreatenJudge(){
 
+    }
+
+
+    public static float getThreatenScore(ShipAPI target){
+
+        return SHIP_THREAT_SCORE.get(target.getHullSize());
     }
 
     public static boolean isTreatenedbyProjectile(ShipAPI ship,float search_range){
@@ -43,6 +80,7 @@ public class Diableavionics_UniThreatenJudge {
                 }
             }
 
+
             for (DamagingProjectileAPI p : near) {
                 if (p.getOwner() != ship.getOwner()) {
                     if (!p.didDamage() && !p.isFading()) {
@@ -71,22 +109,71 @@ public class Diableavionics_UniThreatenJudge {
         return false;
     }
 
-    public  static boolean  BeamweaponFiring(ShipAPI ship,float search_range){
+    public static boolean  BeamweaponFiring(ShipAPI ship, float search_range){
         List<WeaponAPI> weapons;
         List<ShipAPI> nearship = AIUtils.getNearbyEnemies(ship,search_range);
-        for(ShipAPI s : nearship){
-            if(s.getShipTarget()!=ship) continue;
-            weapons=s.getAllWeapons();
-            for(WeaponAPI w:weapons){
-                if(w.isBeam()&&w.isFiring()){
-                    float beamDamage=w.getDamageType().getArmorMult() * w.getDamage().getDamage();
-                    if(beamDamage>=900)
-                    return true;
-                }
-            }
+        ShipAPI Primary_threat = ship.getShipTarget();
+        Boolean beamthreat = false;
+        if(Primary_threat!=null)
+        {
+            if(IsAimedByBeam(ship,Primary_threat))
+                beamthreat = true;
         }
-        return false;
+
+        for(ShipAPI enemy : nearship){
+
+            if(enemy.getShipTarget()!=ship&& !ship.isFighter())
+                continue;
+
+            if(IsAimedByBeam(ship,enemy))
+                beamthreat = true;
+        }
+        return beamthreat;
     }
+
+      public  static boolean IsAimedByBeam(ShipAPI ship, ShipAPI enemy){
+
+        List<WeaponAPI> weapons;
+        Vector2f AsumeAimline = null;
+         if(enemy!=null)
+         {
+             weapons=enemy.getAllWeapons();
+             for(WeaponAPI w:weapons){
+                 if(w.isBeam()&&!w.isDecorative()&&!w.isDisabled()){
+                     float beamDamage= w.getDamage().getDamage();
+                     if(beamDamage>=ship.getHullSpec().getHitpoints()*0.25f || beamDamage>= 500f){
+                         if(WeaponUtils.isWithinArc(ship,w))
+                         {
+                             AsumeAimline = new Vector2f(ship.getLocation().getX()-w.getLocation().getX(),ship.getLocation().getY()-w.getLocation().getY());
+
+                             float Currangle=w.getCurrAngle();
+
+                             float AsumeAimlineAngle=VectorUtils.getFacing(AsumeAimline);
+
+
+                             if(Math.abs(AsumeAimlineAngle-w.getCurrAngle())<=5)
+                                 return true;
+                         }
+                     }
+                 }
+                        continue;
+             }
+         }
+         return false;
+    }
+
+//    public static float OfficerPersonalityWeighting(ShipAPI ship){
+//
+//
+//            if (ship.getCaptain().isAICore()) return 1.0f;
+//            else if(ship.getCaptain().isDefault()){
+//
+//
+//            }
+//
+//            return 0f;
+//    }
+
 
     private static float normalizeAngle(float ang) {
         while ((ang > 180f || ang < -180f)) {

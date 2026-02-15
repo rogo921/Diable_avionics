@@ -17,6 +17,7 @@ import org.magiclib.plugins.MagicAutoTrails;
 import org.magiclib.plugins.MagicTrailPlugin;
 import java.awt.*;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import static data.scripts.util.Diableavionics_stringsManager.txt;
@@ -34,7 +35,7 @@ public class DiableAvionicsUpgrade extends BaseHullMod {
 
     @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
-        stats.getMaxSpeed().modifyFlat(id, (Float) mag.get(hullSize.toString()));
+        stats.getMaxSpeed().modifyFlat(id, (Float) mag.get(hullSize));
     }
 
     @Override
@@ -65,13 +66,13 @@ public class DiableAvionicsUpgrade extends BaseHullMod {
             return "25";
         }
         if (index == 1) {
-            return "15";
+            return "20";
         }
         if (index == 2) {
-            return "10";
+            return "15";
         }
         if (index == 3) {
-            return "5";
+            return "10";
         }
         if (index == 4) {
             return "7%";
@@ -83,10 +84,11 @@ public class DiableAvionicsUpgrade extends BaseHullMod {
 
     @Override
     public boolean isApplicableToShip(ShipAPI ship) {
-        return ship.getHullSpec().getHullId().startsWith("diableavionics_")
-                && !ship.getVariant().hasHullMod(DampenedMounts.MODULAR_MOUNT_ID)
-                && !ship.getVariant().getPermaMods().contains(DampenedMounts.MODULAR_MOUNT_ID)
-                && !ship.getVariant().getSMods().contains(DampenedMounts.MODULAR_MOUNT_ID);
+
+        return ship.getHullSpec().getHullId().startsWith("diableavionics_");
+//                && !ship.getVariant().hasHullMod(DampenedMounts.MODULAR_MOUNT_ID)
+//                && !ship.getVariant().getPermaMods().contains(DampenedMounts.MODULAR_MOUNT_ID)
+//                && !ship.getVariant().getSMods().contains(DampenedMounts.MODULAR_MOUNT_ID);
     }
 
     private static final Color ENGINE_COLOR = new Color(190, 220, 255);
@@ -108,6 +110,13 @@ public class DiableAvionicsUpgrade extends BaseHullMod {
 
         @Override
         public void advance(float amount) {
+            String personID=ship.getCaptain().getPersonalityAPI().getId();
+            String personName=ship.getCaptain().getPersonalityAPI().getDisplayName();
+            List<FighterWingAPI> allfighter=ship.getAllWings();
+            for(FighterWingAPI f:allfighter){
+                float range=f.getRange();
+
+            }
             interval.advance(amount);
             if (interval.intervalElapsed()) {
                 interval.setInterval(1f, 1f);

@@ -1,16 +1,15 @@
 {
   "id": "diableavionics",
-  "name": "Diable Avionics",
-  "author": "Tartiflette, formerly created by Flashfrozen with the participation of Debido,used maintained by matt
-  currently maintained by rogo921",
+  "name": "Diable Avionics_Rogo.Ver",
+  "author": "Tartiflette, formerly created by Flashfrozen with the participation of Debido,used maintained by matt,currently maintained by rogo921",
   "version":
     {
-      "major": 2,
-      "minor": 9,
-      "patch": 2
+      "major": 1,
+      "minor": 3,
+      "patch": 4
     },
-  "description": "Claiming ownership over the possessions of millions seems to be a bold claim, but is one the Diable Avionics Corporation intends to enforce, with deadly means if necessary.",
-  "gameVersion": "0.97a",
+  "description": "称拥有这片星域数百万星球的所有权,看似是一种不自量力的主张,但自称 人之领 继承者的 恶魔航电 将运用一切必要手段将其付诸行动...而你将是撬动其变革的那只蝴蝶",
+  "gameVersion": "0.98a",
   "dependencies": [
     {
       "id": "lw_lazylib",
@@ -18,10 +17,9 @@
     },
     {
       "id": "MagicLib",
-      "name": "MagicLib",
-      "version": { "major": "1", "minor": "4", "patch": "0" }
-    },
+      "name": "MagicLib"
+    }
   ],
   "jars": [ "jars/Diable_Avionics.jar" ],
-  "modPlugin": "data.scripts.DAModPlugin",
+  "modPlugin": "data.scripts.DAModPlugin"
 }

@@ -5,7 +5,10 @@ import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.impl.campaign.ids.HullMods;
 import com.fs.starfarer.api.impl.campaign.ids.Tags;
 import com.fs.starfarer.api.loading.FighterWingSpecAPI;
-
+import com.fs.starfarer.api.impl.campaign.ids.Stats;
+import com.fs.starfarer.api.loading.HullModSpecAPI;
+import com.fs.starfarer.api.util.IntervalUtil;
+import org.lazywizard.lazylib.MathUtils;
 import static data.scripts.util.Diableavionics_stringsManager.txt;
 
 import java.awt.*;
@@ -13,10 +16,16 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
+
+
 public class DiableAvionicsSniperkit extends BaseHullMod {
 
-    private float REDUCED_RANGE =0.25f;
-    private float SMOD_REDUCED_RANGE=0.75f;
+    private float REDUCED_RANGE =0f;
+    private float SMOD_REDUCED_RANGE=0.60f;
+    private static float Warlust_maxrange=4000f;
+
+
 
     public static Map mag = new HashMap();
     static {
@@ -30,39 +39,33 @@ public class DiableAvionicsSniperkit extends BaseHullMod {
     @Override
     public void applyEffectsBeforeShipCreation(ShipAPI.HullSize hullSize, MutableShipStatsAPI stats, String id) {
 
-        boolean sMod = isSMod(stats);
-
-        for(int i=0; i<(int)stats.getNumFighterBays().getBaseValue();i++) {
-            if(stats.getVariant().getWing(i)==null){
-                continue;
-            }
-            if(stats.getVariant().getWingId(i).equals("diableavionics_warlust_wing")){
-                FighterWingSpecAPI wanzer = stats.getVariant().getWing(i);
-               if(sMod){
-                   wanzer.setRange(wanzer.getRange()*SMOD_REDUCED_RANGE);
-               }else{
-                   wanzer.setRange(wanzer.getRange()*REDUCED_RANGE);
-               }
-            }
+        if(isSMod(stats)){
+            stats.getFighterWingRange().modifyMult(this.getClass().getName(),SMOD_REDUCED_RANGE);
+        }else{
+            stats.getFighterWingRange().modifyMult(this.getClass().getName(),REDUCED_RANGE);
         }
 
     }
+   @Override
+   public void advanceInCombat(ShipAPI ship, float amount) {
+
+   }
 
 
     @Override
     public void applyEffectsToFighterSpawnedByShip(ShipAPI fighter, ShipAPI ship, String id) {
 
         if (fighter.getWing() != null && fighter.getWing().getSpec() != null) {
-            if(fighter.getWing().getWingId().equals("diableavionics_warlust_wing"))
-            {
 
+            if(fighter.getWing().getSpec().getId().contains("warlust"))
+            {
                 fighter.getMutableStats().getBallisticWeaponRangeBonus().modifyPercent(id,(Float)mag.get(ship.getHullSize()));
+//                fighter.getMutableStats().getBallisticWeaponRangeBonus().modifyPercent(id,(Float)mag.get(ship.getHullSize()));
 //                List<WeaponAPI> Allweapon= fighter.getWingLeader().getAllWeapons();
 //                for(WeaponAPI w:Allweapon){
 //                    Global.getLogger(this.getClass()).info(w.getRange());
 //                }         used by debug
-
-                // fighter.addTag(Tags.WING_STAY_IN_FRONT_OF_SHIP);
+                 fighter.addTag(Tags.WING_STAY_IN_FRONT_OF_SHIP);
             }
         }
     }

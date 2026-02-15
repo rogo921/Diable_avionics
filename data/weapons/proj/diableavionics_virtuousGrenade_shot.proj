@@ -9,7 +9,7 @@
     "collisionRadius":6,
     "collisionClass":"MISSILE_NO_FF",
     "explosionColor":[255,100,100,255],
-    "explosionRadius":75,
+    "explosionRadius":100,
     "maxFlightTime":3.5,
     "armingTime":2,	
     "engineSpec":{

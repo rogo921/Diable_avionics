@@ -3,15 +3,9 @@ package data.shipsystems.scripts.ai;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.combat.ShipCommand;
-import com.fs.starfarer.api.util.IntervalUtil;
-import data.scripts.ai.Diableavionics_UniThreatenJudge;
-import org.lazywizard.lazylib.MathUtils;
+import data.scripts.util.Diableavionics_UniThreatenJudge;
 import org.lazywizard.lazylib.combat.AIUtils;
-import org.lazywizard.lazylib.combat.CombatUtils;
-import java.awt.*;
 import org.lwjgl.util.vector.Vector2f;
-import data.scripts.ai.*;
-import java.util.List;
 
 
 public class Diableavionics_driftAI implements ShipSystemAIScript {

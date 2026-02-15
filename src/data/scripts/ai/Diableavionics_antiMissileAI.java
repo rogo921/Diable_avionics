@@ -80,9 +80,17 @@ public class Diableavionics_antiMissileAI implements MissileAIPlugin, GuidedMiss
             }
 
             target = targetPicker.pick();
-
+//            Global.getLogger(this.getClass()).info(target.getClass().getName()+" magicboxtest");
             return;
         }
+
+
+
+//        //if there is no proper target, lock missile
+//        if(target==null){
+//            missile.setAngularVelocity(10f);
+//        }
+
 
         //finding lead point to aim to    
         float dist = MathUtils.getDistanceSquared(missile.getLocation(), target.getLocation());

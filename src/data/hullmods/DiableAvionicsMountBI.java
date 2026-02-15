@@ -66,6 +66,8 @@ public class DiableAvionicsMountBI extends BaseHullMod {
                     stats.getDynamic().getMod(Stats.DEPLOYMENT_POINTS_MOD).modifyFlat(id, CAPITAL_DP);
                     break;
             }
+
+
         }
     }
 

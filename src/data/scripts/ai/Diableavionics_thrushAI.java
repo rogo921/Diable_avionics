@@ -19,7 +19,8 @@ import org.lazywizard.lazylib.combat.AIUtils;
 import org.lwjgl.util.vector.Vector2f;
 
 public class Diableavionics_thrushAI implements MissileAIPlugin, GuidedMissileAI {
-              
+    private static final int SPLIT_NUM = 8;
+
     //////////////////////
     //     SETTINGS     //
     //////////////////////
@@ -136,7 +137,7 @@ public class Diableavionics_thrushAI implements MissileAIPlugin, GuidedMissileAI
                     )
                     || missile.isFizzling()
                     ){
-                for(float i=0; i<=12; i++){
+                for(float i=0; i<=SPLIT_NUM; i++){
                     engine.spawnProjectile(
                             missile.getSource(),
                             missile.getWeapon(),

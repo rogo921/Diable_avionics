@@ -27,7 +27,7 @@ public class Diableavionics_cicadaAI implements MissileAIPlugin, GuidedMissileAI
         this.missile = missile;
 
         //check if the grenade is from the Blizzaia or the Virtuous
-        if (missile.getSpec().getArmingTime() > 1.5f) {
+        if (missile.getSpec().getArmingTime() >= 2.0f) {
             mult = 2;
         }
 
@@ -110,7 +110,7 @@ public class Diableavionics_cicadaAI implements MissileAIPlugin, GuidedMissileAI
             vel.scale(0.15f);
             engine.addSmoothParticle(missile.getLocation(), vel, 300 * mult, 2, 0.1f, Color.white);
             engine.addHitParticle(missile.getLocation(), vel, 200 * mult, 1, 0.4f, new Color(200, 100, 25));
-            engine.spawnExplosion(missile.getLocation(), vel, Color.DARK_GRAY, 75 * mult, 2);
+            engine.spawnExplosion(missile.getLocation(), vel, Color.DARK_GRAY, 100 * mult, 2);
 
             for (int i = 0; i < 25; i++) {
                 engine.addHitParticle(

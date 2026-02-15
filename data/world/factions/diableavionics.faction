@@ -9,13 +9,13 @@
     #"secondaryUIColor":[34,51,95,255],
     #"secondarySegments":4,
 
-    "displayName":"Diable Avionics",
-    "displayNameWithArticle":"the Diable Corp",	
+    "displayName":"恶魔航电",
+    "displayNameWithArticle":"恶魔航电",
 
-    "displayNameLong":"Diable Avionics Corporation",
-    "displayNameLongWithArticle":"the Diable Avionics Corporation",
-    "personNamePrefixAOrAn":"a",
-    "displayNameIsOrAre":"is",
+    "displayNameLong":"恶魔航电集团",
+    "displayNameLongWithArticle":"恶魔航电集团",
+    "personNamePrefixAOrAn":"",
+    "displayNameIsOrAre":"",
 
     "logo":"graphics/da/factions/daflag.png",
     "crest":"graphics/da/factions/dacrest.png",
@@ -43,7 +43,6 @@
             "diableavionics_draft":1,
             "diableavionics_vapor":1,
             "diableavionics_sleet":1,
-            "diable_brisk":0.75,
             "diableavionics_versant":0.5,
 
             "diableavionics_laminar":1,
@@ -52,7 +51,6 @@
             "diableavionics_calm":1,
             "diableavionics_hayle":1,
             "diableavionics_coanda":1,
-            "diable_polarV":0.75,
             "diableavionics_derecho":0.5,	
             "diableavionics_miniGust":0.5,
             "diableavionics_fractus":1,
@@ -63,8 +61,6 @@
 
             "diableavionics_haze":1,
             "diableavionics_daze":1,
-            "diable_ashfall":0.75,
-            "diable_riptide":0.75,
             "diableavionics_gust":0.5,
             "diableavionics_storm":1,	
             "diableavionics_rime_m":0.25,
@@ -118,6 +114,7 @@
             "diableavionics_draft",
             "diableavionics_sleet",
             "diableavionics_vapor",
+            "diableavionics_coldfront",
             "diableavionics_versant",
 
             "diableavionics_laminar",
@@ -144,6 +141,7 @@
 
             "diableavionics_maelstrom",
             "diableavionics_pandemonium",
+            "diableavionics_sirocco",
         ],
     },
 
@@ -180,6 +178,7 @@
 
             "diableavionics_maelstrom",
             "diableavionics_pandemonium",
+            "diableavionics_sirocco",
         ],
     },
 
@@ -200,6 +199,7 @@
             "diableavionics_warlust_wing",
             "diableavionics_valiant_wing",
             "diableavionics_raven_wing",
+            "diableavionics_nightingale_wing",
             "diableavionics_blizzaia_wing",
             "diableavionics_zephyr_wing",
             "diableavionics_avalanche_wing",
@@ -219,6 +219,7 @@
             "diableavionics_warlust_wing",
             "diableavionics_valiant_wing",
             "diableavionics_raven_wing",
+            "diableavionics_nightingale_wing",
             "diableavionics_blizzaia_wing",
             "diableavionics_zephyr_wing",
             "diableavionics_avalanche_wing",
@@ -241,6 +242,7 @@
             "diableavionics_micromissile",
             "diableavionics_thunderboltsmall",
             "diableavionics_magicbox",
+            "diableavionics_nocturneDEM_small",
             "diableavionics_banishsmall",
             "diableavionics_winee",
             "diableavionics_graveac",
@@ -256,6 +258,8 @@
             "diableavionics_srab",
             "diableavionics_nocturne",
             "diableavionics_thunderboltpod",
+            "diableavionics_magicboxPod",
+
             "diableavionics_plover",
             "diableavionics_banish",
             "diableavionics_thrush",
@@ -279,6 +283,7 @@
             "diableavionics_micromissile",
             "diableavionics_thunderboltsmall",
             "diableavionics_magicbox",
+            "diableavionics_nocturneDEM_small",
             "diableavionics_banishsmall",
             "diableavionics_winee",
             "diableavionics_graveac",
@@ -294,6 +299,8 @@
             "diableavionics_srab",
             "diableavionics_nocturne",
             "diableavionics_thunderboltpod",
+            "diableavionics_magicboxPod",
+
             "diableavionics_plover",
             "diableavionics_banish",
             "diableavionics_thrush",
@@ -337,8 +344,6 @@
             "shielded_holds",
             "recovery_shuttles",
             "ecm",
-            "diableavionics_mount",
-            "diableavionics_avionics"
         ],
     },
 
@@ -402,6 +407,9 @@
             "graphics/portraits/portrait25.png",
             "graphics/portraits/portrait30.png",
             "graphics/portraits/portrait35.png",
+            "graphics/da/portraits/diableavionics_wanzerpilot0.png",
+            "graphics/da/portraits/diableavionics_wanzerpilot1.png",
+
         ],
         "standard_female":[
             "graphics/portraits/portrait_hegemony04.png",
@@ -441,22 +449,25 @@
             "canBombard":true,
             "territorial":true,
         },
+        		"simulatorData":{
+        			"showInSimulator":true,
+        		},
     },
 
     "fleetTypeNames":{
-        "trade":"Commerce Fleet",
+        "trade":"商队",
 
-        "tradeLiner":"Transit Flight",
-        "tradeSmuggler":"Suspicious Convoy",
-        "smallTrader":"Resupply Convoy",
+        "tradeLiner":"客运舰队",
+        "tradeSmuggler":"走私舰队",
+        "smallTrader":"补给舰队",
 
-        "patrolSmall":"Security Detachment",
-        "patrolMedium":"Aggressive Recon",
-        "patrolLarge":"Strategic Task-force",
+        "patrolSmall":"安保舰队",
+        "patrolMedium":"侦查舰队",
+        "patrolLarge":"特遣队",
 
-        "inspectionFleet":"Oversight Inspector",
-        "taskForce":"Invasion Fleet",
+        "inspectionFleet":"监察队",
+        "taskForce":"入侵舰队",
 
-        "foodReliefFleet":"Relief Convoy",
+        "foodReliefFleet":"救援舰队",
     },
 },

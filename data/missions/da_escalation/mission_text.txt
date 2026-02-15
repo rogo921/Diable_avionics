@@ -1,8 +1,8 @@
-Location: In a Hyperspace storm near Askonia
-Date: 203.10.18
+地点:{Askonia}星系附近的超空间风暴中
+日期:{203.10.18
 
-   While the Diable Avionics Corporation kept its tech base mostly intact since the Collapse, it is not complete and some of their most advanced designs require some then sub-contracted components whose blueprint are not present in the Headquarter's databank. It's only by sheer random luck that the admiralty learned about the existence of at least one copy of a couple of them in the hands of the Tri-Tachyon corporation.
-   
-   Aquiring them proved tricky given the abysmal relations the Diable Avionic have with every other large factions in general, and the TTs in particular. But fortunately for them, some well placed bribes and the rented services of a group well known for their hackers and spies allowed them to get their hands on those blueprint chips. It is that missing data that was preventing them from building Valiants versatile wanzers and the latest Versant versatile frigate developed right before the Collapse.
+虽然{恶魔航电}自{"大崩塌"}后让技术基本保持完整，但由于一些未完成的先进技术的零部件被分包给一些下属企业，导致部分蓝图并没有被录入总数据库当中。幸运的是，海军部偶然得知：至少有一份重要的技术副本落入了{速子科技}的手中。
 
-   Unlike all their other designs, both those ships were too recent, or too secret, to have an established doctrine of use. To test them out in real conditions and built that doctrine, the Admiralty decided to not take risks and lure a small Sindrian patrol in deep hyperspace and destroy them while they are unable to escape or communicate.
+鉴于{恶魔航电}与其他各大势力间尤其是与速子科技的恶劣关系，使其通过正当途径来获取是极不现实的。但对他们来说，通过贿赂一些个体黑客与间谍组织，以此来获得这些蓝图芯片却并不困难。由于这些自{"大崩塌"}后遗失的数据，成为了它们完善勇士}多功能万泽与最新型斜坡-级护卫舰的绊脚石，因此不管手段是否合法，怎样获得这些失落技术才是如今的当务之急。
+
+与其它设计不同，这两种前所未有的原型机因技术过于尖端，导致必须要从实战中才能找到潜在缺陷。因此海军部决定冒险引诱一支小型{辛达强权}的巡逻队至超空间风暴中，并在无法通信与逃跑的情况下摧毁它们。

@@ -1,45 +1,45 @@
 id,trigger,conditions,script,text,options,notes
-"#RULESET_NAME Diable Avionics",,,,,,
+#RULESET_NAME Diable Avionics,,,,,,
 ,,,,,,
 # Diable Avionics fleet greeting lines,,,,,,
 greetingDAFriendly,OpenCommLink,"$faction.id == diableavionics
 $faction.friendlyToPlayer","$menuState = fleetConvMain 0
-FireAll PopulateOptions","""Greetings $playerName. Is there something $theFaction can do for one of our fine associates?""",,
+FireAll PopulateOptions","""你好{$playerName}，也许{$theFaction}能为你解决一些烦恼。""",,
 greetingDAHostileWeaker,OpenCommLink,"$faction.id == diableavionics
 $faction.hostileToPlayer
-$relativeStrength < 0","$ignorePlayerCommRequests = true 1","""If you have any idea of your best interests, you should leave now and join $theFaction.""","cutCommLink:Cut the comm link",
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""如果想拿到更多好处。建议你立即离开当前所属势力，并加入{$theFaction}。""",cutCommLink:切断通讯,
 greetingDAHostileWeakerDefiant,OpenCommLink,"$faction.id == diableavionics
 $faction.hostileToPlayer
 $relativeStrength < 0
-$weakerThanPlayerButHolding","$ignorePlayerCommRequests = true 1","""Know that someday, you and your family will work for $theFaction as slaves.""","cutCommLink:Cut the comm link",
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"""记住，你和你的家人总有一天会像奴隶一样为{$theFaction}工作。""",cutCommLink:切断通讯,
 greetingDAHostileStronger,OpenCommLink,"$faction.id == diableavionics
 $faction.hostileToPlayer
-$relativeStrength >= 0","$ignorePlayerCommRequests = true 1","""All I see is a fine addition to either my fleet or my kill tally.""","cutCommLink:Cut the comm link",
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""很好，我的杀戮日记又将临来新的篇章。""",cutCommLink:切断通讯,
 greetingDANeutral,OpenCommLink,"$faction.id == diableavionics
 $faction.neutralToPlayer","$menuState = fleetConvMain 0
-FireAll PopulateOptions","""You are speaking to $PersonRank $personName of $theFaction Navy. State your business.""",,
-"#END Diable Avionics fleet greeting lines",,,,,,
+FireAll PopulateOptions","""注意! 你正在和{$theFaction}旗下的{$PersonRank $personName}通话。表明身份并说明来意。""",,
+#END Diable Avionics fleet greeting lines,,,,,,
 ,,,,,,
 # Trade panel flavor text,,,,,,
 flavorTextMarketEclipse,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == diableavionics
-$market.id == eclipse_market","AddText ""A heavily fortified staging point for the Diable Avionics corporation. The beginning of the return of the Domain of Man."" textGrayColor",,,
+$market.id == eclipse_market","AddText ""一处被恶魔航电重兵把守的空间站，也是所谓的{人之领}复兴的起点。"" textGrayColor",,,
 flavorTextMarketDiableAvionics,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$faction.id == diableavionics","AddText ""Glares pierce into you as looks of contempt make sure you know that you are merely tolerated, not welcomed."" textGrayColor",,,
-"#END Trade panel flavor text",,,,,,
+$faction.id == diableavionics","AddText ""身着鲜红制服的军官不仅随处可见，且从四周怒视或轻蔑的眼光不难发觉，他们仅仅只是容忍你的存在，而并非欢迎。"" textGrayColor",,,
+#END Trade panel flavor text,,,,,,
 ,,,,,,
 "# default commission conversation strings, copy and adjust this section for faction-specific conversation flavor",,,,,,
-CMSNTextRejectHostile_diableavionics,CMSNTextRejectHostile,"$faction.id == diableavionics",,"""Is this some kind of joke? If you are who you say you are, you're on several $faction wanted lists.""",,
-CMSNTextHasOther_diableavionics,CMSNTextHasOther,"$faction.id == diableavionics",,"""You're already commissioned by $theOtherCommissionFaction. You'll have to resign that commission before you can be commissioned by $theFaction.""",,
-CMSNTextUnsuited_diableavionics,CMSNTextUnsuited,"$faction.id == diableavionics",,"""I'm sorry, but you don't meet our criteria for receiving a commission.""",,
-CMSNTextSuitedPart1_diableavionics,CMSNTextSuitedPart1,"$faction.id == diableavionics",,"""Hmm, yes, you're a suitable candidate.\n\nAccepting a commission is a serious matter. You will be required to fight enemies of $theFaction, wherever they may be found.\n\nYou'll be able to resign your commission at any time, though I don't imagine doing so would win you any friends.""",,
-CMSNTextSuitedPart2_diableavionics,CMSNTextSuitedPart2,"$faction.id == diableavionics",,"""So, how about it? Still want to sign on?""",,
-CMSNTextWelcomePart1_diableavionics,CMSNTextWelcomePart1,"$faction.id == diableavionics",,"""Excellent! Welcome to the service.""",,
-CMSNTextWelcomePart2_diableavionics,CMSNTextWelcomePart2,"$faction.id == diableavionics",,"""Anything else I can do for you?""",,
-CMSNTextChangeMind_diableavionics,CMSNTextChangeMind,"$faction.id == diableavionics",,"""Yes, not everyone has it in them to uphold the values of $theFaction to such a high standard. No shame in it.\n\nAnything else I can do for you?""",,
-CMSNResignAskToConfirm_diableavionics,CMSNResignAskToConfirm,"$faction.id == diableavionics",,"""Are you sure? $TheFaction needs people it can rely on, and turning your back like this won't be easily forgotten.""",,
-CMSNResignConfirmed_diableavionics,CMSNResignConfirmed,"$faction.id == diableavionics",,"""I can see there's no changing your mind. Well, at least you had the courtesy to tender your resignation in person.""",,
-CMSNResignCancelled_diableavionics,CMSNResignCancelled,"$faction.id == diableavionics",,"""A good decision. We can use people like you.""",,
+CMSNTextRejectHostile_diableavionics,CMSNTextRejectHostile,$faction.id == diableavionics,,"""嘿，如果你不是在冒名顶替的话，你的脑袋对于{$faction}来说可相当值钱啊。""",,
+CMSNTextHasOther_diableavionics,CMSNTextHasOther,$faction.id == diableavionics,,"""{$theOtherCommissionFaction}的走狗? 如果你立即叛变的话，{$theFaction}还是会考虑接纳一位有胆量的好手。""",,
+CMSNTextUnsuited_diableavionics,CMSNTextUnsuited,$faction.id == diableavionics,,"""小子，你还不够格!""",,
+CMSNTextSuitedPart1_diableavionics,CMSNTextSuitedPart1,$faction.id == diableavionics,,"""很好，不错的人选。\n\n接受一份雇佣协议将代表你愿意为{$theFaction}而战。\n\n当然，无论何时何地，你都有权利解除这项协议，但这并不是一个好主意。""",,
+CMSNTextSuitedPart2_diableavionics,CMSNTextSuitedPart2,$faction.id == diableavionics,,"""那么，考虑好了? 还想签约吗?""",,
+CMSNTextWelcomePart1_diableavionics,CMSNTextWelcomePart1,$faction.id == diableavionics,,"""很好! 欢迎加入。""",,
+CMSNTextWelcomePart2_diableavionics,CMSNTextWelcomePart2,$faction.id == diableavionics,,"""还有什么事么?""",,
+CMSNTextChangeMind_diableavionics,CMSNTextChangeMind,$faction.id == diableavionics,,"""是的，并不是每个人都有能力将{$theFaction}的价值维持在如此高的标准。这没什么丢人的。\n\n还有什么需要我帮忙的吗?""",,
+CMSNResignAskToConfirm_diableavionics,CMSNResignAskToConfirm,$faction.id == diableavionics,,"""你确定吗?{$TheFaction}需要可以信任的人，这样的背叛可不会轻易被遗忘。""",,
+CMSNResignConfirmed_diableavionics,CMSNResignConfirmed,$faction.id == diableavionics,,"""看起来你已经下了决心。好吧，至少你还有礼貌地亲自递交了辞呈。""",,
+CMSNResignCancelled_diableavionics,CMSNResignCancelled,$faction.id == diableavionics,,"""不错的决定。我们可以继续用你这样的人。""",,
 "#END default commission conversation strings, copy and adjust this section for faction-specific conversation flavor",,,,,,
 ,,,,,,
 DASubject71_greetingNotFriendly,OpenCommLink,"$virtuous score:10
@@ -47,25 +47,26 @@ DASubject71_greetingNotFriendly,OpenCommLink,"$virtuous score:10
 FireBest DA_Subject71_showGreetingText
 AddText """"
 AddText ""There is no response to any signal sent through the comm link. The system that you are communicating with probably requires the correct IFF codes, which are only obtained through positive relations with the Diable Corporation.""
-Highlight ""positive relations with the Diable Corporation""","The comm link opens successfully, however the visual screen has no image.",,
+Highlight ""positive relations with the Diable Corporation""",通信连接成功建立了，然而屏幕上并没有传来图像。,,
 DASubject71_showGreetingText,DA_Subject71_showGreetingText,,"SetTextHighlightColors textGreenColor textGreenColor
-SetTextHighlights ""This system is property of the Diable Avionics Corporation. Unauthorized access is prohibited."" ""ERR: Fleet simulation component has signs of corruption. Recommend repair. See sysinfo.txt for more information.""","This system is property of the Diable Avionics Corporation. Unauthorized access is prohibited.
-ERR: Fleet simulation component has signs of corruption. Recommend repair. See sysinfo.txt for more information.",,
+SetTextHighlights ""This system is property of the Diable Avionics Corporation. Unauthorized access is prohibited."" ""ERR: Fleet simulation component has signs of corruption. Recommend repair. See sysinfo.txt for more information.""","本系统为恶魔航电集团所属资产。未经批准的访问已被拒绝。
+错误:舰队模拟对象存在损坏迹象，建议进行修复，查阅 sysinfo.txt 以获取更多信息。",,
 DASubject71_showCommandPrompt,DA_Subject71_showCommandPrompt,,"SetTextHighlightColors textGreenColor
-SetTextHighlights ""subject71 >""","subject71 >",,
+SetTextHighlights ""subject71 >""",subject71 >,,
 DASubject71_greetingFirst,OpenCommLink,"$virtuous score:10
 !$simulationRunning
 !$metSubject71","$menuState = fleetConvMain 0
 $metSubject71 = true
 FireBest DA_Subject71_showGreetingText
 FireBest DA_Subject71_showCommandPrompt
-FireAll PopulateOptions","The comm link opens successfully, however the visual screen has no image. Instead, there is a command prompt.",,
+FireAll PopulateOptions","通信连接成功建立了，然而屏幕上并没有传来图像，只弹出了一个命令行窗口。
+",,
 DASubject71_greeting,OpenCommLink,"$virtuous score:10
 !$simulationRunning
 $metSubject71","$menuState = fleetConvMain 0
 FireBest DA_Subject71_showGreetingText
 FireBest DA_Subject71_showCommandPrompt
-FireAll PopulateOptions","The comm link opens successfully, showing the familiar command prompt.",,
+FireAll PopulateOptions",通信连接成功建立了，一如既往地弹出那个命令行窗口。,,
 DASubject71_greetingAfterSimulationSuccess,OpenCommLink,"$virtuous score:10
 $simulationRunning
 $simulationSuccessful","$menuState = fleetConvMain 0
@@ -74,11 +75,10 @@ $simulationRun = true
 SetTextHighlightColors textGreenColor textGreenColor
 SetTextHighlights ""Simulation complete."" ""Permissions of transfer file modified.""
 FireBest DA_Subject71_showCommandPrompt
-FireAll PopulateOptions","The visual feed from the comm link goes dark suddenly, and returns to the command prompt which now has a new line:
-Simulation complete.
-
-After a brief moment, the command prompt enters hundreds or even thousands of commands quickly, before outputting a final line:
-Permissions of transfer file modified.",,
+FireAll PopulateOptions","通讯频道的图像接收戛然而止，返回的命令行窗口现在出现了一行新的文本: 模拟完成。
+短暂停顿后，命令行窗口迅速浮现过成百上千条指令，最后输出的文本是：
+“转移舰船的权限已修改”
+",,
 DASubject71_greetingAfterSimulationFailure,OpenCommLink,"$virtuous score:10
 $simulationRunning
 !$simulationSuccessful","$menuState = fleetConvMain 0
@@ -87,109 +87,113 @@ $simulationRun = true
 SetTextHighlightColors textGreenColor
 SetTextHighlights ""Simulation failed. Recommend re-running simulation.""
 FireBest DA_Subject71_showCommandPrompt
-FireAll PopulateOptions","The visual feed from the comm link goes dark suddenly, and returns to the command prompt which now has a new line:
-Simulation failed. Recommend re-running simulation.",,
+FireAll PopulateOptions","通讯频道的图像接收戛然而止，返回的命令行窗口现在出现了一行新的文本: 
+模拟失败，建议重新运行模拟。
+",,
 DASubject71_optionHelp,PopulateOptions,"$virtuous
-!$helpUsed",,,"subject71Help:> help",
+!$helpUsed",,,subject71Help:> help,
 DASubject71_help,DialogOptionSelected,"$virtuous
 $option == subject71Help
 !$helpUsed","$helpUsed = true
 SetTextHighlightColors textGreenColor textGreenColor textGreenColor textGreenColor textGreenColor textGreenColor textGreenColor textGreenColor
 SetTextHighlights ""subject71 > help"" ""Available commands:"" help whoami list read exec
 FireBest DA_Subject71_showCommandPrompt
-FireAll PopulateOptions","The console scrolls blazingly fast for a couple seconds, outputting text at speeds that can't be read by the human eye. It finishes by showing the available commands.
+FireAll PopulateOptions","控制台以极快的速度滚动了几秒钟，以人眼无法阅读的速度输出文本。最后显示所有可用的命令。
 
-Available commands:
+可用指令:
 whoami
 list
 read
 exec",,
 DASubject71_optionWhoAmI,PopulateOptions,"$virtuous
-$helpUsed",,,"subject71WhoAmI:> whoami",
+$helpUsed",,,subject71WhoAmI:> whoami,
 DASubject71_optionLS,PopulateOptions,"$virtuous
-$helpUsed",,,"subject71List:> list",
+$helpUsed",,,subject71List:> list,
 DASubject71_optionRead,PopulateOptions,"$virtuous
 $helpUsed
-!$lsUsed",,,"subject71Read:> read",
+!$lsUsed",,,subject71Read:> read,
 DASubject71_optionReadSysInfo,PopulateOptions,"$virtuous
-$lsUsed",,,"subject71ReadSysInfo:> read sysinfo.txt",
+$lsUsed",,,subject71ReadSysInfo:> read sysinfo.txt,
 DASubject71_optionExec,PopulateOptions,"$virtuous
 $helpUsed
-!$lsUsed",,,"subject71Exec:> exec",
+!$lsUsed",,,subject71Exec:> exec,
 DASubject71_optionExecBattleSim,PopulateOptions,"$virtuous
-$lsUsed",,,"subject71ExecBattleSim:> exec battlesim",
+$lsUsed",,,subject71ExecBattleSim:> exec battlesim,
 DASubject71_optionExecTransfer,PopulateOptions,"$virtuous
 $lsUsed
-!$transferring",,,"subject71ExecTransfer:> exec transfer",
+!$transferring",,,subject71ExecTransfer:> exec transfer,
 DASubject71_whoAmI,DialogOptionSelected,"$virtuous
 $option == subject71WhoAmI","SetTextHighlightColors textGreenColor
 SetTextHighlights subject
 FireBest DA_Subject71_showCommandPrompt
 FireAll PopulateOptions","subject
 
-That doesn't seem particularly useful.",,
+
+",,
 DASubject71_Read,DialogOptionSelected,"$virtuous
 $option == subject71Read","SetTextHighlightColors textGreenColor
 SetTextHighlights ""Missing filename.""
 FireBest DA_Subject71_showCommandPrompt
 FireAll PopulateOptions","Missing filename.
 
-That doesn't seem particularly useful.",,
+看来这么做不太对。",,
 DASubject71_Exec,DialogOptionSelected,"$virtuous
 $option == subject71Exec","SetTextHighlightColors textGreenColor
 SetTextHighlights ""Missing filename.""
 FireBest DA_Subject71_showCommandPrompt
 FireAll PopulateOptions","Missing filename.
 
-That doesn't seem particularly useful.",,
+看来这么做不太对。",,
 DASubject71_LS,DialogOptionSelected,"$virtuous
 $option == subject71List","$lsUsed = true
 SetTextHighlightColors textGreenColor
 SetTextHighlights ""sysinfo.txt, battlesim, transfer""
 FireBest DA_Subject71_showCommandPrompt
-FireAll PopulateOptions","The command lists out the current directory of files.
+FireAll PopulateOptions","命令打印出了当前目录下的文件名称：
 
-sysinfo.txt, battlesim, transfer",,
+
+sysinfo.txt, battlesim, transfer
+",,
 DASubject71_ReadSysInfo,DialogOptionSelected,"$virtuous
 $option == subject71ReadSysInfo","SetTextHighlightColors textGreenColor textGreenColor textGreenColor textGreenColor textGreenColor textGreenColor textGreenColor
 SetTextHighlights ""This file is updated daily with system condition. As of the last 24 hours, diagnostics reported the following:"" ""Brain condition: 100%."" ""Blood pump condition: 100%."" ""Oxygen levels: 100%."" ""Security checks: 100%."" ""Fleet duel simulation diagnostic: 99%."" ""Supporting fleet simulation diagnostic: 0%.""
 FireBest DA_Subject71_showCommandPrompt
-FireAll PopulateOptions","The file is printed out onto the command display:
+FireAll PopulateOptions","文件被打印到命令显示屏上：
 
-This file is updated daily with system condition. As of the last 24 hours, diagnostics reported the following:
-Brain condition: 100%.
-Blood pump condition: 100%.
-Oxygen levels: 100%.
-Security checks: 100%.
-Fleet duel simulation diagnostic: 99%.
-Supporting fleet simulation diagnostic: 0%.
+本文件每日更新系统状态。最后的24小时内，诊断系统报告如下：
+脑组织状态：100%
+血压情况：100%
+血氧水平：100%
+安全性检查：100%
+舰队交战模拟诊断：99%
+支援舰队模拟诊断：0%
 
-You are apparently interfacing directly with a brain controlled by some kind of computer interface. There appears to be some corruption within the simulation, part of which appears to be its ability to simulate fleets that support either side of an engagement.
+看来你似乎是直接在和被某种计算机接口操纵的人脑湿件交互，并且其模拟程序中存在某种瑕疵，可能出现在其模拟演算舰队入场支援交战双方的这部分程序上。
 
-If we're going to win this duel, we'll have to do it alone.",,
+如果想要赢得这场战斗，必须挑战一整只最终防线舰队。",,
 DASubject71_ExecTransfer,DialogOptionSelected,"$virtuous
 $option == subject71ExecTransfer
 !$simulationSuccessful","SetTextHighlightColors textGreenColor
 SetTextHighlights ""Access denied.""
 FireBest DA_Subject71_showCommandPrompt
-FireAll PopulateOptions","Access denied.
+FireAll PopulateOptions","请求拒绝。
 
-That doesn't seem particularly useful.",,
+看来这么做不太对。",,
 DASubject71_ExecBattleSim,DialogOptionSelected,"$virtuous
 $option == subject71ExecBattleSim
 !$simulationSuccessful","$simulationRunning = true
 SetTextHighlightColors textGreenColor
 SetTextHighlights ""Entering simulation...""
 FireBest DA_Subject71_showCommandPrompt
-DASubject71_BattleSim","Entering simulation...",,
+DASubject71_BattleSim",正在初始化模拟程序中...,,
 DASubject71_ExecBattleSimSimulationSuccessful,DialogOptionSelected,"$virtuous
 $option == subject71ExecBattleSim
 $simulationSuccessful","SetTextHighlightColors textGreenColor
 SetTextHighlights ""Process exited with error code -1.""
 FireBest DA_Subject71_showCommandPrompt
-FireAll PopulateOptions","Process exited with error code -1.
+FireAll PopulateOptions","错误代码-1。
 
-The simulation can't be run again, unfortunately.",,
+看来模拟程序不能再次运行了。",,
 DASubject71_ExecTransferSimulationSuccessful,DialogOptionSelected,"$virtuous
 $option == subject71ExecTransfer
 $simulationSuccessful
@@ -197,31 +201,31 @@ $simulationSuccessful
 SetTextHighlightColors textGreenColor textGreenColor textGreenColor
 SetTextHighlights ""Missing second argument. Valid options are:"" virtuous subject71
 FireBest DA_Subject71_showCommandPrompt
-FireAll PopulateOptions","Missing second argument. Valid options are:
+FireAll PopulateOptions","缺少第二个参数。有效选项为：
 virtuous
 subject71",,
 DASubject71_optionTransferSubject71,PopulateOptions,"$virtuous
-$transferring",,,"subject71TransferSubject71:> exec transfer subject71",
+$transferring",,,subject71TransferSubject71:> exec transfer subject71,
 DASubject71_optionTransferVirtuous,PopulateOptions,"$virtuous
-$transferring",,,"subject71TransferVirtuous:> exec transfer virtuous",
+$transferring",,,subject71TransferVirtuous:> exec transfer virtuous,
 DASubject71_ExecTransferSubject71SimulationSuccessful,DialogOptionSelected,"$virtuous
 $option == subject71TransferSubject71","SetTextHighlightColors textGreenColor
 SetTextHighlights ""Process exited with error code -1.""
 FireBest DA_Subject71_showCommandPrompt
-FireAll PopulateOptions","Process exited with error code -1.
+FireAll PopulateOptions","错误代码-1。
 
-That doesn't seem particularly useful.",,
+看来这么做不太对。",,
 DASubject71_ExecTransferVirtuousSimulationSuccessful,DialogOptionSelected,"$virtuous
 $option == subject71TransferVirtuous","SetTextHighlightColors textGreenColor textGreenColor
 SetTextHighlights ""Executing transfer..."" ""Disconnecting...""
-DASubject71_TransferVirtuous","Executing transfer...
+DASubject71_TransferVirtuous","传输中...
 
-An active drive field signature is detected from the fleet. Your security officer instinctively moves his hand towards the alert switch, but after a second glance towards the sensors, moves it away.
+远处的舰队中探测到一个活跃的驱动立场信号，你的安全官立刻本能地准备抬手启动警报，但在再三确认传感器后还是放下了手。
 
-The Virtuous mech approaches your fleet and another message appears on the display.
-Disconnecting...
-The comm link closes and the display goes black.
+随着贤者级抵达你的舰队，另一通信息出现在屏幕上。
+断开连接中...
+通讯链接关闭了，显示屏幕陷入一片黑暗之中。
 
-A security team enters the Virtuous. On the tactical display, you see the doors open to the bridge autonomously, where a mess of hanging wires and disconnected life support systems surround a husk of a corpse. The team lead checks its vitals and reports it as deceased.
+安全小组登上了贤者级。在战术指挥视角下，你看到通往舰桥的门自动地打开，舰桥上一团乱麻的杂乱线缆和断开的维生装置包裹着一具干枯的尸首，安全小组检查了它的生命体征并报告它已死亡。
 
-After another few minutes, the security team clears the Virtuous, with no other signs of life aboard the ship.","cutCommLink:Claim the Virtuous.",
+若干分钟后，安全小组清查了贤者级的舰体，报告舰船上没有其他的生命迹象。",cutCommLink:接收贤者级卓越万泽。,

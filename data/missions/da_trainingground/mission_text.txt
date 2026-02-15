@@ -1,4 +1,4 @@
-Location: At the fringe of the Askonia system
-Date: 201.4.6
+地点: 在 Askonia 星系的边缘
+日期: 201.4.6
 
-Heavily criticized VR battle game for its highly inaccurate depiction of the Millan battle of 201. The group that created this game was financed by an anti-hegemony lobby that seeks to capitalize on the outrage provoked by the discovery of the fate of the Fifth Task Force, after the leak of classified documents. While the defeat was clear, the real result was far less one-sided than this simulation suggests: the task force was in fact much better equipped and not sent to its death by a cruel/incompetent admiralty.
+这款 VR 战斗游戏因对星历201年Millan战役的描述极为不准确而受到严厉批评。该游戏的开发团队由反霸主游说团体资助，该团体试图利用揭发第五特遣舰队在机密文件泄露后的命运所引发的愤怒牟利。虽然舰队的失败是显而易见的，但真正的战况远没有这个模拟所显示的那么一边倒：特遣舰队的装备实际上要好得多，并没有被残忍/无能的海军部门送上绝路。

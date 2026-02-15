@@ -190,7 +190,20 @@
       "mount": "TURRET",
       "size": "SMALL",
       "type": "DECORATIVE"
-    }
+    },{
+      "angle": 0,
+      "arc": 360,
+      "id": "SHIELD",
+      "locations": [
+        0,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "renderOrderMod":50,
+    },
+
   ],
   "width": 18
 }

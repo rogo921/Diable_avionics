@@ -54,8 +54,8 @@ public class Diableavionics_ThunderboltMissileAI implements MissileAIPlugin, Gui
         PRECISION_RANGE=(float)Math.pow((2*PRECISION_RANGE),2);
         OFFSET=(float)(Math.random()*MathUtils.FPI*2);
         
-        //halve the damage due to the onHit effect
-        missile.setDamageAmount(missile.getBaseDamageAmount()/2);
+//        //halve the damage due to the onHit effect
+//        missile.setDamageAmount(missile.getBaseDamageAmount()/2);
     }
 
     @Override

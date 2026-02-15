@@ -16,7 +16,8 @@ public class Diableavionics_damperWaveStats extends BaseShipSystemScript {
     private final Integer DECCEL_BUFF = 5000;
     private final Integer SPEED_BUFF = 500;
     private final Float DAMAGE_RESISTANCE = 0.33f;
-    
+
+
     private final IntervalUtil tick = new IntervalUtil(0.1f,0.1f);
     
     @Override
@@ -71,7 +72,7 @@ public class Diableavionics_damperWaveStats extends BaseShipSystemScript {
                 stats.getEmpDamageTakenMult().modifyMult(id, DAMAGE_RESISTANCE+(1-DAMAGE_RESISTANCE)*(1-effectLevel));
                 break;
         }
-        
+
         //visual trail
         if(!Global.getCombatEngine().isPaused()){
             tick.advance(Global.getCombatEngine().getElapsedInLastFrame());

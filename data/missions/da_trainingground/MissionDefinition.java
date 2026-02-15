@@ -20,14 +20,14 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 
 		// Set a small blurb for each fleet that shows up on the mission detail and
 		// mission results screens to identify each side.
-		api.setFleetTagline(FleetSide.PLAYER, "Testing grounds for god knows what");
-		api.setFleetTagline(FleetSide.ENEMY, "Unlucky Hegemony Chumps");
+		api.setFleetTagline(FleetSide.PLAYER, "只有上帝才知道这场测试的理由");
+		api.setFleetTagline(FleetSide.ENEMY, "倒霉的霸主傻瓜");
 		
 		// These show up as items in the bulleted list under 
 		// "Tactical Objectives" on the mission detail screen
-		api.addBriefingItem("Launch missiles for maximum PD saturation.");
-		api.addBriefingItem("Use your shield sparingly at high flux, your shielding is merely average.");
-		api.addBriefingItem("DSF HeadOn must survive");
+		api.addBriefingItem("发射微型导弹使敌舰 PD 系统趋于饱和.");
+		api.addBriefingItem("您的护盾并不出色, 请谨慎控制幅能水平.");
+		api.addBriefingItem("DSF HeadOn 必须存活");
 		
 		// Set up the player's fleet.  Variant names come from the
 		// files in data/variants and data/variants/fighters
