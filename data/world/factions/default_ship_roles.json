@@ -102,8 +102,13 @@
             "diableavionics_maelstrom_standard":3,			
             "diableavionics_maelstrom_beamer":2,			
             "diableavionics_maelstrom_brawler":2,		
-            "diableavionics_maelstrom_vanguard":3,	
-	},
+            "diableavionics_maelstrom_vanguard":3,
+
+            "diableavionics_sirocco_shooter":2,
+            "diableavionics_sirocco_WARLORD":2,
+            "diableavionics_sirocco_tank&boomer":2,
+            "diableavionics_sirocco_legion":2,
+},
 	
 	
 	# hybrid ships with good combat and cargo capacity

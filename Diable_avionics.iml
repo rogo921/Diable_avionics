@@ -7,17 +7,20 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="lib" level="project" />
-    <orderEntry type="library" name="jars" level="project" />
-    <orderEntry type="library" name="starsector-core" level="project" />
     <orderEntry type="library" name="ExerelinCore" level="project" />
+    <orderEntry type="library" name="SHI" level="project" />
+    <orderEntry type="library" name="RoiderUnion" level="project" />
+    <orderEntry type="library" name="ORKS" level="project" />
     <orderEntry type="library" name="jars2" level="project" />
+    <orderEntry type="library" name="internal" level="project" />
+    <orderEntry type="library" name="starsector-core" level="project" />
+    <orderEntry type="library" name="jars4" level="project" />
     <orderEntry type="library" name="Graphics" level="project" />
-    <orderEntry type="library" name="jars3" level="project" />
-    <orderEntry type="library" name="CjyToyBox" level="project" />
+    <orderEntry type="library" name="jars" level="project" />
     <orderEntry type="module" module-name="MagicLib" />
-    <orderEntry type="module" module-name="CjyToyBox" />
+    <orderEntry type="module" module-name="Bultach Coalition - Test" />
     <orderEntry type="module" module-name="mods" />
-    <orderEntry type="module" module-name="uafdev" />
+    <orderEntry type="module" module-name="Shadowyards_Wisp" />
+    <orderEntry type="module" module-name="Mayasuran Navy" />
   </component>
 </module>

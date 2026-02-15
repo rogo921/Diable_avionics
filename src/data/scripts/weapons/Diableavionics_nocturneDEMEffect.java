@@ -149,7 +149,9 @@ public class Diableavionics_nocturneDEMEffect implements BeamEffectPlugin {
                 if(target instanceof ShipAPI){
                     ShipAPI ship = (ShipAPI) target;
                     boolean hitShield = target.getShield() != null && target.getShield().isWithinArc(beam.getTo());
-                    boolean piercedShield = hitShield && (float) Math.random() <= 0.5f;
+                    float pierceChance = ((ShipAPI)target).getFluxLevel() + 0.2f;
+                    pierceChance *= ship.getMutableStats().getDynamic().getValue(Stats.SHIELD_PIERCED_MULT);
+                    boolean piercedShield = hitShield && (float) Math.random() <= pierceChance;
                     if (!hitShield || piercedShield) {
                         float emp = beam.getWeapon().getDamage().getFluxComponent() * 0.5f;
                         engine.spawnEmpArcPierceShields(
@@ -158,7 +160,7 @@ public class Diableavionics_nocturneDEMEffect implements BeamEffectPlugin {
                                 beam.getDamageTarget(),
                                 beam.getDamageTarget(),
                                 DamageType.FRAGMENTATION,
-                                250,
+                                0f,
                                 emp,
                                 100000f,
                                 "tachyon_lance_emp_impact",

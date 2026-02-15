@@ -25,6 +25,7 @@ import java.util.List;
 
 public class DAModPlugin extends BaseModPlugin {
 
+    public static final String BUILTIN_MEDIUM_MAGICBOX_ID = "diableavionics_magicboxPodbuiltin";
     public static final String MEDIUM_MAGICBOX_ID = "diableavionics_magicboxPod";
     public static final String SMALL_MAGICBOX_ID = "diableavionics_magicbox";
 
@@ -170,13 +171,15 @@ public class DAModPlugin extends BaseModPlugin {
 
     @Override
     public PluginPick<AutofireAIPlugin> pickWeaponAutofireAI(WeaponAPI weapon){
-//        switch (weapon.getId()){
-//            case SMALL_MAGICBOX_ID:
-//                return new PluginPick<AutofireAIPlugin>(new Diableavionics_antiMissileLauncherSmallAI(weapon),CampaignPlugin.PickPriority.MOD_SPECIFIC);
-//            case MEDIUM_MAGICBOX_ID:
-//                return new PluginPick<AutofireAIPlugin>(new Diableavionics_antiMissileLauncherMidAI(weapon),CampaignPlugin.PickPriority.MOD_SPECIFIC);
-//        }
-//
+        switch (weapon.getId()){
+            case SMALL_MAGICBOX_ID:
+                return new PluginPick<AutofireAIPlugin>(new Diableavionics_antiMissileLauncherSmallAI(weapon),CampaignPlugin.PickPriority.MOD_SPECIFIC);
+            case MEDIUM_MAGICBOX_ID:
+                return new PluginPick<AutofireAIPlugin>(new Diableavionics_antiMissileLauncherMidAI(weapon),CampaignPlugin.PickPriority.MOD_SPECIFIC);
+            case BUILTIN_MEDIUM_MAGICBOX_ID:
+                return new PluginPick<AutofireAIPlugin>(new Diableavionics_antiMissileLauncherMidAI(weapon),CampaignPlugin.PickPriority.MOD_SPECIFIC);
+        }
+
 
         return null;
     }

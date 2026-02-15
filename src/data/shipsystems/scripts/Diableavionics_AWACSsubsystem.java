@@ -5,8 +5,6 @@ import com.fs.starfarer.api.combat.CombatEngineLayers;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
-import com.sun.org.apache.xpath.internal.objects.XString;
-import com.sun.org.glassfish.external.statistics.Stats;
 import data.scripts.util.Diableavionics_finder;
 import org.jetbrains.annotations.NotNull;
 import org.lazywizard.lazylib.MathUtils;
@@ -66,11 +64,11 @@ public class Diableavionics_AWACSsubsystem extends MagicSubsystem {
             if(!effected_wanzers.isEmpty()){
                 for (ShipAPI wanzer:effected_wanzers){
 
-                    String a=wanzer.getHullSpec().getHullId();
-                    String b=wanzer.getId();
-                    String c=wanzer.getHullSpec().getBaseHullId();
-                    String d=wanzer.getWing().getWingId();
-                    String e=wanzer.getWing().getSpec().getId();
+//                    String a=wanzer.getHullSpec().getHullId();
+//                    String b=wanzer.getId();
+//                    String c=wanzer.getHullSpec().getBaseHullId();
+//                    String d=wanzer.getWing().getWingId();
+//                    String e=wanzer.getWing().getSpec().getId();
 
                     score+=scoreWanzer(wanzer);
                 }

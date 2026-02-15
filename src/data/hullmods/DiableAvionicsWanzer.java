@@ -2,14 +2,11 @@ package data.hullmods;
 
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
-import com.fs.starfarer.api.impl.campaign.ids.HullMods;
 import com.fs.starfarer.api.util.IntervalUtil;
+import data.scripts.ai.Diableavionics_blizzaiaAI;
+import data.scripts.ai.Diableavionics_warlustAI;
 import data.scripts.ai.WanzerMovementScript;
 import org.lazywizard.lazylib.MathUtils;
-
-import javax.xml.bind.Unmarshaller;
-import java.util.Iterator;
-import java.util.List;
 
 public class DiableAvionicsWanzer extends BaseHullMod {
 
@@ -50,9 +47,19 @@ public class DiableAvionicsWanzer extends BaseHullMod {
         ship.getMutableStats().getEngineDamageTakenMult().modifyMult(id, (100 - DISABLE_RESIST) / 100);
         ship.getMutableStats().getWeaponDamageTakenMult().modifyMult(id, (100 - DISABLE_RESIST) / 100);
 
+        switch(ship.getHullSpec().getHullId()){
 
+            case"diableavionics_blizzaia":{
+                ship.addListener(new Diableavionics_blizzaiaAI(ship));
+            }break;
+            case"diableavionics_warlust":{
+                ship.addListener(new Diableavionics_warlustAI(ship));
+            }break;
+            default:{
+                ship.addListener(new WanzerMovementScript(ship));
+            }
+        }
 
-        ship.addListener(new WanzerMovementScript(ship));
     }
 
     @Override

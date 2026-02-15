@@ -71,8 +71,13 @@
 				hm_virtuousEffect_armor:"装甲值: ",
 				hm_virtuousEffect_emp:"所受EMP伤害: ",
 
+
+                "hm_siroccocenter_icon_title": "汐风当前链接状态",
+
                 "hm_notdiableship":"仅能够安装在恶魔航电旗下的舰船",
                 "hm_hasdampalready":"舰船已经内置了整合式的冲击缓解器",
+
+
                 hm_warning:"警告",
                 hm_noBays:"该舰没有标准飞行甲板",
 				hm_builtin:"舰船已经拥有龙门架",
@@ -101,17 +106,31 @@
                 "hm_sniperkit_01":"只能安装在有标准甲板的舰船上！",
                 "hm_sniperkit_02":"与护航阵列冲突不兼容！",
 
+                "hm_siroccocenter_01":"汐风级的机甲指挥中心作为恶魔航电舰队命令和运作的核心,其在场时提高 %s 的命令点回复速度，",
+                "hm_siroccocenter_02":"而它的强大协同能力则会强化周围的舰载机和护卫舰，提高 %s 的战术系统充能速度，对舰载机再额外提高 %s 所造成的造成伤害，",
+                "hm_siroccocenter_03":"强化光环的范围为 %s 单位距离，这个距离可以受到系统专精的影响。",
                 "hm_tooltip_title_specific": "详情",
+                "hm_tooltip_title_traningbuff": "机师增益 (未实装)",
+                "hm_siroccocenter_04":"所有受到光环影响的万泽在结算机师素质增益时额外提升一级，并无视素质等级 %s ",
+                "hm_siroccocenter_05":"解锁高级战斗行为",
                 "hm_dampdash_01":"万泽获得阻尼冲刺副系统，0.7s内强化机动性并提供爆发性冲刺，系统启动后短时间内获得高额减伤.",
                 "hm_dampdash_02":"\n 冷却时间:  %s",
                 "hm_dampdash_03":"\n 最大充能次数:  %s",
                 "hm_dampdash_04":"\n 充能回复时间:  %s",
                 "hm_dampdash_05":"\n 开启时减伤比率:  %s",
                 "hm_dampdash_06":"万泽机师会积极使用冲刺来规避致命的射弹和具有威胁的光束武器的瞄准，此外也会进攻性使用冲刺接近敌人\"",
-                "hm_dampdash_07":"机师增益",
-                "hm_dampdash_08":"敬请期待后续更新",
+                "hm_dampdash_07":"机师增益 (未实装)",
+                "hm_dampdash_08":"冲刺系统的使用相当仰赖机师的经验与素质，更老练的机师将能够更频繁的对周遭环境做出判断，这意味着更加及时且高效的使用冲刺",
                 "hm_dampdash_09":"\"敌我数量二比一，建议采取冲刺回避\"",
                 "hm_dampdash_10":"         \u2014 渡鸦OS, 于某次对速子科技旗下舰队的猎杀行动中",
+
+                "hm_armorshield_01":"万泽获得一面具有独立结构和装甲的手持护盾，即便盾牌被击毁万泽依然可以继续作战。",
+                "hm_armorshield_02":"冲突的盾牌内置了两发雷霆 SRM 导弹，尽管弹药有限但为冲突提供了急需的反装甲能力。",
+                "hm_armorshield_03":"手持盾牌具有 %s 点结构与 %s 点装甲，但是注意盾牌的防护效果有方向性！",
+                "hm_armorshield_04":"\n此外还重型化了冲突的机体以最大作战效能，以 %s 点航速为代价，增加冲突的结构 %s 。",
+
+                "hm_armorshield_05":"\"记住，数三下，敌人开火瞬间将机身侧置盾牌朝前，学会这招能救你的小命。\"",
+                "hm_armorshield_06":"         \u2014M23冲突联队长机机师, 于 Sivie 之战战前两个标准时",
 
                 "hm_switchsub_cf01":"冷锋级护卫舰以功能性模块化船体为傲，这样的设计允许冷锋级护卫舰在默认的战术系统外额外选择装配不同的战术系统",
                 "hm_switchsub_cf02":"冷锋级护卫舰当前装配的额外战术系统为: %s",

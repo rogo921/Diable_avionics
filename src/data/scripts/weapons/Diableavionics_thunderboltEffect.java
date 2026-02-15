@@ -39,7 +39,7 @@ public class Diableavionics_thunderboltEffect implements OnHitEffectPlugin {
     @Override
     public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
         if(shieldHit){
-            //double the damage to compensate the lack of effect
+
             engine.applyDamage(
                     target,
                     point, 

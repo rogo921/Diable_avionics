@@ -15,10 +15,10 @@ diableavionics_avalanche_wing,diableavionics_avalanche_variant,"wanzer, fighter3
 diableavionics_valiant_wing,diableavionics_valiant_Standard,"wanzer, interceptor3, interceptor, high, rare_bp, rd_no_extra_craft",3,0.5,10,22,V,6000,500,-100,2,INTERCEPTOR,突击兵,18,15000,,,,,,,,,,,,,3
 diableavionics_raven_wing,diableavionics_raven_Standard,"wanzer, fighter4, fighter, high, rare_bp, rd_no_extra_craft",3,0.5,12,26,BOX,4000,500,,1,FIGHTER,重装兵,25,13000,,,,,,,,,,,,,1
 diableavionics_zephyr_wing,diableavionics_zephyr_beam,"wanzer, fighter4, fighter, high, diable_wanzer_bp, rare_bp, rd_no_extra_craft",3,0.5,8,20,BOX,4000,500,,1,FIGHTER,神射手,20,14000,,,,,,,,,,,,,1
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+diableavionics_nightingale_wing,diableavionics_nightingale_Standard,"wanzer, support4, fighter, high, rare_bp, rd_no_extra_craft,stay_in_front_of_ship",3,0.5,12,26,BOX,0,500,,1,SUPPORT,重装近卫,30,20000,,,,,,,,,,,,,1
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 diableavionics_vortex_wing,diableavionics_vortex_PD,"no_drop, no_sell, high",2,,4,0,V,2000,500,,1,SUPPORT,无人机,10,1500,,,,,,,,,,,,,18
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+diableavionics_strifeShield_wing,diableavionics_strifeShield_Standard,"no_drop, no_sell, high",2,,4,0,V,2000,500,,1,SUPPORT,机动盾牌,10,1500,,,,,,,,,,,,,17
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 diableavionics_frost_wing_independent,diableavionics_frost_Standard,"restricted, independent_of_carrier, auto_fighter, no_drop, no_sell, fighter1, fighter, high, rd_no_extra_craft",4,2,6,1,CLAW,4000,500,,3,FIGHTER,冲锋队,12,10000,,,,,,,,,,,,,1
 diableavionics_strife_wing_independent,diableavionics_strife_Standard,"restricted, independent_of_carrier, auto_fighter, no_drop, no_sell, fighter2, fighter, high, rd_no_extra_craft",4,2,7,1,BOX,4000,500,-100,2,FIGHTER,机枪手,14,11000,,,,,,,,,,,,,4

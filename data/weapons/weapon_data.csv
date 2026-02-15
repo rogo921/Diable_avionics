@@ -46,11 +46,11 @@ SRAB 重型发射器,diableavionics_srab,3,0.75,2300,800,,600,400,50,7,13,,,,ENE
 微型导弹阵列,diableavionics_microarrayM,3,,17500,2000,,50,,5,0,,300,2,40,HIGH_EXPLOSIVE,10,,0.1,5.95,40,0.05,6,6,5,6,,200,150,18,50,,,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE, DO_NOT_AIM",,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 魔术盒 PD 导弹,diableavionics_magicbox,1,0.75,400,1200,,150,,3,15,5,12,0.5,3,FRAGMENTATION,25,,0.5,1,1,0,7,14,14,12,,475,35,3.7,40,,,"DO_NOT_AIM, PD_ONLY, ANTI_FTR, PD","pd9, missile0, diable_weapon_bp, rare_bp",,恶魔航电,,点防御 (范围),非常快,良好,,,,,,,,11.23
-百宝箱 PD 导弹发射舱,diableavionics_magicboxPod,1,0.75,1200,3000,,300,,3,40,10,32,1,4,FRAGMENTATION,50,,0,2,1,0,10,25,5,12,,600,100,8,40,,,"DO_NOT_AIM, DO_NOT_CONSERVE, PD_ONLY, ANTI_FTR, PD","pd9, missile0,LR,diable_weapon_bp, rare_bp",,恶魔航电,,舰队防空,非常快,优秀,,,,,,,,
+百宝箱 PD 导弹发射舱,diableavionics_magicboxPod,1,0.75,1200,3000,,300,,3,40,10,32,1,4,FRAGMENTATION,50,,0,2,1,0,10,25,5,12,,600,100,8,40,,,"DO_NOT_AIM, DO_NOT_CONSERVE, PD_ONLY, ANTI_FTR, PD","pd9, missile0,LR,diable_weapon_bp, rare_bp",,恶魔航电,,舰队防空,非常快,优秀,,,发射器检测到战机和导弹后才会开火，导弹拥有自主索敌的能力。,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-夜曲 DEM SRM,diableavionics_nocturneDEM_small,2,0.75,250,1200,,1200,1800,15,30,4,2,,,KINETIC,0,,0,3,1,,0,0,0,0,,300,75,7,400,,,DO_NOT_AIM,"missile8, strike4, merc, rare_bp, diable_weapon_bp, damage_special, damage_soft_flux",,恶魔航电,,反护盾,普通,"良好
+夜曲 DEM SRM,diableavionics_nocturneDEM_small,2,0.75,250,1200,,1000,1800,15,30,4,2,,,KINETIC,0,,0,3,1,,0,0,0,0,,300,75,7,400,,,DO_NOT_AIM,"missile8, strike4, merc, rare_bp, diable_weapon_bp, damage_special, damage_soft_flux",,恶魔航电,,反护盾,普通,"良好
 ",,,"导弹靠近目标时向其一束夜曲激光，迅速造成大约{%s}的动能伤害，并且有{%s}的概率造成穿盾电弧瘫痪敌人
-",1200|50%,%s: 该伤害视为按导弹而不是能量类型武器计算加成。,DEM导弹,TRUE,
+",1000|50%,%s: 该伤害视为按导弹而不是能量类型武器计算加成。,DEM导弹,TRUE,
 nocturne_DEM_PAYLOAD,diableavionics_nocturneBeam_dem,1,,0,800,1600,,900,20,12,0,,,,KINETIC,0,,0.05,0.05,0.9,5.5,,,,,600000,,,,,,,"SYSTEM, DANGEROUS",fires_one_burst,,,,,,,,,,,,,,
 nocturne_DEM_Targetinglaser,diableavionics_nocturneDEM_targetinglaser,0,,1,0,1,,,0,200,0,1000,1000,,ENERGY,,0,0.05,0.05,1.3,0.05,,,,,1000000,,,,,,,SYSTEM,,,,,Special,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -97,6 +97,7 @@ nocturne_DEM_Targetinglaser,diableavionics_nocturneDEM_targetinglaser,0,,1,0,1,,
 ,diableavionics_armorModule,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 Deep Strike Pod,diableavionics_station_deepStrike,4,,350,10000,,500,2000,500,0,50,1,,,ENERGY,0,,1,30,1,,0,0,0,0,,500,50,20,500,,,"STRIKE,DO_NOT_AIM,SYSTEM","strike20, missile20",,恶魔航电,,,,,,,,,,,TRUE,9.7
 ,diableavionics_deepStrikeGlow,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+盾牌雷霆SRM发射器,diableavionics_shieldMissile,0,,400,600,,550,,5,6,5,2,,,HIGH_EXPLOSIVE,,,,10,,,6,9,9,9,,300,50,6,100,,,"DO_NOT_AIM,SYSTEM",,,,,,,,,,,,,,,
 百宝箱 PD 导弹发射舱,diableavionics_magicboxPodbuiltin,,,1200,3000,,300,,3,40,10,32,1,4,FRAGMENTATION,50,,0,2,1,0,7,14,14,12,,600,100,6,40,,,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE, PD_ONLY, ANTI_FTR, PD",,,恶魔航电,,舰队防空,非常快,优秀,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -252,11 +253,18 @@ IBIS (单管),diableavionics_blizzaiaHead,,,,300,,40,,,40,5,,,,FRAGMENTATION,,,0
 ,diableavionics_blizzaiaShoulderR,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #RAVEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-布舍尔 (轻型),diableavionics_ravenhead,,,,600,250,,,,36,9,9,0.75,2,ENERGY,,,0,0,0.48,0.02,,,,,1000000,,,,,,,"PD,PD_ONLY,SYSTEM",,,,,,,,,,"%s: 对战机和导弹造成额外{%s}伤害
+布舍尔 (轻型),diableavionics_ravenhead,,,,600,250,,,,36,9,9,0.75,2,ENERGY,,,0,0,0.48,0.02,,,,,1000000,,,,,,,"PD,PD_ONLY,ANTI_FTR,SYSTEM",,,,,,,,,,"%s: 对战机和导弹造成额外{%s}伤害
 ",先进聚焦透镜|25%,,,,
 格罗斯线性突击炮,diableavionics_ravenright,1,,2250,500,,500,,50,25,11,,,,HIGH_EXPLOSIVE,,,0,2.5,,,3,10,3,1,,850,,,350,,,SYSTEM,,,,,,,,,,,,,,,
 掘墓者 HMC,diableavionics_ravenleft,1,,1750,550,,"70
 ",,10,30,11,,,,KINETIC,,,0,0.2,1,,1,10,0.5,3,,700,,,100,,,SYSTEM,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#NIGHTINGALE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+机载夜曲阵列,diableavionics_nightingaleLeftArm,,,,800,600,,900,20,12,,,,,KINETIC,,,0.25,1.25,1.5,5.5,,,,,3000,,,,,,,"FIRE_WHEN_INEFFICIENT,SYSTEM",,,恶魔航电,,压制,,,,,%s: 当击中幅能水平较高的目标护盾或船体时，将有{%s}的概率产生打击武器与引擎的电弧，并造成额外{EMP}伤害。,EMP 电弧|25%,,,,
+莱兹曲速发射器,diableavionics_nightingaleRightArm,,,,600,,200,,40,25,,,,,FRAGMENTATION,,,0,3.4,7,0.1,45,45,0,0,,100,600,3,100,-2,5,"PD,ANTI_FTR,SYSTEM",,,恶魔航电,,点防御 (范围),,,较快,较差,,,,,,
+集成式布舍尔激光炮 ,diableavionics_nightingaleHead,,,,600,250,,,,36,,9,0.75,2,ENERGY,,,0,0,0.48,0.02,,,,,1000000,,,,,,,"PD,PD_ONLY,ANTI_FTR,SYSTEM",,,恶魔航电,,点防御,,,,,"%s: 对战机和导弹造成额外{%s}伤害
+",先进聚焦透镜|25%,,,,
+魔术盒 PD 导弹,diableavionics_nightingaleMagicbox,,,,900,,150,,3,15,,8,0.5,1,FRAGMENTATION,,,0,1.5,,,7,14,14,12,,475,35,3.7,40,,,"ANTI_FTR,PD_ONLY,DO_NOT_AIM,SYSTEM",,,恶魔航电,,点防御,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #VALIANT WANZER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ILIS PD,diableavionics_valianthead,,,,500,150,,,,30,,,,,ENERGY,,,0.5,0.5,,,,,,,1600,1600,,,,,,"PD,PD_ONLY,SYSTEM",,,,,,,,,,,,,,,

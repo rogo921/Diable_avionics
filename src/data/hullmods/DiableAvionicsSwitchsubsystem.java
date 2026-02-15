@@ -6,7 +6,6 @@ import com.fs.starfarer.api.ui.Alignment;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import com.fs.starfarer.api.util.Misc;
 import data.shipsystems.scripts.Diableavionics_AWACSsubsystem;
-import data.shipsystems.scripts.Diableavionics_dampdashSubsystem;
 import data.shipsystems.scripts.Diableavionics_arcemitter;
 import org.lwjgl.input.Keyboard;
 import org.magiclib.subsystems.MagicSubsystemsManager;
@@ -15,7 +14,7 @@ import java.awt.*;
 
 import static data.scripts.util.Diableavionics_stringsManager.txt;
 
-public class DiableaAvionicsSwitchsubsystem extends BaseHullMod {
+public class DiableAvionicsSwitchsubsystem extends BaseHullMod {
 
     private boolean hullmodswitched = true;
 

@@ -46,7 +46,7 @@ public class DiableAvionicsDampdashShip extends BaseHullMod {
                 " 3s "," 3 "," 5s "," 80% ");
 
         tooltip.addPara(txt("hm_dampdash_06"), Misc.getHighlightColor(),pad);
-        tooltip.addSectionHeading("hm_dampdash_07", Alignment.MID, pad);
+        tooltip.addSectionHeading(txt("hm_dampdash_07"), Alignment.MID, pad);
         //final TooltipMakerAPI incompat_text = tooltip.beginImageWithText("graphics/icons/tooltip/vanilla_marine.png", 32f);
         //incompat_text.addPara("Raid effectiveness will be depended on %s", padS, Misc.getHighlightColor(), new String[] { "the amount of marines onboard your fleet." });
         tooltip.addPara(txt("hm_dampdash_08"),pad);

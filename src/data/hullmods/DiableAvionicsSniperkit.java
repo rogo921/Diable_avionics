@@ -16,6 +16,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
+
+
 public class DiableAvionicsSniperkit extends BaseHullMod {
 
     private float REDUCED_RANGE =0f;

@@ -30,7 +30,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		// Set up the player's fleet.  Variant names come from the
 		// files in data/variants and data/variants/fighters
 	
-                api.addToFleet(FleetSide.PLAYER, "diableavionics_maelstrom_standard", FleetMemberType.SHIP, true);		   
+                api.addToFleet(FleetSide.PLAYER, "diableavionics_maelstrom_standard", FleetMemberType.SHIP, true);
                 api.addToFleet(FleetSide.PLAYER, "diableavionics_storm_standard", FleetMemberType.SHIP, false);	               
                 api.addToFleet(FleetSide.PLAYER, "diableavionics_gust_standard", FleetMemberType.SHIP, false);	
                 api.addToFleet(FleetSide.PLAYER, "diableavionics_haze_standard", FleetMemberType.SHIP, false);	             

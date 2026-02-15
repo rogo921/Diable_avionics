@@ -6,7 +6,6 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipCommand;
 import com.fs.starfarer.api.util.IntervalUtil;
 import com.fs.starfarer.api.util.Misc;
-import com.fs.starfarer.coreui.V;
 import data.scripts.util.Diableavionics_UniThreatenJudge;
 import org.lazywizard.lazylib.MathUtils;
 import org.lazywizard.lazylib.VectorUtils;
@@ -20,14 +19,16 @@ import com.fs.starfarer.api.combat.listeners.HullDamageAboutToBeTakenListener;
 
 public class Diableavionics_dampdashSubsystem extends MagicSubsystem {
 
-    private final Integer TURN_ACC_BUFF = 1000;
-    private final Integer TURN_RATE_BUFF = 200;
-    private final Integer ACCEL_BUFF = 5000;
-    private final Integer DECCEL_BUFF = 6000;
-    private final Integer SPEED_BUFF = 300;
+    private final Integer TURN_ACC_BUFF = 600;
+    private final Integer TURN_RATE_BUFF = 600;
+    private final Integer ACCEL_BUFF = 300;
+    private final Integer DECCEL_BUFF = 300;
+    private final Integer SPEED_BUFF = 200;
     private final Float DAMAGE_RESISTANCE = 0.2f;
     private int BASE_MAX_CHARGES = 3;
     private final IntervalUtil tick = new IntervalUtil(0.05f,0.05f);
+
+    private final IntervalUtil check_tick = new IntervalUtil(2.0f,3.0f);
     private static final Color engineColor = new Color(0x00FF80);
     private float degress =0f;
     private boolean Need_dodge = false;
@@ -71,40 +72,45 @@ public class Diableavionics_dampdashSubsystem extends MagicSubsystem {
     public boolean shouldActivateAI(float amount) {
         ShipAPI target = ship.getShipTarget();
 
+        check_tick.advance(amount);
 
 
-        if(Diableavionics_UniThreatenJudge.isTreatenedbyProjectile(ship,300) )
-        {
-            Need_dodge=true;
-            return true;
-        }
+        if(check_tick.intervalElapsed()){
 
-        if(Diableavionics_UniThreatenJudge.BeamweaponFiring(ship,2000)){
-            Need_dodge=true;
-            return true;
-        }
-
-
-        if (target != null&& charges==BASE_MAX_CHARGES) {
-            float score = 0f;
-
-            if (target.getFluxTracker().isOverloadedOrVenting()) {
-                score += 6f;
-            } else {
-                score += target.getFluxLevel() * 6f;
-            }
-
-            float dist = Misc.getDistance(ship.getLocation(), target.getLocation());
-
-//            float avgRange = aiData.getAverageWeaponRange(false);
-            score += Math.min(dist/200f, 4f);
-
-            if(score > 8f){
-                Need_attack=true;
+            if(Diableavionics_UniThreatenJudge.isTreatenedbyProjectile(ship,300) )
+            {
+                Need_dodge=true;
                 return true;
             }
 
+            if(Diableavionics_UniThreatenJudge.BeamweaponFiring(ship,2000)){
+                Need_dodge=true;
+                return true;
+            }
+
+
+            if (target != null&& charges==BASE_MAX_CHARGES) {
+                float score = 0f;
+
+                if (target.getFluxTracker().isOverloadedOrVenting()) {
+                    score += 6f;
+                } else {
+                    score += target.getFluxLevel() * 6f;
+                }
+
+                float dist = Misc.getDistance(ship.getLocation(), target.getLocation());
+
+//            float avgRange = aiData.getAverageWeaponRange(false);
+                score += Math.min(dist/200f, 4f);
+
+                if(score > 8f){
+                    Need_attack=true;
+                    return true;
+                }
+            }
+
         }
+
 
         return false;
     }
@@ -166,7 +172,7 @@ public class Diableavionics_dampdashSubsystem extends MagicSubsystem {
             //for 50 mass frost about 111%
             float force_multplier = 100f/(ship.getMass()+40f);
 
-            CombatUtils.applyForce(ship,degress,600*force_multplier);
+            CombatUtils.applyForce(ship,degress,200*force_multplier);
         }
 
             if(state == State.ACTIVE){
@@ -197,6 +203,20 @@ public class Diableavionics_dampdashSubsystem extends MagicSubsystem {
                 }
             }
 
+
+            if(state==State.OUT){
+
+                //speed down in out phase to prevent wanzer slide away too far
+                tick.advance(amount);
+
+               if (tick.intervalElapsed()){
+
+                   Vector2f base = ship.getVelocity();
+                   base.scale(0.75f);
+                   ship.getVelocity().set(base);
+               }
+
+            }
 
 
             switch (state) {
@@ -235,6 +255,8 @@ public class Diableavionics_dampdashSubsystem extends MagicSubsystem {
                     break;
 
                 case OUT:
+
+
 
 
                     //mobility boost

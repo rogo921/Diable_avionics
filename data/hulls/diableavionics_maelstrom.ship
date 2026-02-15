@@ -128,6 +128,7 @@
   "builtInMods": [
     #"diableavionics_avionics",\n
     "diableavionics_mountBI",
+	"missile_autoloader",
     #"diableavionics_universaldecksExtra"
   ],
   "builtInWeapons": {

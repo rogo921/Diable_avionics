@@ -606,6 +606,11 @@
     		{"file":"sounds/diablefx/da_awacs_loop.ogg","pitch":1.0, "volume":1},
     		{"file":"sounds/diablefx/da_awacs_loop.ogg","pitch":0.95, "volume":1}
     	],
+	"diableavionics_overload_use":[
+			{"file":"sounds/diablefx/da_nightingale_howling.ogg","pitch":1.0, "volume":0.85},
+			{"file":"sounds/diablefx/da_nightingale_howling.ogg","pitch":0.9, "volume":1.0},
+			{"file":"sounds/diablefx/da_nightingale_howling.ogg","pitch":0.7, "volume":0.9}
+		],
 
 	#UNCHECKED UNCHECKED UNCHECKED UNCHECKED UNCHECKED UNCHECKED UNCHECKED UNCHECKED UNCHECKED UNCHECKED 
 	
@@ -669,14 +674,20 @@
             {"file":"sounds/diablefx/da_thrush_fire.ogg","pitch":0.97, "volume":0.11},
             {"file":"sounds/diablefx/da_thrush_fire.ogg","pitch":0.94, "volume":0.13}
 	],
-        
-       
-        
 
 
 
 
-	
+
+
+
+	"diableavionics_mechastorm_alarm":[
+			{"file":"sounds/diablefx/da_sirocco_alarm.ogg","pitch":0.9, "volume":0.5}
+    ],
+	"diableavionics_mechastorm_jumpbeep":[
+			{"file":"sounds/diablefx/da_sirocco_jumpbeep.ogg","pitch":0.9, "volume":0.5}
+	],
+
 			
 		
 	"diableavionics_ecm_loop":[
