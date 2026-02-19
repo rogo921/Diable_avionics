@@ -1,0 +1,72 @@
+{
+    "displayName": "legion",
+    "fluxCapacitors": 20,
+    "fluxVents": 35,
+    "goalVariant": true,
+    "hullId": "diableavionics_sirocco",
+    "hullMods": [
+        "diableavionics_armorshield",
+        "diableavionics_avionics",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "diableavionics_sirocco_legion",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "diableavionics_uhlan",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "diableavionics_microcluster",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "diableavionics_recson2",
+                "WS 007": "diableavionics_recson2",
+                "WS 006": "diableavionics_recson2",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 010": "diableavionics_magicbox",
+                "WS 011": "diableavionics_magicbox",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "diableavionics_ibis",
+                "WS 001": "diableavionics_ibis",
+                "WS 002": "diableavionics_ibis",
+                "WS 003": "diableavionics_ibis",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "diableavionics_lazyhorn",
+            }
+        },
+    ],
+    "wings": [
+        "diableavionics_strife_wing",
+        "diableavionics_strife_wing",
+        "diableavionics_strife_wing",
+    ],
+    "modules": [],
+}

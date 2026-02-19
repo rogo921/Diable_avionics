@@ -1,0 +1,28 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 10,
+    "fluxVents": 2,
+    "hullId": "omen",
+    "hullMods": [
+        "missile_autoloader",
+        "hardenedshieldemitter",
+        "unstable_injector",
+        "advancedshieldemitter",
+        "fluxcoil"
+    ],
+    "permaMods": ["missile_autoloader"],
+    "sMods": ["missile_autoloader"],
+    "variantId": "预兆_mechastorm",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "amblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "reaper"}
+        }
+    ]
+}

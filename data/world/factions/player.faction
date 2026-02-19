@@ -1,0 +1,14 @@
+{
+	"portraits":{
+		"standard_male":[
+           "graphics/da/portraits/diableavionics_wanzerpilot0.png",
+           "graphics/da/portraits/diableavionics_wanzerpilot1.png",
+           "graphics/da/portraits/diableavionics_s71.png",
+
+        ],
+		
+        "standard_female":[
+
+        ],
+    },
+},				

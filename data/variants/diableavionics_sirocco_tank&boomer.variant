@@ -1,0 +1,70 @@
+{
+    "displayName": "tank&boomer",
+    "fluxCapacitors": 23,
+    "fluxVents": 40,
+    "goalVariant": true,
+    "hullId": "diableavionics_sirocco",
+    "hullMods": [
+        "diableavionics_armorshield",
+        "diableavionics_avionics",
+        "diableavionics_dampdashship",
+        "magazines",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "diableavionics_sirocco_tank&boomer",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "diableavionics_microcluster",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 010": "diableavionics_nocturneDEM_small",
+                "WS 011": "diableavionics_nocturneDEM_small",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "diableavionics_opfergv",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "diableavionics_nocturne",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "diableavionics_graveac",
+                "WS 001": "diableavionics_graveac",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "diableavionics_lazyhorn",
+            }
+        },
+    ],
+    "wings": [
+        "diableavionics_blizzaia_wing",
+        "diableavionics_strife_wing",
+        "diableavionics_blizzaia_wing",
+    ],
+    "modules": [],
+}

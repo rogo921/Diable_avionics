@@ -40,16 +40,16 @@ public class Diableavionics_thunderboltEffect implements OnHitEffectPlugin {
     public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
         if(shieldHit){
 
-            engine.applyDamage(
-                    target,
-                    point, 
-                    projectile.getBaseDamageAmount(),
-                    projectile.getDamageType(), 
-                    0,
-                    false, 
-                    false,
-                    projectile.getSource()
-            );
+//            engine.applyDamage(
+//                    target,
+//                    point,
+//                    projectile.getBaseDamageAmount(),
+//                    projectile.getDamageType(),
+//                    0,
+//                    false,
+//                    false,
+//                    projectile.getSource()
+//            );
             
             //visual effect on shield
             engine.addHitParticle(
