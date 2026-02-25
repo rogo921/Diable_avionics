@@ -8,6 +8,7 @@ import org.lazywizard.lazylib.MathUtils;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 public class Diableavionics_warlustAI implements AdvanceableListener {
 
@@ -78,13 +79,20 @@ public class Diableavionics_warlustAI implements AdvanceableListener {
 
         if(stateInterval.intervalElapsed()){
 
-            if(state== WanzerMovementScript.wanzerState.retreat&&!Diableavionics_wanzerAI.canRetreat(ship)){
+
+            if(ship.getWing()==null){
                 state= WanzerMovementScript.wanzerState.engaging;
+            }else{
+
+                if(state== WanzerMovementScript.wanzerState.retreat&&!Diableavionics_wanzerAI.canRetreat(ship)){
+                    state= WanzerMovementScript.wanzerState.engaging;
+                }
+
+                if(Diableavionics_wanzerAI.canRetreat(ship)){
+                    state= WanzerMovementScript.wanzerState.retreat;
+                }
             }
 
-            if(Diableavionics_wanzerAI.canRetreat(ship)){
-                state= WanzerMovementScript.wanzerState.retreat;
-            }
         }
 
         //Different Wanzer logic judgement here:
@@ -111,6 +119,7 @@ public class Diableavionics_warlustAI implements AdvanceableListener {
             case retreat:{
                 for(FighterWingAPI wanzerWing:ship.getWing().getSourceShip().getAllWings()){
                     wanzerWing.orderReturn(ship);
+
                 }
             }break;
             case engaging:{

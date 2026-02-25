@@ -60,8 +60,9 @@ public class Diableavionics_antiMissileLauncherSmallAI implements AutofireAIPlug
                 if (missiles.isEmpty()&&targetfighter==null) {
                             shouldfire = false;
                 } else {
-                    if(!missiles.isEmpty()){ target=AIUtils.getNearestMissile(ship);}
+                    if(!missiles.isEmpty()){ target=AIUtils.getNearestEnemyMissile(ship);}
                     else if(targetfighter!=null){ target=targetfighter; }
+                    shouldfire = true;
                 }
             }
 

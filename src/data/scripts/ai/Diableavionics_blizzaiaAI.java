@@ -75,12 +75,18 @@ public class Diableavionics_blizzaiaAI implements AdvanceableListener {
 
         if(stateInterval.intervalElapsed()){
 
-            if(state== wanzerState.retreat&&!Diableavionics_wanzerAI.canRetreat(ship)){
+            if(ship.getWing()==null){
                 state= wanzerState.engaging;
-            }
+            }else{
 
-            if(Diableavionics_wanzerAI.canRetreat(ship)){
-                state=wanzerState.retreat;
+                if(state== wanzerState.retreat&&!Diableavionics_wanzerAI.canRetreat(ship)){
+                    state= wanzerState.engaging;
+                }
+
+                if(Diableavionics_wanzerAI.canRetreat(ship)){
+                    state=wanzerState.retreat;
+                }
+
             }
         }
 

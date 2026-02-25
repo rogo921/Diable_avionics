@@ -51,6 +51,9 @@ public class Diableavionics_wanzerAI {
         float retreatJudge= 0f;
 
         //只有整备时间较长或者联队数量少的万泽参与检查
+
+
+
         if(ship.getWing().getSpec().getRefitTime()>=12f||ship.getWing().getSpec().getNumFighters()<=1){
             //生命值较低时检查撤退
             if (ship.getHullLevel()<=0.25){

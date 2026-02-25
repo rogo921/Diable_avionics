@@ -74,7 +74,7 @@ public class Diableavionics_mechaStorm extends BaseShipSystemScript {
 
             float jitterLevel = effectLevel;
             if(!firstTime){
-
+                firstTime = true;
                 //locked the target
                 if(ship.getShipTarget()!=null)
                 {
@@ -133,7 +133,7 @@ public class Diableavionics_mechaStorm extends BaseShipSystemScript {
             if (!Global.getCombatEngine().getCustomData().containsKey(fightersKey)) {
                 fighters = getFighters(ship);
                 Global.getCombatEngine().getCustomData().put(fightersKey, fighters);
-                firstTime = true;
+
             } else {
                 fighters = (List<ShipAPI>) Global.getCombatEngine().getCustomData().get(fightersKey);
             }
